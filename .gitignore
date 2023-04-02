@@ -1,23 +1,37 @@
-*.zip
-*.gz
-CCA Fabric.code-workspace
-instance.cfg
+# Ignore these folders
 minecraft/.fabric/*
 minecraft/backups/*
 minecraft/config/*
 minecraft/data/*
 minecraft/ESM/*
 minecraft/fancymenu_data/*
-minecraft/irisUpdateInfo.json
 minecraft/kubejs/config/*
 minecraft/kubejs/exported/*
 minecraft/local/*
 minecraft/logs/*
 minecraft/mods/*
+minecraft/saves/*
+minecraft/Xaero*/*
+
+# Ignore these files
+*.gz
+*.zip
+CCA Fabric.code-workspace
+instance.cfg
+minecraft/irisUpdateInfo.json
 minecraft/options.txt
 minecraft/patchouli_data.json
 minecraft/rhino.local.properties
-minecraft/saves/*
 minecraft/usercache.json
-minecraft/Xaero*/*
 mmc-pack.json
+
+# Stop ignoring these folders
+!minecraft/config/bhmenu
+!minecraft/config/drippyloadingscreen
+!minecraft/config/fancymenu
+!minecraft/config/ftbquests
+!minecraft/config/NoChatReports
+!minecraft/config/yosbr
+
+# Stop ignoring these files
+!minecraft/config/bcc.json
