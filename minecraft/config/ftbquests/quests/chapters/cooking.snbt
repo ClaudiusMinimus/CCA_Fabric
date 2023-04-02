@@ -1,0 +1,250 @@
+{
+	id: "000000000000038C"
+	group: ""
+	order_index: 7
+	filename: "cooking"
+	title: "Cooking"
+	icon: "farmersdelight:stove"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.5d
+			y: -0.5d
+			shape: "diamond"
+			size: 1.5d
+			id: "000000000000038D"
+			tasks: [{
+				id: "000000000000038E"
+				type: "item"
+				item: {
+					id: "farmersdelight:flint_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4A5CDD8D011155D2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			dependencies: ["000000000000038D"]
+			id: "000000000000038F"
+			tasks: [{
+				id: "0000000000000390"
+				type: "item"
+				item: "farmersdelight:cutting_board"
+			}]
+			rewards: [{
+				id: "6C0B28AF0BBADF9B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.5d
+			dependencies: ["000000000000038F"]
+			id: "00000000000003A6"
+			tasks: [{
+				id: "00000000000003A7"
+				type: "item"
+				item: "farmersdelight:stove"
+			}]
+			rewards: [{
+				id: "0000000000000553"
+				type: "item"
+				item: "farmersdelight:basket"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -1.5d
+			id: "00000000000003BA"
+			tasks: [{
+				id: "00000000000003BB"
+				type: "item"
+				item: "farmersdelight:dog_food"
+			}]
+			rewards: [{
+				id: "0000000000000548"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.0d
+			id: "00000000000003BE"
+			tasks: [{
+				id: "00000000000003BF"
+				type: "item"
+				item: "farmersdelight:squid_ink_pasta"
+			}]
+			rewards: [{
+				id: "0000000000000546"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: -10.0d
+			y: -4.0d
+			id: "00000000000003C0"
+			tasks: [{
+				id: "00000000000003C1"
+				type: "item"
+				item: "farmersdelight:hot_cocoa"
+			}]
+			rewards: [{
+				id: "0000000000000545"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: -10.0d
+			y: -5.0d
+			description: ["Use a Knife to extract Ham from Pigs or Hoglins."]
+			id: "00000000000003C2"
+			tasks: [{
+				id: "00000000000003C3"
+				type: "item"
+				item: "farmersdelight:smoked_ham"
+			}]
+			rewards: [{
+				id: "0000000000000541"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: -7.5d
+			y: -6.5d
+			id: "00000000000003C4"
+			tasks: [{
+				id: "00000000000003C5"
+				type: "item"
+				item: "farmersdelight:chicken_sandwich"
+			}]
+			rewards: [{
+				id: "34898A51AD4BF88A"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			id: "00000000000003C8"
+			tasks: [{
+				id: "00000000000003C9"
+				type: "item"
+				item: "farmersdelight:grilled_salmon"
+			}]
+			rewards: [{
+				id: "0000000000000544"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: -5.0d
+			y: -5.0d
+			id: "00000000000003CA"
+			tasks: [{
+				id: "00000000000003CB"
+				type: "item"
+				item: "farmersdelight:cabbage_rolls"
+			}]
+			rewards: [{
+				id: "000000000000054A"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.5d
+			id: "00000000000003D0"
+			tasks: [{
+				id: "00000000000003D1"
+				type: "item"
+				item: "farmersdelight:fruit_salad"
+			}]
+			rewards: [{
+				id: "000000000000053E"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: -9.0d
+			y: -2.5d
+			id: "00000000000003D2"
+			tasks: [{
+				id: "00000000000003D3"
+				type: "item"
+				item: "farmersdelight:beef_stew"
+			}]
+			rewards: [{
+				id: "000000000000053F"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "Eat all of your vegtables"
+			x: -7.5d
+			y: -4.5d
+			shape: "heart"
+			description: ["A healthy and varied diet can provide many health benefits. Eating a variety of foods will even give you extra hearts!"]
+			dependencies: [
+				"00000000000003D0"
+				"00000000000003D2"
+				"00000000000003C2"
+				"00000000000003C4"
+				"00000000000003C8"
+				"00000000000003C0"
+				"00000000000003BE"
+				"00000000000003BA"
+				"00000000000003CA"
+			]
+			size: 1.5d
+			id: "00000000000005E3"
+			tasks: [{
+				id: "00000000000005E4"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "00000000000007D5"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			dependencies: ["00000000000003A6"]
+			id: "7ACEB0A0BE146DD6"
+			tasks: [{
+				id: "27F1FFDC332D5202"
+				type: "item"
+				item: "farmersdelight:cooking_pot"
+			}]
+			rewards: [{
+				id: "2A481F0DC3473533"
+				type: "item"
+				item: "farmersdelight:rice"
+				count: 10
+			}]
+		}
+	]
+	quest_links: [ ]
+}

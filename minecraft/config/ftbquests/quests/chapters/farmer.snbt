@@ -1,0 +1,503 @@
+{
+	id: "00000000000000AF"
+	group: ""
+	order_index: 5
+	filename: "farmer"
+	title: "Let's Get Farming"
+	icon: "minecraft:carved_pumpkin"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 10.0d
+			y: 1.5d
+			shape: "diamond"
+			description: ["Breaking grass is always fun. Now get to it! Break some grass. Get some seeds. Grow some wheat!"]
+			size: 1.5d
+			id: "00000000000000B0"
+			tasks: [{
+				id: "00000000000000B1"
+				type: "item"
+				item: "minecraft:wheat"
+				count: 12L
+			}]
+			rewards: [{
+				id: "00000000000005E8"
+				type: "item"
+				item: "sliceanddice:fertilizer_bucket"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.5d
+			id: "000000000000031B"
+			tasks: [{
+				id: "000000000000031C"
+				type: "item"
+				item: "minecraft:brown_mushroom"
+			}]
+			rewards: [{
+				id: "691F7F44C27D0602"
+				type: "item"
+				item: "minecraft:red_mushroom"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.5d
+			id: "000000000000031D"
+			tasks: [{
+				id: "000000000000031E"
+				type: "item"
+				item: "minecraft:chorus_fruit"
+			}]
+			rewards: [{
+				id: "0000000000000675"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			id: "000000000000031F"
+			tasks: [{
+				id: "0000000000000320"
+				type: "item"
+				item: "minecraft:carrot"
+			}]
+			rewards: [{
+				id: "0000000000000676"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.5d
+			id: "0000000000000323"
+			tasks: [{
+				id: "0000000000000324"
+				type: "item"
+				item: "minecraft:potato"
+			}]
+			rewards: [{
+				id: "0000000000000678"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 14.0d
+			y: 5.5d
+			id: "000000000000032D"
+			tasks: [{
+				id: "000000000000032E"
+				type: "item"
+				item: "minecraft:cocoa_beans"
+			}]
+			rewards: [{
+				id: "000000000000067C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.5d
+			id: "0000000000000335"
+			tasks: [{
+				id: "0000000000000336"
+				type: "item"
+				item: "farmersdelight:tomato"
+			}]
+			rewards: [{
+				id: "0000000000000681"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 14.0d
+			y: 2.5d
+			id: "0000000000000337"
+			tasks: [{
+				id: "0000000000000338"
+				type: "item"
+				item: "minecraft:sea_pickle"
+			}]
+			rewards: [{
+				id: "362502832BCBB8B4"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 9.5d
+			y: 6.5d
+			id: "000000000000033F"
+			tasks: [{
+				id: "0000000000000340"
+				type: "item"
+				item: "minecraft:beetroot"
+			}]
+			rewards: [{
+				id: "0000000000000685"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 13.0d
+			y: 3.5d
+			id: "0000000000000341"
+			tasks: [{
+				id: "0000000000000342"
+				type: "item"
+				item: "minecraft:melon_slice"
+			}]
+			rewards: [{
+				id: "0000000000000686"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 14.0d
+			y: 3.5d
+			id: "0000000000000343"
+			tasks: [{
+				id: "0000000000000344"
+				type: "item"
+				item: "minecraft:warped_fungus"
+			}]
+			rewards: [{
+				id: "000000000000050C"
+				type: "item"
+				item: "farmingforblockheads:red_fertilizer"
+				count: 4
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.5d
+			id: "0000000000000347"
+			tasks: [{
+				id: "0000000000000348"
+				type: "item"
+				item: "farmersdelight:cabbage"
+			}]
+			rewards: [{
+				id: "0000000000000688"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			id: "000000000000034D"
+			tasks: [{
+				id: "000000000000034E"
+				type: "item"
+				item: "minecraft:glow_berries"
+			}]
+			rewards: [{
+				id: "000000000000068B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 13.0d
+			y: 4.5d
+			id: "0000000000000353"
+			tasks: [{
+				id: "0000000000000354"
+				type: "item"
+				item: "minecraft:sugar_cane"
+			}]
+			rewards: [{
+				id: "000000000000068D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 14.0d
+			y: 4.5d
+			id: "0000000000000355"
+			tasks: [{
+				id: "0000000000000356"
+				type: "item"
+				item: "minecraft:kelp"
+			}]
+			rewards: [{
+				id: "000000000000068E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.5d
+			id: "0000000000000357"
+			tasks: [{
+				id: "0000000000000358"
+				type: "item"
+				item: "minecraft:crimson_fungus"
+			}]
+			rewards: [{
+				id: "000000000000068F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 14.0d
+			y: 1.5d
+			description: ["How do I get this?"]
+			dependencies: ["499EA9D08A05EE6D"]
+			id: "0000000000000359"
+			tasks: [{
+				id: "000000000000035A"
+				type: "item"
+				item: "farmersdelight:red_mushroom_colony"
+			}]
+			rewards: [{
+				id: "3578390F3A97CC71"
+				type: "item"
+				item: "minecraft:brown_mushroom"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 2.5d
+			id: "000000000000035B"
+			tasks: [{
+				id: "000000000000035C"
+				type: "item"
+				item: "minecraft:pumpkin"
+			}]
+			rewards: [{
+				id: "105F7AA2634A7595"
+				type: "item"
+				item: "minecraft:jack_o_lantern"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 5.5d
+			id: "000000000000035F"
+			tasks: [{
+				id: "0000000000000360"
+				type: "item"
+				item: "minecraft:sweet_berries"
+			}]
+			rewards: [{
+				id: "0000000000000692"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			id: "0000000000000367"
+			tasks: [{
+				id: "0000000000000368"
+				type: "item"
+				item: "farmersdelight:brown_mushroom_colony"
+			}]
+			rewards: [{
+				id: "0000000000000696"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.5d
+			id: "0000000000000369"
+			tasks: [{
+				id: "000000000000036A"
+				type: "item"
+				item: "farmersdelight:onion"
+			}]
+			rewards: [{
+				id: "0000000000000697"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 13.0d
+			y: 1.5d
+			dependencies: ["499EA9D08A05EE6D"]
+			id: "000000000000036B"
+			tasks: [{
+				id: "000000000000036C"
+				type: "item"
+				item: "farmersdelight:brown_mushroom_colony"
+			}]
+			rewards: [{
+				id: "1F8F8A1971284E14"
+				type: "item"
+				item: "minecraft:red_mushroom"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			description: ["In some cases, the Market might be the only way to obtain certain items."]
+			dependencies: ["00000000000000B0"]
+			id: "000000000000036F"
+			tasks: [{
+				id: "0000000000000370"
+				type: "item"
+				item: "farmingforblockheads:market"
+			}]
+			rewards: [{
+				id: "0000000000000518"
+				type: "item"
+				item: "minecraft:brewing_stand"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.5d
+			dependencies: ["00000000000000B0"]
+			id: "0000000000000371"
+			tasks: [{
+				id: "0000000000000372"
+				type: "item"
+				item: "farmingforblockheads:chicken_nest"
+			}]
+			rewards: [{
+				id: "744FC198D10355AC"
+				type: "item"
+				item: "minecraft:hopper"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.5d
+			dependencies: ["00000000000000B0"]
+			id: "0000000000000373"
+			tasks: [{
+				id: "0000000000000374"
+				type: "item"
+				item: "farmingforblockheads:feeding_trough"
+			}]
+			rewards: [{
+				id: "000000000000050B"
+				type: "item"
+				item: "farmingforblockheads:green_fertilizer"
+				count: 4
+			}]
+		}
+		{
+			x: 10.0d
+			y: 3.5d
+			shape: "hexagon"
+			dependencies: [
+				"0000000000000323"
+				"000000000000031F"
+				"000000000000031D"
+				"000000000000031B"
+				"0000000000000337"
+				"0000000000000335"
+				"000000000000032D"
+				"0000000000000347"
+				"0000000000000343"
+				"0000000000000341"
+				"000000000000033F"
+				"000000000000034D"
+				"0000000000000353"
+				"0000000000000355"
+				"0000000000000357"
+				"0000000000000359"
+				"000000000000035B"
+				"000000000000035F"
+				"0000000000000367"
+				"0000000000000369"
+				"000000000000036B"
+				"04C5B6C264F60D70"
+				"3966D5A1D65E0D0A"
+				"32B8A8B6275781E9"
+			]
+			size: 1.5d
+			id: "000000000000069A"
+			tasks: [{
+				id: "000000000000069D"
+				type: "checkmark"
+				title: "All Your Veggies"
+			}]
+			rewards: [{
+				id: "000000000000069C"
+				type: "item"
+				item: "botania:invisibility_cloak"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 6.5d
+			id: "32B8A8B6275781E9"
+			tasks: [{
+				id: "2B2D047417F8F915"
+				type: "item"
+				item: "farmersdelight:onion"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 6.5d
+			id: "3966D5A1D65E0D0A"
+			tasks: [{
+				id: "13E782A1A261FEE3"
+				type: "item"
+				item: "farmersdelight:tomato"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 6.5d
+			id: "04C5B6C264F60D70"
+			tasks: [{
+				id: "3AF1091A7ACC8EAD"
+				type: "item"
+				item: "farmersdelight:cabbage"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -1.5d
+			shape: "diamond"
+			id: "5B61D515D5194CF5"
+			tasks: [{
+				id: "6689805A421A0B74"
+				type: "item"
+				item: "farmersdelight:organic_compost"
+				count: 8L
+			}]
+			rewards: [{
+				id: "6D55B8D13C193DEC"
+				type: "item"
+				item: "farmersdelight:organic_compost"
+				count: 8
+			}]
+		}
+		{
+			x: 13.5d
+			y: 0.0d
+			dependencies: ["5B61D515D5194CF5"]
+			id: "499EA9D08A05EE6D"
+			tasks: [{
+				id: "4C534E9B3F494309"
+				type: "item"
+				item: "farmersdelight:rich_soil"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
