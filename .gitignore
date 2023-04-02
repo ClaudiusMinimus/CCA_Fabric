@@ -1,0 +1,23 @@
+*.zip
+*.gz
+CCA Fabric.code-workspace
+instance.cfg
+minecraft/.fabric/*
+minecraft/backups/*
+minecraft/config/*
+minecraft/data/*
+minecraft/ESM/*
+minecraft/fancymenu_data/*
+minecraft/irisUpdateInfo.json
+minecraft/kubejs/config/*
+minecraft/kubejs/exported/*
+minecraft/local/*
+minecraft/logs/*
+minecraft/mods/*
+minecraft/options.txt
+minecraft/patchouli_data.json
+minecraft/rhino.local.properties
+minecraft/saves/*
+minecraft/usercache.json
+minecraft/Xaero*/*
+mmc-pack.json
