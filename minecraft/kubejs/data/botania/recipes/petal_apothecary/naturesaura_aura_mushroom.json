@@ -1,0 +1,20 @@
+{
+  "type": "botania:petal_apothecary",
+  "output": {
+    "item": "naturesaura:aura_mushroom"
+  },
+  "ingredients": [
+    {
+      "tag": "botania:petals/red"
+    },
+    {
+      "tag": "botania:petals/brown"
+    },
+    {
+      "tag": "forge:mushrooms"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    }
+  ]
+}

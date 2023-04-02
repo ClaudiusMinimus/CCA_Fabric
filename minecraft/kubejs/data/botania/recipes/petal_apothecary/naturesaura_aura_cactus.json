@@ -1,0 +1,20 @@
+{
+    "type": "botania:petal_apothecary",
+    "output": {
+      "item": "naturesaura:aura_cactus"
+    },
+    "ingredients": [
+      {
+        "tag": "botania:petals/green"
+      },
+      {
+        "tag": "botania:petals/green"
+      },
+      {
+        "item": "minecraft:cactus"
+      },
+      {
+        "item": "minecraft:gold_nugget"
+      }
+    ]
+  }

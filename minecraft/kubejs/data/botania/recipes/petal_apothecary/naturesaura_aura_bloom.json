@@ -1,0 +1,20 @@
+{
+  "type": "botania:petal_apothecary",
+  "output": {
+    "item": "naturesaura:aura_bloom"
+  },
+  "ingredients": [
+    {
+      "tag": "botania:petals/yellow"
+    },
+    {
+      "tag": "botania:petals/yellow"
+    },
+    {
+      "tag": "botania:petals/yellow"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "minecraft:bamboo"
+  },
+  "mana": 240,
+  "output": {
+    "item": "minecraft:kelp"
+  }
+}
