@@ -1,0 +1,213 @@
+type = menu
+
+customization-meta {
+  identifier = credits
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = config/fancymenu/assets/credits/eldenringroundhold.png
+  orientation = top-left
+  x = 12
+  width = 144
+  action = addtexture
+  actionid = 16a2259a-7a7f-4aa8-b699-482e964fcc9b1677619350482
+  y = 10
+  height = 80
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Elden Ring - Round Table Hold%n%%n%We used this castle as a starting point to%n%showcase ways you can utilize Conquest%n%Reforged in your builds. We appreciate Valfaan2%n%for allowing us to use his castle for Create %n%Conquest Arcane.%n%%n%Please be sure to check out his other creations%n%on Planet Minecraft.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 165
+  width = 280
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 118337bf-5b80-4bdf-9db9-883bdbfd32751677619407961
+  y = 10
+  alignment = left
+  height = 59
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 165
+  width = 130
+  actionid = c11f9adc-14c4-48d2-b5b4-1a222a3f0dae1677620259749
+  action = addbutton
+  y = 71
+  label = Visit Round Table Hold
+  value = https://www.planetminecraft.com/project/elden-ring-round-table-hold-conquest-reforged-full-build/
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 299
+  width = 91
+  actionid = a5b6c0dd-7573-4172-ad02-8fb5c40764571677620371549
+  action = addbutton
+  y = 71
+  label = Visit Valfann2
+  value = https://www.planetminecraft.com/member/valfaan2/
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Conquest of ... Resource Packs%n%%n%Many thanks to Filty_Coin for his stunning%n%Conquest of ... resource packs! These beautiful%n%textures seamlessly stitch together most of the%n%mods in this pack into the Conquest world.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 165
+  width = 280
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 7e27ef94-101c-43bd-aab9-c5e8f1fe168f1679077220749
+  y = 100
+  alignment = left
+  height = 55
+}
+
+customization {
+  path = config/fancymenu/slideshows/picture_frame/images/mechanicalarm_3.png
+  orientation = top-left
+  x = 12
+  width = 144
+  action = addtexture
+  actionid = a87b9d16-5ac5-4ecd-a88f-b6b2766cfece1679077758806
+  y = 100
+  height = 77
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 165
+  width = 230
+  actionid = 200df129-b91c-47dc-b742-87b7cf9910ba1679078257652
+  action = addbutton
+  y = 157
+  label = Visit Filthy_Coin's Projects on Curseforge
+  value = https://www.curseforge.com/members/filthy_coin/projects
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/assets/faithfulpack.png
+  orientation = top-left
+  x = 12
+  width = 57
+  action = addtexture
+  actionid = 4509aab8-1773-411f-a667-0d7559ab1dfe1679103557609
+  y = 186
+  height = 57
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = The fonts and many of the GUI textures used in this pack originated%n%with the resource pack, Classic Faithful 32x Jappa. At the time,%n%(2023-03-17) the only texture we have modified is the widgets.png.%n%Over time, we plan to slowly replace the textures one-by-one to more%n%closely reflect the style for CCA.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 76
+  width = 366
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 0eb021db-1ba8-4c38-9ded-838b497ebe521679103994116
+  y = 186
+  alignment = left
+  height = 34
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 76
+  width = 100
+  actionid = f131d4d6-ea45-4db9-806e-c16467b3bff01679104137400
+  action = addbutton
+  y = 223
+  label = FaithfulPack.net
+  value = https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252ffaithfulpack.net%252f
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openfile
+  description = Open the Faithful Resource Pack license
+  label = License
+  loopbackgroundanimations = true
+  x = 180
+  width = 90
+  actionid = 898d0fa5-eb91-4f24-ab93-417e38c41f281679104207736
+  action = addbutton
+  y = 223
+  value = kubejs/assets/minecraft/license.txt
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openfile
+  description = Open the Faithful credits document
+  label = Credits
+  loopbackgroundanimations = true
+  x = 274
+  width = 90
+  actionid = b0abb1a1-7a69-4bfb-bc0c-f79d65e6774b1679104301466
+  action = addbutton
+  y = 223
+  value = kubejs/assets/minecraft/credits.txt
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openfile
+  description = Open the CCA credits document
+  label = CCA Credits
+  loopbackgroundanimations = true
+  x = 368
+  width = 90
+  actionid = 8e4b9f43-aeff-4f9b-a982-74a3a4b837161679105496981
+  action = addbutton
+  y = 223
+  value = credits.md
+  height = 20
+}
+

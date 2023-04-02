@@ -1,0 +1,119 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_433
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/assets/transparent.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  orientation = top-centered
+  x = -102
+  action = movebutton
+  y = 70
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
+  orientation = top-centered
+  x = -102
+  action = movebutton
+  y = 120
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  orientation = top-centered
+  x = -102
+  action = movebutton
+  y = 170
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_report_bugs_button%
+  orientation = top-centered
+  x = 4
+  action = movebutton
+  y = 120
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  orientation = top-centered
+  x = 4
+  action = movebutton
+  y = 170
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
+  orientation = top-centered
+  x = -102
+  action = movebutton
+  y = 95
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  orientation = top-centered
+  x = 4
+  action = movebutton
+  y = 95
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton
+  x = -102
+  width = 204
+  actionid = 0e529179-57c7-4943-bd51-20d55ee00a4c1675873537485
+  action = addbutton
+  y = 195
+  label = Save Game and Exit World
+  value = net.minecraft.client.gui.screens.PauseScreen:button_compatibility_id:mc_pausescreen_disconnect_button
+  height = 20
+}
+
+customization {
+  identifier = %id=374294%
+  orientation = top-centered
+  x = -125
+  action = movebutton
+  y = 145
+}
+
+customization {
+  identifier = %id=374294%
+  width = 19
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=398318%
+  orientation = top-centered
+  x = -102
+  action = movebutton
+  y = 145
+}
+

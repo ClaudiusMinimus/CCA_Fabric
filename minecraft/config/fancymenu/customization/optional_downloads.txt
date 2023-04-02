@@ -1,0 +1,197 @@
+type = menu
+
+customization-meta {
+  identifier = optional_downloads
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/assets/bg2.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = -154
+  width = 150
+  actionid = 004a5c2f-cdf3-402b-ac18-9ec2b226b1951676474079950
+  action = addbutton
+  y = 79
+  label = Conquest of Create
+  value = https://www.curseforge.com/minecraft/texture-packs/conquest-of-create
+  height = 20
+}
+
+customization {
+  orientation = top-centered
+  enable_scrolling = false
+  shadow = true
+  scale = 1.5
+  source = Optional Resourcepack Downloads
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -170
+  width = 340
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 29529ee8-3875-4a97-a5f8-6a16c23880a91676474079950
+  y = 25
+  alignment = centered
+  height = 15
+}
+
+customization {
+  orientation = top-centered
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = Many thanks to Filthy_Coin for making these wonderful Conquest%n%3rd party mod resource packs! Soon, these resource packs will be%n%consolidated into one pack for CCA.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -178
+  width = 356
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = fb02a4f6-3ca6-4295-b1d9-796ce7df51fd1676474079950
+  y = 46
+  alignment = left
+  height = 40
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = -154
+  width = 150
+  actionid = 7e2f9655-8ca1-4a50-95c5-718a154281a91676474079950
+  action = addbutton
+  y = 104
+  label = Conquest of Lootr
+  value = https://www.curseforge.com/minecraft/texture-packs/conquest-of-lootr
+  height = 20
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = -154
+  width = 150
+  actionid = bfe8b288-4f70-4c83-bcaf-a08ec8e490031676474079950
+  action = addbutton
+  y = 129
+  label = Conquest of Torchmaster
+  value = https://www.curseforge.com/minecraft/texture-packs/conquest-of-torchmaster
+  height = 20
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 3
+  width = 150
+  actionid = b8cd6f4b-e5db-402d-949e-0f700f40f1a51676474079950
+  action = addbutton
+  y = 79
+  label = Conquest of Farmer's Delight
+  value = https://www.curseforge.com/minecraft/texture-packs/conquest-of-farmers-delight
+  height = 20
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 3
+  width = 150
+  actionid = c0858783-cf64-430c-9266-6cde93f7d48a1676474079950
+  action = addbutton
+  y = 104
+  label = Conquest of Waystones
+  value = https://www.curseforge.com/minecraft/texture-packs/conquest-of-waystones
+  height = 20
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 3
+  width = 150
+  actionid = 8edb7d90-7f51-4775-a58e-1b3667ef631e1676474079950
+  action = addbutton
+  y = 129
+  label = Conquest of Gravestone Mod
+  value = https://www.curseforge.com/minecraft/texture-packs/conquest-of-gravestone-mod
+  height = 20
+}
+
+customization {
+  orientation = top-centered
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = Be sure to download the 1.18.2 version of the resource packs.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -180
+  width = 361
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = f967ae5f-3fb4-4c6e-b59e-a1b3d0f2e55c1676474079950
+  y = 184
+  alignment = centered
+  height = 15
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = closegui
+  x = -49
+  width = 100
+  actionid = b727579e-cd50-4761-9af4-d0191856775b1679427987028
+  action = addbutton
+  y = -20
+  label = Close Window
+  value = null
+  height = 20
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = -76
+  width = 150
+  actionid = 92bf03de-b5bd-46ad-8c6b-04922a505eda1679428009320
+  action = addbutton
+  y = 153
+  label = Darker Conquest Deepslate
+  value = https://www.curseforge.com/minecraft/texture-packs/darker-conquest-deepslate
+  height = 20
+}
+

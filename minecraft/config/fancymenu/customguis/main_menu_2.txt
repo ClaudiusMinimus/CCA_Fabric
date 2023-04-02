@@ -1,0 +1,433 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/assets/background.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-left
+  x = 35
+  action = movebutton
+  y = -30
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 150
+  action = resizebutton
+  height = 18
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-left
+  x = 167
+  action = movebutton
+  y = 58
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  width = 18
+  action = resizebutton
+  height = 18
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  orientation = top-centered
+  x = -125
+  action = movebutton
+  y = 135
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-left
+  x = 35
+  action = movebutton
+  y = 36
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 73
+  action = resizebutton
+  height = 18
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-left
+  x = 112
+  action = movebutton
+  y = 36
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 73
+  action = resizebutton
+  height = 18
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-left
+  x = 35
+  action = movebutton
+  y = 58
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  width = 18
+  action = resizebutton
+  height = 18
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-left
+  x = 35
+  action = movebutton
+  y = -52
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 150
+  action = resizebutton
+  height = 18
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-left
+  x = 35
+  action = movebutton
+  y = 14
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 73
+  action = resizebutton
+  height = 18
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 121
+  width = 238
+  action = deep_customization_element:title_screen_forge_top
+  actionid = c49f0e13-fbf9-4b56-9289-9b4c0fc788821668556515093
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 93f2b97b-fe06-4a67-88f9-e5df66e101351668556515101
+  y = 211
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 251
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = e4ca960c-3beb-4592-9ff2-fdc92ac9f8e61668556515102
+  y = 233
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 2d8b9dbc-e0d6-452e-b778-0caaa131cd001668556515102
+  y = 163
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 103
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 1a5c443d-86a4-4a2a-8a92-3eaba49cc5a21668556515102
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = a734175e-62d6-42e0-8c51-948a34ca7cdc1668556515102
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = top-right
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Create Conquest Arcane 1.19.2-0.1.1-ALPHA
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -203
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 01d068fa-e435-431e-bcd6-9fbc5797f6321668556647946
+  y = 6
+  alignment = right
+  height = 40
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  description = Download Links to Required Dependencies%n%and Optional Resource Packs 
+  label = Required & Optional Downloads
+  loopbackgroundanimations = true
+  x = 35
+  width = 150
+  actionid = 43b178b5-0fd4-408a-8352-0056fe7a75911675746165963
+  action = addbutton
+  y = -8
+  value = download_menu
+  height = 18
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  description = If you need help with a bug, please%n%use this issue tracker.%n%%n%If you need help with anything else,%n%please use our discord. The invite%n%link is at the right.
+  label = Support
+  loopbackgroundanimations = true
+  x = 112
+  width = 73
+  actionid = bb9344d4-3253-455f-9805-f75a6ab958ce1675746288868
+  action = addbutton
+  y = 14
+  value = https://github.com/ClaudiusMinimus/Conquest_Colonies_Arcane/issues
+  height = 18
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/assets/cm_avatar_transparent_200x200.png
+  description = I love the character artwork%n%mangomeowie created for me.%n%If you need character art,%n%including full illustrations, please%n%visit https://mangomeowie.carrd.co/
+  label = 
+  loopbackgroundanimations = true
+  x = 2
+  width = 55
+  actionid = 96ccfc49-d447-4b4d-a38c-7609481b60e51675747019286
+  action = addbutton
+  y = -42
+  backgroundnormal = config/fancymenu/assets/cm_avatar_transparent_200x200.png
+  value = https://mangomeowie.carrd.co/
+  height = 50
+}
+
+customization {
+  orientation = mid-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/assets/buttons/tumblrh.png
+  description = Please visit CM's World on Tumblr
+  label = 
+  loopbackgroundanimations = true
+  x = -24
+  width = 7
+  actionid = 59efd0bc-bf01-4231-b799-329be56940761675795286840
+  action = addbutton
+  y = -14
+  backgroundnormal = config/fancymenu/assets/buttons/tumblr.png
+  value = https://cms-world.tumblr.com/
+  height = 12
+}
+
+customization {
+  orientation = mid-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/assets/buttons/cfh.png
+  description = Create Conquest Arcane's Curseforge page
+  label = 
+  loopbackgroundanimations = true
+  x = -32
+  width = 21
+  actionid = 1b74a08c-d228-4dd2-b64b-c616fc2eed4c1675795318706
+  action = addbutton
+  y = 9
+  backgroundnormal = config/fancymenu/assets/buttons/cf.png
+  value = https://www.curseforge.com/minecraft/modpacks/create-conquest-arcane
+  height = 11
+}
+
+customization {
+  orientation = mid-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/assets/buttons/discordh.png
+  description = %playername%,%n%Please come join us on our discord server,%n%%n%We have a great community%n%and look forward to having You a be part of it!
+  label = 
+  loopbackgroundanimations = true
+  x = -28
+  width = 17
+  actionid = fdb1bf78-f366-4514-a673-c284f06c22fc1675795322179
+  action = addbutton
+  y = 25
+  backgroundnormal = config/fancymenu/assets/buttons/discord.png
+  value = https://discord.com/invite/jXrx4Tu
+  height = 17
+}
+
+customization {
+  orientation = mid-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/assets/buttons/twitchh.png
+  label = 
+  loopbackgroundanimations = true
+  x = -27
+  width = 15
+  actionid = 78e706e1-78b2-4569-918a-b90fdac291ba1675795326003
+  action = addbutton
+  y = 48
+  backgroundnormal = config/fancymenu/assets/buttons/twitch.png
+  value = https://www.twitch.tv/claudiusminimus
+  height = 15
+}
+
+customization {
+  orientation = mid-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/assets/buttons/youtubeh.png
+  label = 
+  loopbackgroundanimations = true
+  x = -27
+  width = 15
+  actionid = 39381479-ca9c-441f-a833-2547b9cb7d161675795330185
+  action = addbutton
+  y = 67
+  backgroundnormal = config/fancymenu/assets/buttons/youtube.png
+  value = https://www.youtube.com/channel/UCqt9gDYjXdLGfupq8h32oPQ
+  height = 15
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  description = Credits shows those who made major contributions to CCA
+  label = Credits
+  loopbackgroundanimations = true
+  x = 57
+  width = 106
+  actionid = e6f4dd1c-f592-4e3a-b421-43ade83afe861677618625281
+  action = addbutton
+  y = 58
+  value = credits
+  height = 18
+}
+
+customization {
+  path = config/fancymenu/assets/ccatitlwlogo.png
+  orientation = top-centered
+  x = -203
+  width = 407
+  action = addtexture
+  actionid = 792918c0-ec5a-45b8-9d8b-5eee80f104971678715066615
+  y = 23
+  height = 35
+}
+
+customization {
+  orientation = mid-centered
+  name = picture_frame
+  x = -9
+  width = 191
+  actionid = ce3d9ff5-a9eb-4830-b10d-83d7df6c778b1679074819412
+  action = addslideshow
+  y = -34
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/assets/frame_oval.png
+  orientation = mid-centered
+  x = -17
+  width = 203
+  action = addtexture
+  actionid = 6138292b-e5a5-49ee-bb5c-91e003530a0f1678718131213
+  y = -37
+  height = 107
+}
+
+customization {
+  orientation = mid-centered
+  basecolor = #BEA27D
+  shadow = true
+  rotation = 0.0
+  scale = 1.5
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  x = -26
+  actionid = 8ccc444a-4501-44ba-896a-aa2f73641f791679076101305
+  action = addsplash
+  y = -65
+  text = New Artwork and Menu Layout Coming Soon!
+}
+

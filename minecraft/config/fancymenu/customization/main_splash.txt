@@ -1,0 +1,107 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = screenshots
+  action = setbackgroundslideshow
+}
+
+customization {
+  action = setscale
+  scale = 4
+}
+
+customization {
+  baseheight = 1080
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 114
+  width = 252
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = b6a410a0-f4be-4599-882b-5739cf9c3dd31675746696672
+  y = 95
+  height = 62
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = 631a009c-1084-421f-b8e9-9b78067f848a1675746696673
+  y = -1000000
+  height = 0
+}
+
+customization {
+  custom_color_hex = F0CA78
+  orientation = top-left
+  hidden = false
+  x = 105
+  width = 270
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = 137693f4-8d5e-4fec-8f82-1307aaba35f91675746696673
+  y = 219
+  height = 10
+}
+
+customization {
+  path = config/fancymenu/assets/header.png
+  orientation = top-centered
+  x = -205
+  width = 409
+  action = addtexture
+  actionid = a2788b53-6118-4f5f-b17f-355e9e96b94a1679415428885
+  y = 32
+  height = 32
+}
+
+customization {
+  orientation = top-right
+  enable_scrolling = true
+  shadow = true
+  scale = 0.8
+  source = Create Conquest Arcane 1.19.2-0.1.1-ALPHA
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -201
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 6e7b5d2a-3b14-430f-b55e-66cc73f37a9e1679424354784
+  y = 2
+  alignment = right
+  base_color = #BE9557
+  height = 40
+}
+
+customization {
+  path = 
+  orientation = top-left
+  x = 0
+  width = 0
+  action = addtexture
+  actionid = e21d6fb4-7fbf-46db-ba35-7b97f857ff661679455949989
+  y = 10
+  height = 100
+}
+
