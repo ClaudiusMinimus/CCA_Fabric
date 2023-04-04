@@ -1,0 +1,15 @@
+{
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "block",
+    "block": "botania:alchemy_catalyst"
+  },
+  "group": "botania:crop_cycle",
+  "input": {
+    "item": "farmersdelight:onion"
+  },
+  "mana": 6000,
+  "output": {
+    "item": "farmersdelight:cabbage_seeds"
+  }
+}
