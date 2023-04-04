@@ -1,0 +1,16 @@
+
+{
+    "type": "create:splashing",
+    "ingredients": [
+    	{
+    		"item": "minecraft:weeping_vines"
+    	}
+    ], 
+	"results": [
+		{
+			"item": "minecraft:vine",
+			"count": 1,
+			"chance": 1
+		}
+	]
+}
