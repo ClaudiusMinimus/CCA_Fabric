@@ -1,0 +1,14 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "item": "minecraft:quartz"
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:amethyst_shard"
+        }
+    ]
+}
