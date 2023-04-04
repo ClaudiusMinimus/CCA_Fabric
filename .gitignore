@@ -12,6 +12,7 @@ minecraft/local/*
 minecraft/logs/*
 minecraft/mods/*
 minecraft/saves/*
+minecraft/screenshots/*
 minecraft/Xaero*/*
 
 # Ignore these files
