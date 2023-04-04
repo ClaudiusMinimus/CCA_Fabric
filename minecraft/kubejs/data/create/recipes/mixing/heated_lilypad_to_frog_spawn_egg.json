@@ -1,0 +1,18 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "item": "minecraft:egg"
+
+        },{
+            "item": "minecraft:lily_pad"
+            
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:frog_spawn_egg"
+        }
+    ]
+}
