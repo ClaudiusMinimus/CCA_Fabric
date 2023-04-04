@@ -1,0 +1,14 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "superheated",
+    "ingredients": [
+        {
+            "item": "minecraft:amethyst_block"
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:budding_amethyst"
+        }
+    ]
+}
