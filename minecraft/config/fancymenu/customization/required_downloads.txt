@@ -60,29 +60,11 @@ customization {
   orientation = top-centered
   restartbackgroundanimations = true
   buttonaction = openlink
-  vr:showif:modloaded = false
-  description = Use the linked version only!%n%Others versions will crash the game!
-  label = Optifine
-  loopbackgroundanimations = true
-  x = -157
-  width = 100
-  actionid = 2b709152-680d-40f5-9a28-23534be1753a1676399283601
-  action = addbutton
-  y = 60
-  vr:value:modloaded = optifine
-  value = http://optifine.net/adloadx?f=preview_OptiFine_1.18.2_HD_U_H9_pre2.jar
-  height = 20
-}
-
-customization {
-  orientation = top-centered
-  restartbackgroundanimations = true
-  buttonaction = openlink
   description = This is the offical Conquest Reforged%n%Resourcepack found on CurseForge.%n%%n%Ignore if the Conquest Resource pack%n%is installed.%n%%n%Waiting for an update to hide button.
   label = CR Resource Pack
   loopbackgroundanimations = true
-  x = -50
-  width = 100
+  x = -102
+  width = 99
   actionid = eca5e286-eefe-45dc-8853-c9d89c8ee0c91676399357195
   action = addbutton
   y = 60
@@ -95,7 +77,7 @@ customization {
   enable_scrolling = false
   shadow = true
   scale = 1.0
-  source = For a more immersive experience, check out Filthy_Coin's beautiful%n%Conquest Reforged-themed 3rd party mod resource packs!
+  source = For a more immersive experience, check out TheUnknownDad's beautiful%n%Conquest Reforged-themed 3rd party mod resource packs!
   text_border = 0
   case_mode = normal
   source_mode = direct
@@ -117,7 +99,7 @@ customization {
   description = Conquest Reforged Recipes adds survival recipes%n%to most Conquest Reforged blocks/items. %n%%n%This button can appear for non-CurseForge launchers, %n%like Prism, GDLauncher, and others.%n%%n%Download and copy to your instance "/mods' folder.
   label = Conquest Recipes
   loopbackgroundanimations = true
-  x = 57
+  x = 2
   width = 100
   actionid = bef6fec0-9975-4865-89bf-5b6d842db7421676401944959
   action = addbutton
@@ -138,7 +120,7 @@ customization {
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = -50
+  x = -103
   width = 100
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = d0677066-2708-4532-bdf7-74d2e3f383331676429331783
@@ -154,33 +136,12 @@ customization {
   shadow = true
   vr:showif:modloaded = true
   scale = 1.0
-  source = OptiFine is Loaded
-  text_border = 0
-  case_mode = normal
-  source_mode = direct
-  line_spacing = 1
-  x = -157
-  width = 100
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = a2e89a72-b62d-4e64-a957-07ca7d72bf3e1676429202682
-  y = 66
-  vr:value:modloaded = optifine
-  alignment = centered
-  height = 15
-}
-
-customization {
-  orientation = top-centered
-  enable_scrolling = false
-  shadow = true
-  vr:showif:modloaded = true
-  scale = 1.0
   source = Conquest Reforged%n%Recipes is Loaded
   text_border = 0
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = 57
+  x = 2
   width = 100
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = c9784f82-b349-4b58-8097-cdd6eabcc9331676429433465

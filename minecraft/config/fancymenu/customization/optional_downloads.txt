@@ -57,7 +57,7 @@ customization {
   enable_scrolling = false
   shadow = true
   scale = 1.0
-  source = Many thanks to Filthy_Coin for making these wonderful Conquest%n%3rd party mod resource packs! Soon, these resource packs will be%n%consolidated into one pack for CCA.
+  source = Many thanks to TheUnknownDad for making these wonderful Conquest%n%3rd party mod resource packs! Soon, these resource packs will be%n%consolidated into one pack for CCA.
   text_border = 0
   case_mode = normal
   source_mode = direct
@@ -83,21 +83,6 @@ customization {
   y = 104
   label = Conquest of Lootr
   value = https://www.curseforge.com/minecraft/texture-packs/conquest-of-lootr
-  height = 20
-}
-
-customization {
-  orientation = top-centered
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  buttonaction = openlink
-  x = -154
-  width = 150
-  actionid = bfe8b288-4f70-4c83-bcaf-a08ec8e490031676474079950
-  action = addbutton
-  y = 129
-  label = Conquest of Torchmaster
-  value = https://www.curseforge.com/minecraft/texture-packs/conquest-of-torchmaster
   height = 20
 }
 
@@ -151,7 +136,7 @@ customization {
   enable_scrolling = false
   shadow = true
   scale = 0.8
-  source = Be sure to download the 1.18.2 version of the resource packs.
+  source = Be sure to download the 1.19.2 version of the resource packs.
   text_border = 0
   case_mode = normal
   source_mode = direct
@@ -185,11 +170,11 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = openlink
-  x = -76
+  x = -154
   width = 150
   actionid = 92bf03de-b5bd-46ad-8c6b-04922a505eda1679428009320
   action = addbutton
-  y = 153
+  y = 129
   label = Darker Conquest Deepslate
   value = https://www.curseforge.com/minecraft/texture-packs/darker-conquest-deepslate
   height = 20
