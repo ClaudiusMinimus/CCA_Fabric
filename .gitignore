@@ -2,6 +2,7 @@
 minecraft/.fabric/*
 minecraft/backups/*
 minecraft/config/*
+minecraft/crash-reports/*
 minecraft/data/*
 minecraft/ESM/*
 minecraft/fancymenu_data/*
