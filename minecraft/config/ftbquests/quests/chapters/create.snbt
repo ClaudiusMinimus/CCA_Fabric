@@ -1037,12 +1037,12 @@
 						symmetry: {
 							type: "triple_plane"
 							direction: 0
-							enable: 1b
 							pos: [
 								-153.0f
 								4.0f
 								193.0f
 							]
+							enable: 1b
 						}
 					}
 				}
@@ -1139,7 +1139,8 @@
 			rewards: [{
 				id: "462C861464D608FA"
 				type: "item"
-				item: "globalxp:xp_block"
+				item: "create:polished_rose_quartz"
+				count: 8
 			}]
 		}
 		{
@@ -1197,7 +1198,8 @@
 			rewards: [{
 				id: "53546C59F7323E61"
 				type: "item"
-				item: "sophisticatedbackpacks:stonecutter_upgrade"
+				item: { id: "create:gantry_shaft", Count: 8b }
+				count: 8
 			}]
 		}
 		{

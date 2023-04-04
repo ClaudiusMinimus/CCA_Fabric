@@ -630,8 +630,8 @@
 					id: "botania:twig_wand"
 					Count: 1b
 					tag: {
-						color2: 1
 						color1: 15
+						color2: 1
 						boundTileZ: 0
 						boundTileX: 0
 						boundTileY: -1

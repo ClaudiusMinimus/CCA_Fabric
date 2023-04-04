@@ -9,11 +9,9 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 10.0d
-			y: 1.5d
-			shape: "diamond"
+			x: 11.5d
+			y: 7.5d
 			description: ["Breaking grass is always fun. Now get to it! Break some grass. Get some seeds. Grow some wheat!"]
-			size: 1.5d
 			id: "00000000000000B0"
 			tasks: [{
 				id: "00000000000000B1"
@@ -24,7 +22,8 @@
 			rewards: [{
 				id: "00000000000005E8"
 				type: "item"
-				item: "sliceanddice:fertilizer_bucket"
+				item: "minecraft:bone_meal"
+				count: 16
 			}]
 		}
 		{
@@ -347,53 +346,20 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 0.0d
+			x: 10.5d
+			y: 7.5d
 			description: ["In some cases, the Market might be the only way to obtain certain items."]
-			dependencies: ["00000000000000B0"]
 			id: "000000000000036F"
 			tasks: [{
 				id: "0000000000000370"
 				type: "item"
-				item: "farmingforblockheads:market"
+				item: "minecraft:nether_wart"
+				count: 24L
 			}]
 			rewards: [{
 				id: "0000000000000518"
 				type: "item"
 				item: "minecraft:brewing_stand"
-			}]
-		}
-		{
-			x: 11.0d
-			y: 0.5d
-			dependencies: ["00000000000000B0"]
-			id: "0000000000000371"
-			tasks: [{
-				id: "0000000000000372"
-				type: "item"
-				item: "farmingforblockheads:chicken_nest"
-			}]
-			rewards: [{
-				id: "744FC198D10355AC"
-				type: "item"
-				item: "minecraft:hopper"
-			}]
-		}
-		{
-			x: 9.0d
-			y: 0.5d
-			dependencies: ["00000000000000B0"]
-			id: "0000000000000373"
-			tasks: [{
-				id: "0000000000000374"
-				type: "item"
-				item: "farmingforblockheads:feeding_trough"
-			}]
-			rewards: [{
-				id: "000000000000050B"
-				type: "item"
-				item: "farmingforblockheads:green_fertilizer"
-				count: 4
 			}]
 		}
 		{
@@ -425,13 +391,17 @@
 				"04C5B6C264F60D70"
 				"3966D5A1D65E0D0A"
 				"32B8A8B6275781E9"
+				"63EFBEC0A15BCED4"
+				"1658BD97896C19A9"
+				"000000000000036F"
+				"00000000000000B0"
 			]
 			size: 1.5d
 			id: "000000000000069A"
 			tasks: [{
 				id: "000000000000069D"
 				type: "checkmark"
-				title: "All Your Veggies"
+				title: "Master Farmer"
 			}]
 			rewards: [{
 				id: "000000000000069C"
@@ -496,6 +466,37 @@
 				id: "4C534E9B3F494309"
 				type: "item"
 				item: "farmersdelight:rich_soil"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 7.5d
+			id: "63EFBEC0A15BCED4"
+			tasks: [{
+				id: "437CED82C34FD343"
+				type: "item"
+				item: "minecraft:vine"
+			}]
+			rewards: [{
+				id: "52A7A193C5D95756"
+				type: "item"
+				item: "minecraft:seagrass"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 7.5d
+			id: "1658BD97896C19A9"
+			tasks: [{
+				id: "236B419DB38BB2C0"
+				type: "item"
+				item: "minecraft:lily_pad"
+			}]
+			rewards: [{
+				id: "25DE0CB00BEA2E52"
+				type: "item"
+				item: "minecraft:frog_spawn_egg"
+				count: 2
 			}]
 		}
 	]
