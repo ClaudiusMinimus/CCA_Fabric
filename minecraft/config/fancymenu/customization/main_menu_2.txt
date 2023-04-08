@@ -90,23 +90,40 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
   action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  orientation = bottom-right
+  x = -196
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/assets/mojang.png
+  backgroundnormal = config/fancymenu/assets/mojang.png
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = mid-left
-  x = 231
+  x = 179
   action = movebutton
-  y = 66
+  y = 57
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
-  width = 23
+  width = 15
   action = resizebutton
-  height = 23
+  height = 15
 }
 
 customization {
@@ -162,28 +179,6 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   action = hidebutton
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
-  orientation = bottom-right
-  x = -196
-  action = movebutton
-  y = -10
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu/assets/mojang.png
-  backgroundnormal = config/fancymenu/assets/mojang.png
 }
 
 customization {
@@ -248,22 +243,17 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = mid-left
-  x = 40
+  x = 179
   action = movebutton
-  y = 66
+  y = 39
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  width = 21
+  width = 15
   action = resizebutton
-  height = 23
+  height = 15
 }
 
 customization {
@@ -350,142 +340,134 @@ customization {
 customization {
   orientation = mid-right
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://cms-world.tumblr.com/%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/assets/buttons/tumblrh.png
   description = Please visit CM's World on Tumblr
   label = 
   loopbackgroundanimations = true
   x = -168
   width = 9
-  actionid = 59efd0bc-bf01-4231-b799-329be56940761675795286840
   action = addbutton
+  actionid = 59efd0bc-bf01-4231-b799-329be56940761675795286840
   y = 78
   backgroundnormal = config/fancymenu/assets/buttons/tumblr.png
-  value = https://cms-world.tumblr.com/
   height = 8
 }
 
 customization {
   orientation = mid-left
   restartbackgroundanimations = true
-  buttonaction = opencustomgui
+  buttonaction = opencustomgui;download_menu%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/assets/downloadsh.png
   description = Download Links to Required Dependencies%n%and Optional Resource Packs 
   label = 
   loopbackgroundanimations = true
   x = 60
   width = 115
-  actionid = 43b178b5-0fd4-408a-8352-0056fe7a75911675746165963
   action = addbutton
+  actionid = 43b178b5-0fd4-408a-8352-0056fe7a75911675746165963
   y = -15
   backgroundnormal = config/fancymenu/assets/downloads.png
-  value = download_menu
   height = 15
 }
 
 customization {
   orientation = mid-left
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://github.com/ClaudiusMinimus/Conquest_Colonies_Arcane/issues%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/assets/supporth.png
   description = If you need help with a bug, please%n%use this issue tracker.%n%%n%If you need help with anything else,%n%please use our discord. The invite%n%link is at the right.
   label = 
   loopbackgroundanimations = true
   x = 120
   width = 55
-  actionid = bb9344d4-3253-455f-9805-f75a6ab958ce1675746288868
   action = addbutton
+  actionid = bb9344d4-3253-455f-9805-f75a6ab958ce1675746288868
   y = 3
   backgroundnormal = config/fancymenu/assets/support.png
-  value = https://github.com/ClaudiusMinimus/Conquest_Colonies_Arcane/issues
   height = 14
 }
 
 customization {
   orientation = mid-right
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://www.curseforge.com/minecraft/modpacks/create-conquest-arcane%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/assets/buttons/cfh.png
   description = Create Conquest Arcane's Curseforge page
   label = 
   loopbackgroundanimations = true
   x = -188
   width = 15
-  actionid = 1b74a08c-d228-4dd2-b64b-c616fc2eed4c1675795318706
   action = addbutton
+  actionid = 1b74a08c-d228-4dd2-b64b-c616fc2eed4c1675795318706
   y = 78
   backgroundnormal = config/fancymenu/assets/buttons/cf.png
-  value = https://www.curseforge.com/minecraft/modpacks/create-conquest-arcane
   height = 10
 }
 
 customization {
   orientation = mid-left
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://www.bisecthosting.com/minimus%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/assets/renth.png
   description = Need a server to play with friends?%n%%n%Use code the 'minimus' for 25% Off%n%your 1st month, and enjoy playing%n%with your friends!
   label = 
   loopbackgroundanimations = true
   x = 60
   width = 115
-  actionid = 2c9f3be0-8bce-431c-ab26-e6b7b76486c81679410211509
   action = addbutton
+  actionid = 2c9f3be0-8bce-431c-ab26-e6b7b76486c81679410211509
   y = 39
   backgroundnormal = config/fancymenu/assets/rent.png
-  value = https://www.bisecthosting.com/minimus
   height = 15
 }
 
 customization {
   orientation = mid-right
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://discord.com/invite/jXrx4Tu%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/assets/buttons/discordh.png
   description = %playername%,%n%Please come join us on our discord server,%n%%n%We have a great community%n%and look forward to having You a be part of it!
   label = 
   loopbackgroundanimations = true
   x = -154
   width = 10
-  actionid = fdb1bf78-f366-4514-a673-c284f06c22fc1675795322179
   action = addbutton
+  actionid = fdb1bf78-f366-4514-a673-c284f06c22fc1675795322179
   y = 77
   backgroundnormal = config/fancymenu/assets/buttons/discord.png
-  value = https://discord.com/invite/jXrx4Tu
   height = 10
 }
 
 customization {
   orientation = mid-right
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://www.twitch.tv/claudiusminimus%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/assets/buttons/twitchh.png
   label = 
   loopbackgroundanimations = true
   x = -139
   width = 10
-  actionid = 78e706e1-78b2-4569-918a-b90fdac291ba1675795326003
   action = addbutton
+  actionid = 78e706e1-78b2-4569-918a-b90fdac291ba1675795326003
   y = 78
   backgroundnormal = config/fancymenu/assets/buttons/twitch.png
-  value = https://www.twitch.tv/claudiusminimus
   height = 10
 }
 
 customization {
   orientation = mid-right
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://www.youtube.com/channel/UCqt9gDYjXdLGfupq8h32oPQ%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/assets/buttons/youtubeh.png
   label = 
   loopbackgroundanimations = true
   x = -124
   width = 10
-  actionid = 39381479-ca9c-441f-a833-2547b9cb7d161675795330185
   action = addbutton
+  actionid = 39381479-ca9c-441f-a833-2547b9cb7d161675795330185
   y = 77
   backgroundnormal = config/fancymenu/assets/buttons/youtube.png
-  value = https://www.youtube.com/channel/UCqt9gDYjXdLGfupq8h32oPQ
   height = 10
 }
 
@@ -503,18 +485,17 @@ customization {
 customization {
   orientation = mid-left
   restartbackgroundanimations = true
-  buttonaction = opencustomgui
+  buttonaction = opencustomgui;credits%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/assets/creditsh.png
   description = Credits shows those who made major contributions to CCA
   label = 
   loopbackgroundanimations = true
   x = 60
   width = 115
-  actionid = e6f4dd1c-f592-4e3a-b421-43ade83afe861677618625281
   action = addbutton
+  actionid = e6f4dd1c-f592-4e3a-b421-43ade83afe861677618625281
   y = 57
   backgroundnormal = config/fancymenu/assets/credits.png
-  value = credits
   height = 15
 }
 
@@ -532,35 +513,48 @@ customization {
 customization {
   orientation = bottom-right
   restartbackgroundanimations = true
-  buttonaction = mimicbutton
+  buttonaction = mimicbutton;net.minecraft.client.gui.screens.TitleScreen:button_compatibility_id:mc_titlescreen_copyright_button%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/assets/mojang.png
   label = 
   loopbackgroundanimations = true
   x = -158
   width = 156
-  actionid = cf2874db-80f8-40e2-8d58-b1c908a6cc271679440846297
   action = addbutton
+  actionid = cf2874db-80f8-40e2-8d58-b1c908a6cc271679440846297
   y = -10
   backgroundnormal = config/fancymenu/assets/mojang.png
-  value = net.minecraft.client.gui.screens.TitleScreen:button_compatibility_id:mc_titlescreen_copyright_button
   height = 8
 }
 
 customization {
   orientation = bottom-left
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://mangomeowie.carrd.co/%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/assets/cm_avatar_transparent_200x200.png
   description = I love the character artwork%n%mangomeowie created for me.%n%If you need character art,%n%including full illustrations, please%n%visit https://mangomeowie.carrd.co/
   label = 
   loopbackgroundanimations = true
   x = 27
   width = 49
-  actionid = 96ccfc49-d447-4b4d-a38c-7609481b60e51675747019286
   action = addbutton
+  actionid = 96ccfc49-d447-4b4d-a38c-7609481b60e51675747019286
   y = -84
   backgroundnormal = config/fancymenu/assets/cm_avatar_transparent_200x200.png
-  value = https://mangomeowie.carrd.co/
   height = 49
+}
+
+customization {
+  identifier = %id=352394%
+  orientation = mid-left
+  x = 179
+  action = movebutton
+  y = 21
+}
+
+customization {
+  identifier = %id=352394%
+  width = 15
+  action = resizebutton
+  height = 15
 }
 
