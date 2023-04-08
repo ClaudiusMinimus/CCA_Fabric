@@ -11,13 +11,13 @@ minecraft/kubejs/exported/*
 minecraft/local/*
 minecraft/logs/*
 minecraft/mods/*
+minecraft/resourcepacks/*
 minecraft/saves/*
 minecraft/screenshots/*
 minecraft/Xaero*/*
 
 # Ignore these files
 *.gz
-*.zip
 CCA Fabric.code-workspace
 instance.cfg
 minecraft/irisUpdateInfo.json
