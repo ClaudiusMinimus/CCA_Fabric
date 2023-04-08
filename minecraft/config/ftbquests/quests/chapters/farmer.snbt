@@ -1,7 +1,7 @@
 {
 	id: "00000000000000AF"
 	group: ""
-	order_index: 4
+	order_index: 3
 	filename: "farmer"
 	title: "Let's Get Farming"
 	icon: "minecraft:carved_pumpkin"
@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 11.5d
-			y: 7.5d
+			x: 11.0d
+			y: 6.5d
 			description: ["Breaking grass is always fun. Now get to it! Break some grass. Get some seeds. Grow some wheat!"]
 			id: "00000000000000B0"
 			tasks: [{
@@ -51,9 +51,15 @@
 				item: "minecraft:chorus_fruit"
 			}]
 			rewards: [{
-				id: "0000000000000675"
-				type: "xp"
-				xp: 100
+				id: "28E71523A5741BD0"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:long_slow_falling"
+					}
+				}
 			}]
 		}
 		{
@@ -66,9 +72,9 @@
 				item: "minecraft:carrot"
 			}]
 			rewards: [{
-				id: "0000000000000676"
-				type: "xp"
-				xp: 100
+				id: "504E111F844BE002"
+				type: "item"
+				item: "farmersdelight:carrot_crate"
 			}]
 		}
 		{
@@ -81,9 +87,9 @@
 				item: "minecraft:potato"
 			}]
 			rewards: [{
-				id: "0000000000000678"
-				type: "xp"
-				xp: 100
+				id: "2F37E26C0F4FFA86"
+				type: "item"
+				item: "farmersdelight:potato_crate"
 			}]
 		}
 		{
@@ -96,9 +102,10 @@
 				item: "minecraft:cocoa_beans"
 			}]
 			rewards: [{
-				id: "000000000000067C"
-				type: "xp"
-				xp: 100
+				id: "23E06B7A8C63317D"
+				type: "item"
+				item: "create:bar_of_chocolate"
+				count: 4
 			}]
 		}
 		{
@@ -111,9 +118,9 @@
 				item: "farmersdelight:tomato"
 			}]
 			rewards: [{
-				id: "0000000000000681"
-				type: "xp"
-				xp: 100
+				id: "41F97D0490345DE5"
+				type: "item"
+				item: "farmersdelight:tomato_crate"
 			}]
 		}
 		{
@@ -126,13 +133,14 @@
 				item: "minecraft:sea_pickle"
 			}]
 			rewards: [{
-				id: "362502832BCBB8B4"
-				type: "xp"
-				xp: 100
+				id: "51189D5A2FC1024B"
+				type: "item"
+				item: "farmersdelight:glow_berry_custard"
+				count: 4
 			}]
 		}
 		{
-			x: 9.5d
+			x: 9.0d
 			y: 6.5d
 			id: "000000000000033F"
 			tasks: [{
@@ -141,9 +149,9 @@
 				item: "minecraft:beetroot"
 			}]
 			rewards: [{
-				id: "0000000000000685"
-				type: "xp"
-				xp: 100
+				id: "446A2916E1B0A387"
+				type: "item"
+				item: "farmersdelight:beetroot_crate"
 			}]
 		}
 		{
@@ -156,9 +164,9 @@
 				item: "minecraft:melon_slice"
 			}]
 			rewards: [{
-				id: "0000000000000686"
-				type: "xp"
-				xp: 100
+				id: "756D76BC9724A12F"
+				type: "item"
+				item: "minecraft:pumpkin_seeds"
 			}]
 		}
 		{
@@ -173,7 +181,7 @@
 			rewards: [{
 				id: "000000000000050C"
 				type: "item"
-				item: "farmingforblockheads:red_fertilizer"
+				item: "botania:fertilizer"
 				count: 4
 			}]
 		}
@@ -187,9 +195,9 @@
 				item: "farmersdelight:cabbage"
 			}]
 			rewards: [{
-				id: "0000000000000688"
-				type: "xp"
-				xp: 100
+				id: "479F301CD28FC1DF"
+				type: "item"
+				item: "farmersdelight:cabbage_crate"
 			}]
 		}
 		{
@@ -202,9 +210,9 @@
 				item: "minecraft:glow_berries"
 			}]
 			rewards: [{
-				id: "000000000000068B"
-				type: "xp"
-				xp: 100
+				id: "7F5DAF4BA2924946"
+				type: "item"
+				item: "minecraft:glow_squid_spawn_egg"
 			}]
 		}
 		{
@@ -217,9 +225,9 @@
 				item: "minecraft:sugar_cane"
 			}]
 			rewards: [{
-				id: "000000000000068D"
-				type: "xp"
-				xp: 100
+				id: "481C6D039C494D9C"
+				type: "item"
+				item: "createaddition:bioethanol_bucket"
 			}]
 		}
 		{
@@ -232,9 +240,10 @@
 				item: "minecraft:kelp"
 			}]
 			rewards: [{
-				id: "000000000000068E"
-				type: "xp"
-				xp: 100
+				id: "7E364837B916ABEB"
+				type: "item"
+				item: "create:builders_tea"
+				count: 4
 			}]
 		}
 		{
@@ -247,9 +256,10 @@
 				item: "minecraft:crimson_fungus"
 			}]
 			rewards: [{
-				id: "000000000000068F"
-				type: "xp"
-				xp: 100
+				id: "4BC51FA7F358D64C"
+				type: "item"
+				item: "minecraft:golden_apple"
+				count: 2
 			}]
 		}
 		{
@@ -294,9 +304,10 @@
 				item: "minecraft:sweet_berries"
 			}]
 			rewards: [{
-				id: "0000000000000692"
-				type: "xp"
-				xp: 100
+				id: "715FC01F4D73DE7C"
+				type: "item"
+				item: "create:chocolate_glazed_berries"
+				count: 4
 			}]
 		}
 		{
@@ -309,9 +320,10 @@
 				item: "farmersdelight:brown_mushroom_colony"
 			}]
 			rewards: [{
-				id: "0000000000000696"
-				type: "xp"
-				xp: 100
+				id: "6EF65F312B1EF394"
+				type: "item"
+				item: "minecraft:gunpowder"
+				count: 8
 			}]
 		}
 		{
@@ -324,9 +336,9 @@
 				item: "farmersdelight:onion"
 			}]
 			rewards: [{
-				id: "0000000000000697"
-				type: "xp"
-				xp: 100
+				id: "5A95F4986CE1A4ED"
+				type: "item"
+				item: "farmersdelight:onion_crate"
 			}]
 		}
 		{
@@ -346,8 +358,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 7.5d
+			x: 12.0d
+			y: 6.5d
 			description: ["In some cases, the Market might be the only way to obtain certain items."]
 			id: "000000000000036F"
 			tasks: [{
@@ -388,9 +400,6 @@
 				"0000000000000367"
 				"0000000000000369"
 				"000000000000036B"
-				"04C5B6C264F60D70"
-				"3966D5A1D65E0D0A"
-				"32B8A8B6275781E9"
 				"63EFBEC0A15BCED4"
 				"1658BD97896C19A9"
 				"000000000000036F"
@@ -403,41 +412,23 @@
 				type: "checkmark"
 				title: "Master Farmer"
 			}]
-			rewards: [{
-				id: "000000000000069C"
-				type: "item"
-				item: "botania:invisibility_cloak"
-			}]
-		}
-		{
-			x: 11.5d
-			y: 6.5d
-			id: "32B8A8B6275781E9"
-			tasks: [{
-				id: "2B2D047417F8F915"
-				type: "item"
-				item: "farmersdelight:onion"
-			}]
-		}
-		{
-			x: 10.5d
-			y: 6.5d
-			id: "3966D5A1D65E0D0A"
-			tasks: [{
-				id: "13E782A1A261FEE3"
-				type: "item"
-				item: "farmersdelight:tomato"
-			}]
-		}
-		{
-			x: 8.5d
-			y: 6.5d
-			id: "04C5B6C264F60D70"
-			tasks: [{
-				id: "3AF1091A7ACC8EAD"
-				type: "item"
-				item: "farmersdelight:cabbage"
-			}]
+			rewards: [
+				{
+					id: "000000000000069C"
+					type: "item"
+					item: "botania:invisibility_cloak"
+				}
+				{
+					id: "6C4B28A69FC4D1B9"
+					type: "item"
+					item: "botania:exoflame"
+				}
+				{
+					id: "7CC20146964757BE"
+					type: "item"
+					item: "botania:fallen_kanade"
+				}
+			]
 		}
 		{
 			x: 13.5d
@@ -466,11 +457,18 @@
 				id: "4C534E9B3F494309"
 				type: "item"
 				item: "farmersdelight:rich_soil"
+				count: 8L
+			}]
+			rewards: [{
+				id: "27BC0AE826D24AE1"
+				type: "item"
+				item: "farmersdelight:rich_soil"
+				count: 8
 			}]
 		}
 		{
-			x: 8.5d
-			y: 7.5d
+			x: 8.0d
+			y: 6.5d
 			id: "63EFBEC0A15BCED4"
 			tasks: [{
 				id: "437CED82C34FD343"
@@ -484,8 +482,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 7.5d
+			x: 10.0d
+			y: 6.5d
 			id: "1658BD97896C19A9"
 			tasks: [{
 				id: "236B419DB38BB2C0"
@@ -495,7 +493,7 @@
 			rewards: [{
 				id: "25DE0CB00BEA2E52"
 				type: "item"
-				item: "minecraft:frog_spawn_egg"
+				item: { id: "createaddition:gold_spool", Count: 4b }
 				count: 2
 			}]
 		}

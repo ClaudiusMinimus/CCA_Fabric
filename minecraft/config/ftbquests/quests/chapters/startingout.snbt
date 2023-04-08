@@ -425,7 +425,7 @@
 				"For the most part, the quests listed on the left menu are not necessarily in any particular order. However, the quests listed at the top of each category are probably good ones to start with."
 				""
 				"**IMPORTANT:**"
-				"It is very important that when you complete any quest that has an item or block that you place that item or block in your inventory before going to the next step."
+				"When you complete any quest with an item or block, you place it into your inventory before going to the next step! If you fail to do this, FTB Quests may not acknowledge the quest completed."
 			]
 			size: 2.0d
 			id: "3E046FB9DDB11119"
@@ -440,11 +440,11 @@
 			}]
 		}
 		{
-			title: "Just Enough Items (JEI)"
+			title: "Roughly Enough Items (REI)"
 			x: -3.0d
 			y: 1.5d
 			description: [
-				"JEI is an item and recipe viewing mod for Minecraft."
+				"REI is an item and recipe viewing mod for Minecraft."
 				"Basic Controls:"
 				"- Inventory:"
 				"  - (Minecraft Options -> Controls)"
@@ -452,7 +452,7 @@
 				"  - Show Uses: Hover over item + U"
 				"  - Toggle Item List Overlay:"
 				"     Control + O"
-				"For more information visit curseforge.com and search mods for 'jei'"
+				"For more information visit curseforge.com and search mods for 'rei'"
 			]
 			dependencies: ["3E046FB9DDB11119"]
 			id: "5AF39FF6AB1C6098"

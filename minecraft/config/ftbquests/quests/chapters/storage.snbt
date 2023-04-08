@@ -1,7 +1,7 @@
 {
 	id: "0000000000000105"
 	group: ""
-	order_index: 7
+	order_index: 6
 	filename: "storage"
 	title: "Storage"
 	icon: "minecraft:barrel"
@@ -54,7 +54,13 @@
 			rewards: [{
 				id: "720C35DAC4285CB8"
 				type: "item"
-				item: "silentgems:summon_puppy"
+				item: {
+					id: "wands:diamond_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -70,13 +76,7 @@
 			rewards: [{
 				id: "35A979BDE5331C02"
 				type: "item"
-				item: {
-					id: "silentgems:white_diamond"
-					Count: 1b
-					tag: {
-						SGear_Grade: "MAX"
-					}
-				}
+				item: "minecraft:diamond"
 				count: 4
 			}]
 		}
@@ -141,18 +141,11 @@
 				type: "item"
 				item: "minecraft:chest"
 			}]
-			rewards: [
-				{
-					id: "73CB4734EB4623E7"
-					type: "item"
-					item: "sophisticatedbackpacks:stack_upgrade_tier_1"
-				}
-				{
-					id: "58833742618796E3"
-					type: "item"
-					item: "sophisticatedstorage:basic_tier_upgrade"
-				}
-			]
+			rewards: [{
+				id: "73CB4734EB4623E7"
+				type: "item"
+				item: "minecraft:hopper"
+			}]
 		}
 		{
 			x: -6.0d
@@ -190,7 +183,7 @@
 				{
 					id: "59E4C90859971080"
 					type: "item"
-					item: "sophisticatedstorage:basic_tier_upgrade"
+					item: "toms_storage:ts.polymorphic_item_filter"
 				}
 			]
 		}

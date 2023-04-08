@@ -299,13 +299,7 @@
 			rewards: [{
 				id: "02C7AB0156A2E058"
 				type: "item"
-				item: {
-					id: "pickletweaks:reinforced_watering_can"
-					Count: 1b
-					tag: {
-						Water: 0b
-					}
-				}
+				item: "minecraft:water_bucket"
 				only_one: true
 			}]
 		}
@@ -389,6 +383,11 @@
 				id: "1DCA88F73FDBB2C2"
 				type: "checkmark"
 				title: "Start a Tree Farm"
+			}]
+			rewards: [{
+				id: "094AE5084377CF57"
+				type: "item"
+				item: "minecraft:oak_sapling"
 			}]
 		}
 		{
@@ -630,8 +629,8 @@
 					id: "botania:twig_wand"
 					Count: 1b
 					tag: {
-						color2: 1
 						color1: 15
+						color2: 1
 						boundTileZ: 0
 						boundTileX: 0
 						boundTileY: -1
@@ -852,13 +851,7 @@
 			rewards: [{
 				id: "711356EA4892BD42"
 				type: "item"
-				item: {
-					id: "sophisticatedstorage:iron_barrel"
-					Count: 1b
-					tag: {
-						woodType: "crimson"
-					}
-				}
+				item: "conquest:mirror"
 			}]
 		}
 		{
@@ -1005,7 +998,7 @@
 			rewards: [{
 				id: "25AB59BFD9C03A61"
 				type: "item"
-				item: "storagedrawers:emerald_storage_upgrade"
+				item: "dummmmmmy:target_dummy"
 			}]
 		}
 		{
