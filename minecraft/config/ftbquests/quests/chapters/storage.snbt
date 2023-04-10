@@ -1,7 +1,7 @@
 {
 	id: "0000000000000105"
 	group: ""
-	order_index: 6
+	order_index: 8
 	filename: "storage"
 	title: "Storage"
 	icon: "minecraft:barrel"
