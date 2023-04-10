@@ -55,7 +55,7 @@ customization {
   custom_color_hex = F0CA78
   orientation = top-left
   hidden = false
-  x = 105
+  x = 121
   width = 270
   action = deep_customization_element:drippy_overlay_progress_bar
   actionid = 137693f4-8d5e-4fec-8f82-1307aaba35f91675746696673
@@ -75,26 +75,6 @@ customization {
 }
 
 customization {
-  orientation = top-right
-  enable_scrolling = true
-  shadow = true
-  scale = 0.8
-  source = Create Conquest Arcane 1.19.2-0.2.0-ALPHA
-  text_border = 0
-  case_mode = normal
-  source_mode = direct
-  line_spacing = 1
-  x = -201
-  width = 200
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = 6e7b5d2a-3b14-430f-b55e-66cc73f37a9e1679424354784
-  y = 2
-  alignment = right
-  base_color = #BE9557
-  height = 40
-}
-
-customization {
   path = 
   orientation = top-left
   x = 0
@@ -103,5 +83,25 @@ customization {
   actionid = e21d6fb4-7fbf-46db-ba35-7b97f857ff661679455949989
   y = 10
   height = 100
+}
+
+customization {
+  orientation = top-right
+  enable_scrolling = true
+  shadow = true
+  scale = 0.8
+  source = Create Conquest Arcane 1.19.2-0.2.0-ALPHA
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 0
+  x = -201
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 23a08b14-e9e9-46ee-96a3-c4b3499ba5d41681162101382
+  y = 4
+  alignment = right
+  base_color = #BE9557
+  height = 40
 }
 

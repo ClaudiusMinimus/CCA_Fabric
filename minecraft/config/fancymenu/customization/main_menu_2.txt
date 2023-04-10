@@ -114,9 +114,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = mid-left
-  x = 179
+  x = 91
   action = movebutton
-  y = 57
+  y = 75
 }
 
 customization {
@@ -244,9 +244,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = mid-left
-  x = 179
+  x = 110
   action = movebutton
-  y = 39
+  y = 75
 }
 
 customization {
@@ -269,6 +269,30 @@ customization {
   action = setbuttontexture
   backgroundhovered = config/fancymenu/assets/languageh.png
   backgroundnormal = config/fancymenu/assets/language.png
+}
+
+customization {
+  identifier = %id=352394%
+  orientation = mid-left
+  x = 127
+  action = movebutton
+  y = 75
+}
+
+customization {
+  identifier = %id=352394%
+  width = 15
+  action = resizebutton
+  height = 15
+}
+
+customization {
+  identifier = %id=352394%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/assets/wrenchh.png
+  backgroundnormal = config/fancymenu/assets/wrench.png
 }
 
 customization {
@@ -326,12 +350,12 @@ customization {
   text_border = 0
   case_mode = normal
   source_mode = direct
-  line_spacing = 1
+  line_spacing = 0
   x = -202
   width = 200
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 01d068fa-e435-431e-bcd6-9fbc5797f6321668556647946
-  y = 2
+  y = 4
   alignment = right
   base_color = #BE9557
   height = 40
@@ -541,20 +565,5 @@ customization {
   y = -84
   backgroundnormal = config/fancymenu/assets/cm_avatar_transparent_200x200.png
   height = 49
-}
-
-customization {
-  identifier = %id=352394%
-  orientation = mid-left
-  x = 179
-  action = movebutton
-  y = 21
-}
-
-customization {
-  identifier = %id=352394%
-  width = 15
-  action = resizebutton
-  height = 15
 }
 
