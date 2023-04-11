@@ -1,0 +1,6 @@
+{
+    "fabric:load_conditions": {
+      "condition": "fabric:or",
+      "values": []
+    }
+  }
