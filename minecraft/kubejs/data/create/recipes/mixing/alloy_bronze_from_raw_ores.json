@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:raw_copper"
+    },
+	{
+      "item": "minecraft:raw_copper"
+    },
+	{
+      "item": "mythicmetals:raw_tin"
+    }
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:bronze_ingot",
+      "count": 2
+    }
+  ]
+}
+
+

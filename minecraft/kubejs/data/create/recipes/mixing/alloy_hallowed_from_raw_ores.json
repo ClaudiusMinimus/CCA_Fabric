@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "mythicmetals:raw_adamantite"
+    },
+	{
+      "tag": "c:raw_mythril_ores"
+    },
+	{
+      "item": "mythicmetals:raw_orichalcum"
+    }
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:hallowed_ingot",
+      "count": 1
+    }
+  ]
+}

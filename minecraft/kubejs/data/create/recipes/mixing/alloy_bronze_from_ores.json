@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "minecraft:copper_ores"
+    },
+	{
+      "tag": "minecraft:copper_ores"
+    },
+	{
+      "tag": "c:tin_ores"
+    }
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:bronze_ingot",
+      "count": 5
+    }
+  ]
+}
+

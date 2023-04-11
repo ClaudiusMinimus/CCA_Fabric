@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "mythicmetals:starrite_ores"
+    },
+    {
+      "tag": "c:platinum_ores"
+    },
+    {
+      "tag": "mythicmetals:carmot_ores"
+    },
+	{
+      "tag": "mythicmetals:kyber_ores"
+    },
+    {
+      "tag": "mythicmetals:unobtainium_ores"
+    }
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:celestium_ingot",
+      "count": 3
+    }
+  ]
+}

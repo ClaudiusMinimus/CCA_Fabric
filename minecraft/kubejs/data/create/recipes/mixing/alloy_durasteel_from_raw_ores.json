@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "mythicmetals:raw_quadrillum"
+    },
+	{
+      "tag": "c:raw_manganese_ores"
+    }
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:durasteel_ingot",
+      "count": 4
+    }
+  ]
+}
