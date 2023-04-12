@@ -1,0 +1,11 @@
+{
+    "name": "Nature's Aura",
+    "icon": "naturesaura:ancient_sapling",
+    "category": "patchouli:wikis",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Nature's Aura is a mod about collecting, using and replenishing the Aura naturally present in the world to create useful devices and unique mechanics. $(li)$(l:https://www.curseforge.com/minecraft/mc-mods/natures-aura)Curseforge$(/l)$(li)$(l:https://discord.com/invite/Uy2ZM9X)Ellpeck's discord$(/l)"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Resourceful Tools",
+    "icon": "resourceful_tools:glass_placer",
+    "category": "patchouli:wikis",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Resourceful Tools does not have a wiki, though their Curseforge page has all the information you should need.$(li)$(l:https://www.curseforge.com/minecraft/mc-mods/vanilla-plus-resourceful-tools)Resourceful Tools$(/l)$(li)$(l:https://discord.gg/j7bYbkW)Pughland discord$(/l)"
+        }
+    ]
+}
