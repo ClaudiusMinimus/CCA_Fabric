@@ -67,7 +67,7 @@
             "type": "patchouli:text",
             "title": "Get to Y -64 Alive!",
             "anchor": "y-64",
-            "text": "Making a $(l:videos_farms#mobs)mob farm$(/l) at the bottom of the world is best if you can remain alive. Here is a simple tip:$(li)Place a bucket of lava on the side of your island and let it flow to Y -65 (the void)$(li)Have a bucket of water ready and pick up the lava and place the water$(li)The remaining lava will become a cobble pillar$(li)Pick up the water when the pillar is formed"
+            "text": "$(l)Skyblock Only!$() Making a $(l:videos_farms#mobs)mob farm$(/l) at the bottom of the world is best if you can remain alive. Here is a simple tip:$(li)Place a bucket of lava on the side of your island and let it flow to Y -65 (the void)$(li)Have a bucket of water ready and pick up the lava and place the water$(li)The remaining lava will become a cobble pillar$(li)Pick up the water when the pillar is formed"
         },
         {
             "type": "patchouli:text",
