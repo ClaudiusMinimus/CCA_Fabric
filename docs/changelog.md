@@ -4,3 +4,6 @@ Apr. 08, 2023
 - Mods Updated:
 - Mods Removed:
 - Other Changes:
+  - Imported quests and CCA book from CCA Forge 1.18.2
+  - Updated quests & CCA book
+  - Converted Mythic Metals recipes from Alloy Forgery to Create mixing
