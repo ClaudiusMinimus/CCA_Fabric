@@ -40,5 +40,5 @@ ServerEvents.tags('item', event => {
 	// consolidate zinc plate tags - also removed 'createaddition:zinc_sheet' above and in REI
 	event.add('c:plates', '#c:zinc_plates');
 	event.add('c:plates/zinc', '#c:zinc_plates');
-  });
+});
 
