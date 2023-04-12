@@ -1,0 +1,11 @@
+{
+    "name": "Mythic Mounts",
+    "icon": "minecraft:dragon_head",
+    "category": "patchouli:wikis",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Mythic Mounts has a nice collection of mythical animals. There is no wiki, but the $(l:https://www.curseforge.com/minecraft/mc-mods/mythic-mounts)Curseforge$(/l) page has a lot of information. If you still need help, visit their $(l:https://discord.gg/ZNMECpNpE9)discord$(/l)."
+        }
+    ]
+}
