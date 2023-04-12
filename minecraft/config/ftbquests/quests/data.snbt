@@ -14,15 +14,6 @@
 	default_quest_shape: ""
 	default_quest_disable_jei: false
 	emergency_items: [
-		{
-			id: "silentgear:blueprint_package"
-			tag: {
-				silentlib.LootContainer: {
-					LootTable: "silentgear:starter_blueprints"
-				}
-			}
-			Count: 1b
-		}
 		{ id: "minecraft:water_bucket", Count: 1b }
 		{ id: "minecraft:oak_sapling", Count: 1b }
 		{ id: "botania:living_root", Count: 1b }
