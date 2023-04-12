@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "mythicmetals:raw_mythril"
+    },
+    {
+      "item": "mythicmetals:raw_mythril"
+    }
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:mythril_ingot",
+      "count": 3
+    }
+  ]
+}

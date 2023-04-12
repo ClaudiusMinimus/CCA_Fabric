@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "mythicmetals:raw_silver"
+    },
+    {
+      "item": "mythicmetals:raw_silver"
+    }
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:silver_ingot",
+      "count": 3
+    }
+  ]
+}

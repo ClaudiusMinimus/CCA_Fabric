@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "mythicmetals:raw_aquarium"
+    },
+    {
+      "item": "mythicmetals:raw_aquarium"
+    }
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:aquarium_ingot",
+      "count": 3
+    }
+  ]
+}

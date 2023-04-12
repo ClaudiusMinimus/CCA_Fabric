@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "mythicmetals:raw_platinum"
+    },
+    {
+      "item": "mythicmetals:raw_platinum"
+    }
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:platinum_ingot",
+      "count": 3
+    }
+  ]
+}

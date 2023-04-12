@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "mythicmetals:raw_palladium"
+    },
+    {
+      "item": "mythicmetals:raw_palladium"
+    }
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:palladium_ingot",
+      "count": 3
+    }
+  ]
+}

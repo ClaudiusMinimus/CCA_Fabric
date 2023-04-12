@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "tag": "c:adamantite_ores"
+    },
+	{
+      "tag": "c:mythril_ores"
+    },
+	{
+      "tag": "c:orichalcum_ores"
+    },
+	{
+      "tag": "c:palladium_ores"
+    },
+	{
+	  "tag": "mythicmetals:unobtainium_ores"
+	}
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:metallurgium_ingot",
+      "count": 3
+    }
+  ]
+}

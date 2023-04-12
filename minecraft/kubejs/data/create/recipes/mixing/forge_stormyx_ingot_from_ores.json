@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "mythicmetals:stormyx_ores"
+    }
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:stormyx_ingot",
+      "count": 2
+    }
+  ]
+}

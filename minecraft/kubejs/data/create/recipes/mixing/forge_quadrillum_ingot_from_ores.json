@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "mythicmetals:quadrillum_ores"
+    }
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:quadrillum_ingot",
+      "count": 2
+    }
+  ]
+}

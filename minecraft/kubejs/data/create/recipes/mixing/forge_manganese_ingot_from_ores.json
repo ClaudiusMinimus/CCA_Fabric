@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "c:manganese_ores"
+    }
+  ],
+  "output": {
+    "id": "mythicmetals:manganese_ingot",
+    "count": 2
+  },
+  "results": [
+    {
+      "item": "mythicmetals:manganese_ingot",
+      "count": 2
+    }
+  ]
+}

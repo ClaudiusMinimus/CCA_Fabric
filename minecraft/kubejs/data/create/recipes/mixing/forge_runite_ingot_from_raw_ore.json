@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "mythicmetals:raw_runite"
+    },
+    {
+      "item": "mythicmetals:raw_runite"
+    }
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:runite_ingot",
+      "count": 3
+    }
+  ]
+}

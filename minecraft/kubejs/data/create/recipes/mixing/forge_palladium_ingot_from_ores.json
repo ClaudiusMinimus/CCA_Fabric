@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "c:palladium_ores"
+    }
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:palladium_ingot",
+      "count": 2
+    }
+  ]
+}

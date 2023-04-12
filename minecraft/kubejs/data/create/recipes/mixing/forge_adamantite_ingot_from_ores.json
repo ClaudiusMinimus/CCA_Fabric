@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "tag": "c:adamantite_ores"
+    }
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:adamantite_ingot",
+      "count": 2
+    }
+  ]
+}

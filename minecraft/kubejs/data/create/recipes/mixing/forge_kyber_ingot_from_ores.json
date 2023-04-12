@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "mythicmetals:kyber_ores"
+    }
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:kyber_ingot",
+      "count": 2
+    }
+  ]
+}

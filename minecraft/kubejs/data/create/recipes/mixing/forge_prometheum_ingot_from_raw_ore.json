@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "mythicmetals:raw_prometheum"
+    },
+    {
+      "item": "mythicmetals:raw_prometheum"
+    }
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:prometheum_ingot",
+      "count": 3
+    }
+  ]
+}

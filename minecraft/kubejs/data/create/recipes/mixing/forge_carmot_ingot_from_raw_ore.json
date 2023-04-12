@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "mythicmetals:raw_carmot"
+    },
+    {
+      "item": "mythicmetals:raw_carmot"
+    }
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:carmot_ingot",
+      "count": 3
+    }
+  ]
+}

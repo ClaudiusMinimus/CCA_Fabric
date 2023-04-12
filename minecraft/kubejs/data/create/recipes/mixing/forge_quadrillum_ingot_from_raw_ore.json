@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "mythicmetals:raw_quadrillum"
+    },
+    {
+      "item": "mythicmetals:raw_quadrillum"
+    }
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:quadrillum_ingot",
+      "count": 3
+    }
+  ]
+}

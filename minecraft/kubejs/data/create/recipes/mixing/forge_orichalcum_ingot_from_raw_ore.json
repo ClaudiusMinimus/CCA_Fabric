@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "mythicmetals:raw_orichalcum"
+    },
+    {
+      "item": "mythicmetals:raw_orichalcum"
+    }
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:orichalcum_ingot",
+      "count": 3
+    }
+  ]
+}

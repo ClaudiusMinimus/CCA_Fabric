@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "mythicmetals:raw_osmium"
+    },
+    {
+      "item": "mythicmetals:raw_osmium"
+    }
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:osmium_ingot",
+      "count": 3
+    }
+  ]
+}

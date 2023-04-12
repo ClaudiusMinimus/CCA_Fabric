@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "mythicmetals:starrite"
+    },
+	{
+      "tag": "c:raw_platinum_ores"
+    }
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:star_platinum",
+      "count": 2
+    }
+  ]
+}

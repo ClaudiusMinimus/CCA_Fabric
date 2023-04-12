@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "mythicmetals:raw_manganese"
+    },
+    {
+      "item": "mythicmetals:raw_manganese"
+    }
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:manganese_ingot",
+      "count": 3
+    }
+  ]
+}

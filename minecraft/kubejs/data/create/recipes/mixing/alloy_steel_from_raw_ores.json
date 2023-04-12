@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "c:raw_iron_ores"
+    },
+	{
+      "tag": "c:raw_manganese_ores"
+    }
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:steel_ingot",
+      "count": 2
+    }
+  ]
+}

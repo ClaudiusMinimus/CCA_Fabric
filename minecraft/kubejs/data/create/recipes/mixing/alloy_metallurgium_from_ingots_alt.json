@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "tag": "mythicmetals:hallowed_ingots"
+    },
+	{
+      "tag": "c:palladium_ingots"
+    },
+	{
+	  "item": "mythicmetals:unobtainium"
+	}
+  ],
+  "results": [
+    {
+      "item": "mythicmetals:metallurgium_ingot",
+      "count": 1
+    }
+  ]
+}
