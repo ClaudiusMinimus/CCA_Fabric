@@ -1,0 +1,80 @@
+[Definitions]
+2x raw = 3x: Quantity 2 raw [metal] processes to 3 ingots
+ore 2x: Quantity 1 ore block processes to 2 ingots
+ingot 1x: Ingot(s) processes to 1 ingot
+
+[Create Mixing Heated]
+aquarium: 2x raw = 3x; ore 2x
+banglum: 2x raw = 3x; ore 2x
+bronze: 
+    2x raw; 
+    ore 4x; 
+    alloy 2x; 
+    alloy ore 4x
+carmot: (jello): raw 1x; ore 2x
+durasteel: 
+    raw 3x; 
+    ore 6x; 
+    ingot 1x
+kyber: raw 1x; ore 2x
+manganese: 2x raw = 3x; ore 2x
+midas_gold: 2x raw = 3x; ore 2x
+mythril: raw 1x; ore 2x
+orichalcum: raw 1x; ore 2x
+osmium: raw 1x; ore 2x
+palladium: raw 1x; ore 2x
+platinum: raw 1x; ore 2x
+prometheum: raw 1x; ore 2x
+quadrillum: 2x raw = 3x; ore 2x
+runite: raw 1x; ore 2x
+silver: 2x raw = 3x; ore 2x
+steel: 
+    raw 1x; ore 2x; 
+    raw iron & coal 2x;
+    ore & coal 2x; 
+    ingot & coal 2x
+stormyx: raw 1x; ore 2x
+tin: 2x raw = 3x; ore 2x
+gold_from_midas_gold: 
+    raw mg + any raw Mythic Metal 2x;
+    2x raw = 3x; 
+    ore 2x
+
+[Create Mixing Superheated]
+adamantite: always 2 x
+celestium: raw 1x; ore 2x; others 1x
+hallowed: raw 1x; ore 2x; ingot 1x
+metallurgium: raw 1x; ore 2x; others 1x
+star_platinum: raw 1x; ore 2x; ingot 1x
+
+[Botania Orechid]
+Ore             Botania Rarity
+
+unobtainium_ore 500
+Diamond_ore     883
+platinum:       900
+adamantite:     900
+lapis_ore       1079
+emerald_ore     1239
+midas_gold:     1400
+mythril:        1800
+gold_ore        2647
+silver:         2800
+palladium:      2900
+orichalcum:     3000
+prometheum:     3100
+carmot:         3100
+quadrillum:     3200
+manganese:      3500
+kyber:          3500
+aquarium:       3700
+osmium:         4000
+runite:         4000
+banglum:        4000
+tin:            6000
+copper_ore      7000
+redstone_ore    7654
+create:zinc_ore 29371
+iron_ore        29371
+coal_ore        67415
+
