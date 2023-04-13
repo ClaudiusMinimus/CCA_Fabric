@@ -629,8 +629,8 @@
 					id: "botania:twig_wand"
 					Count: 1b
 					tag: {
-						color2: 1
 						color1: 15
+						color2: 1
 						boundTileZ: 0
 						boundTileX: 0
 						boundTileY: -1
@@ -1177,6 +1177,7 @@
 				"Be sure you use /sethome, because if you fall off the side you will fall into the void and die. If you set home, then you can use /home while falling to teleport home before you fall out of the world. You will still die, but your grave will be at your set home spawn point."
 			]
 			dependencies: ["678645C952FCF8CC"]
+			optional: true
 			id: "73551C3B7F10B61D"
 			tasks: [{
 				id: "6D84B1337BCB792F"
@@ -1220,7 +1221,7 @@
 				"Build a platform out from the block you are standing on so that all the Living Root blocks cannot fall into the void when you break them."
 			]
 			dependencies: ["4186CEC215FCF826"]
-			hide: false
+			hide: true
 			id: "39D22E9262F5E871"
 			tasks: [{
 				id: "0F6B09A5EFA30EB7"
@@ -1235,37 +1236,12 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 6.0d
-			description: [
-				"Now that you have access to the Living Root blocks you can break them with either your hand or with an axe. The Living Root blocks will drop as Living Root looking more like a twig."
-				""
-				"Once you have the Living Root blocks harvested, you probably want to also dig the bottom layers of dirt so you can build a dirt platform at the water level."
-			]
-			dependencies: [
-				"39D22E9262F5E871"
-				"0000000000000005"
-			]
-			hide: true
-			dependency_requirement: "one_completed"
-			id: "0DF574036AE67503"
-			tasks: [{
-				id: "189B39C2E46F1DEE"
-				type: "item"
-				item: "botania:living_root"
-			}]
-			rewards: [{
-				id: "1916B1814DC78C75"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
 			x: -5.0d
 			y: 6.0d
 			subtitle: "Use Living Root Sparingly!"
 			description: ["Using 4-Living Roots, craft an Oak Sapling and you are on your way to continuing the In the beginning... questline."]
-			dependencies: ["0DF574036AE67503"]
+			dependencies: ["5813332131DE29CC"]
+			hide: true
 			id: "03F8CD5F1A8EFB01"
 			tasks: [{
 				id: "39AD618CA2C66DA9"
@@ -1373,6 +1349,17 @@
 				type: "item"
 				item: "minecraft:bone_block"
 				count: 8
+			}]
+		}
+		{
+			x: -6.5d
+			y: 6.0d
+			dependencies: ["39D22E9262F5E871"]
+			id: "5813332131DE29CC"
+			tasks: [{
+				id: "3518D8B0D5668448"
+				type: "item"
+				item: "botania:living_root"
 			}]
 		}
 	]
