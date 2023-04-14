@@ -1,7 +1,7 @@
 {
 	id: "000000000000038C"
 	group: ""
-	order_index: 6
+	order_index: 7
 	filename: "cooking"
 	title: "Cooking"
 	icon: "farmersdelight:stove"
@@ -54,13 +54,8 @@
 				{
 					id: "39FA67C79F0D393E"
 					type: "item"
-					item: {
-						id: "farmersdelight:flint_knife"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "farmersdelight:pumpkin_slice"
+					count: 8
 				}
 				{
 					id: "3FB350514B076481"
