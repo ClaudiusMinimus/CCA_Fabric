@@ -43,6 +43,13 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  width = 204
+  action = resizebutton
+  height = 20
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_report_bugs_button%
   orientation = top-centered
   x = 4
@@ -51,11 +58,18 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  identifier = %id=374294%
   orientation = top-centered
-  x = 4
+  x = -125
   action = movebutton
-  y = 170
+  y = 145
+}
+
+customization {
+  identifier = %id=374294%
+  width = 19
+  action = resizebutton
+  height = 20
 }
 
 customization {
@@ -64,6 +78,14 @@ customization {
   x = -102
   action = movebutton
   y = 95
+}
+
+customization {
+  identifier = %id=398318%
+  orientation = top-centered
+  x = -102
+  action = movebutton
+  y = 145
 }
 
 customization {
@@ -83,37 +105,18 @@ customization {
   orientation = top-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  buttonaction = mimicbutton
+  buttonaction = mimicbutton;net.minecraft.client.gui.screens.PauseScreen:button_compatibility_id:mc_pausescreen_disconnect_button%btnaction_splitter_fm%
   x = -102
   width = 204
-  actionid = 0e529179-57c7-4943-bd51-20d55ee00a4c1675873537485
   action = addbutton
+  actionid = 0e529179-57c7-4943-bd51-20d55ee00a4c1675873537485
   y = 195
   label = Save Game and Exit World
-  value = net.minecraft.client.gui.screens.PauseScreen:button_compatibility_id:mc_pausescreen_disconnect_button
   height = 20
 }
 
 customization {
-  identifier = %id=374294%
-  orientation = top-centered
-  x = -125
-  action = movebutton
-  y = 145
-}
-
-customization {
-  identifier = %id=374294%
-  width = 19
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=398318%
-  orientation = top-centered
-  x = -102
-  action = movebutton
-  y = 145
+  identifier = %id=504342%
+  action = hidebutton
 }
 
