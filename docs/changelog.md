@@ -1,6 +1,29 @@
 # Change Log
 
-## Create Conquest Arcane 1.19.2-0.3.0
+## Create Conquest Arcane 1.19.2-0.4.0 BETA
+Apr. 14, 2023
+- Mods Added:
+  - REIPluginCompatibilities-forge-9.0.48.jar
+  - rer-2.6.0.jar
+  - RoughlyEnoughItems-9.1.595.jar
+- Mods Updated:
+  - BHMenu-Fabric-1.19.2-2.2.jar
+  - harvestwithease-1.19.2-6.0.1.2-final-fabric.jar
+  - iris-mc1.19.2-1.6.1.jar
+  - mcdw-5.0.8-1.19.jar
+  - optigui-2.0.0-alpha.5.jar
+  - travelers-backpack-1.19.2-8.2.18.jar
+- Mods Removed:
+  - jei-1.19.2-fabric-11.6.0.1013.jar
+- Other Changes:
+  - Added REI back because found issue that kept crashing the client
+  - More updates to CCA guidebook and quests
+  - Since adding Spirit, spawners can no longer be mined with silk touch. Add Create Wrench sneak-right-click to pick up spawners - this may be a short term fix until something better is found.
+  - Added recipes for:
+    - Create generated stone using heated mixing
+    - Mythic Metals using the Orechid
+
+## Create Conquest Arcane 1.19.2-0.3.0 ALPHA
 Apr. 12, 2023
 - Mods Added:
   - harvestwithease-1.19.2-6.0.1.1-final-fabric.jar
@@ -23,7 +46,7 @@ Apr. 12, 2023
   - Updated quests & CCA book
   - Converted Mythic Metals recipes from Alloy Forgery to Create mixing
 
-## Create Conquest Arcane 1.19.2-0.2.0
+## Create Conquest Arcane 1.19.2-0.2.0 ALPHA
 Apr. 08, 2023
 - Mods Added:
   - animatica-0.5+1.19.jar
