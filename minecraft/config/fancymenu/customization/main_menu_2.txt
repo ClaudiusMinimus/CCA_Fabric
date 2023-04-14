@@ -114,7 +114,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = mid-left
-  x = 91
+  x = 100
   action = movebutton
   y = 75
 }
@@ -244,7 +244,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = mid-left
-  x = 110
+  x = 120
   action = movebutton
   y = 75
 }
@@ -269,30 +269,6 @@ customization {
   action = setbuttontexture
   backgroundhovered = config/fancymenu/assets/languageh.png
   backgroundnormal = config/fancymenu/assets/language.png
-}
-
-customization {
-  identifier = %id=352394%
-  orientation = mid-left
-  x = 127
-  action = movebutton
-  y = 75
-}
-
-customization {
-  identifier = %id=352394%
-  width = 15
-  action = resizebutton
-  height = 15
-}
-
-customization {
-  identifier = %id=352394%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu/assets/wrenchh.png
-  backgroundnormal = config/fancymenu/assets/wrench.png
 }
 
 customization {

@@ -3,18 +3,21 @@ type = customizablemenus
 de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
-net.minecraft.client.gui.screens.PauseScreen {
+net.minecraft.class_433 {
 }
 
 com.conquestreforged.client.gui.dependency.screen.DependencyScreen {
 }
 
-net.minecraft.client.gui.screens.TitleScreen {
+net.minecraft.class_442 {
 }
 
-net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
+net.minecraft.class_526 {
 }
 
-net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
+net.minecraft.class_500 {
+}
+
+com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BHMultiplayerScreen {
 }
 
