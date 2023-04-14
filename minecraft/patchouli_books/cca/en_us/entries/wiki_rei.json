@@ -1,0 +1,14 @@
+{
+    "name": "REI",
+    "icon": "minecraft:crafting_table",
+    "category": "patchouli:wikis",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Roughly Enough Items (REI) is a block, item, and recipe searching/viewing mod. $(l:https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items)Roughly Enough Items$(/l) on CurseForge. $(l)$(br)Advanced Search$()$(li)Mod: @[modname] Non-case sensitive, searching via mod, for example @create to search for items added by create."
+        },{
+            "type": "text",
+            "text": "$(li)Tooltip: #[text] Non-case sensitive, searching via tooltip, for example #protection to search for protection books.$(li)Tags: tag Non-case sensitive, searching via tags, for example $logs to search for logs.$(li)Quotes: Allowing spaces, for example \"#protection iii\" to search with spaces. $(li)Or: | Example apple|$logs to search for apples or logs."
+        }
+    ]
+}
