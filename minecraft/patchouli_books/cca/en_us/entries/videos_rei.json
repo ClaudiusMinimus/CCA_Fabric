@@ -1,0 +1,14 @@
+{
+    "name": "REI",
+    "icon": "minecraft:crafting_table",
+    "category": "patchouli:videos",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Roughly Enough Items (REI) is a block, item, and recipe viewing mod. This is an older video but what he shows is still relevant: $(l:https://www.youtube.com/watch?v=CpAYgn9ImuM)$(br)REI Showcase$(/l)$(br2)$(l)"
+        },{
+            "type": "text",
+            "text": "For more information visit $(l:https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items)Roughly Enough Items$(/l) on CurseForge."
+        }
+    ]
+}
