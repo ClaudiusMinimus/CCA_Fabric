@@ -17,14 +17,7 @@ ServerEvents.recipes( event => {
 	  ], {
 		S: 'minecraft:smooth_stone',
 		P: '#minecraft:planks'
-	  });
-
-		//   'create:asurine', 30 3 zinc ingot + 9 stone = 9 asurine
-		//   'create:crimsite', 40 2 iron ingot + 5 stone = 5 blocks crimsite
-		//   'create:limestone', 1 smoothstone = 1 limestone
-		//   'create:ochrum', 20 1 gold ingot + 5 stone = 5 ochrum
-		//   'create:veridium' 80 1 copper nugget + 1 stone = 1 veridium
-		
+	  });		
 	
 });
 
@@ -80,6 +73,22 @@ BlockEvents.rightClicked("block.right_click", (event) => {
 	if (item == "create:wrench" && player.isCrouching()) {
 		if (block.equals("minecraft:end_portal")) {
 			block.set("minecraft:air");
+		}
+	}
+
+});
+
+
+// allow player to pick up a spawner
+BlockEvents.rightClicked("block.right_click", (event) => {
+	const { block, hand, item, world, player } = event;
+	if (hand.name() != "MAIN_HAND") return;
+
+	if (item == "create:wrench" && player.isCrouching()) {
+		if (block.equals("minecraft:spawner")) {
+			const hasEnderEye = block.properties.eye;
+			block.set("minecraft:air");
+			player.give("minecraft:spawner");
 		}
 	}
 
