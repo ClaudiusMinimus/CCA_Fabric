@@ -53,13 +53,13 @@ ServerEvents.recipes(event => {
     
     event.recipes.botania.orechid("mythicmetals:mythril_ore", "minecraft:stone", 1800);
     
-    event.recipes.botania.orechid("mythicmetals:silver_ore", "minecraft:stone", 2800);
+    event.recipes.botania.orechid("mythicmetals:orichalcum_ore", "minecraft:stone", 2200);
     
-    event.recipes.botania.orechid("mythicmetals:palladium_ore", "minecraft:stone", 2900);
+    event.recipes.botania.orechid("mythicmetals:prometheum_ore", "minecraft:stone", 2300);
     
-    event.recipes.botania.orechid("mythicmetals:orichalcum_ore", "minecraft:stone", 3000);
+    event.recipes.botania.orechid("mythicmetals:palladium_ore", "minecraft:stone", 2400);
     
-    event.recipes.botania.orechid("mythicmetals:prometheum_ore", "minecraft:stone", 3100);
+    event.recipes.botania.orechid("mythicmetals:silver_ore", "minecraft:stone", 2500);
     
     event.recipes.botania.orechid("mythicmetals:carmot_ore", "minecraft:stone", 3101);
     
