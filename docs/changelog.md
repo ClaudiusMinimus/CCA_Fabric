@@ -16,6 +16,7 @@ Apr. 14, 2023
   - harvestwithease-1.19.2-6.0.1.2-final-fabric.jar
   - iris-mc1.19.2-1.6.1.jar
   - mcdw-5.0.8-1.19.jar
+  - moonlight-1.19.2-2.2.31-fabric.jar (1.19.2-0.4.2)
   - optigui-2.0.0-alpha.5.jar
   - travelers-backpack-1.19.2-8.2.18.jar
 - Mods Removed:
