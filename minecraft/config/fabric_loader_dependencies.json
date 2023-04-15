@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "overrides": {
+    "mythicmetals": {
+      "-depends": {
+        "alloy_forgery": "IGNORED"
+      }
+    }
+  }
+}

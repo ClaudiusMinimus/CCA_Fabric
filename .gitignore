@@ -35,6 +35,7 @@ mmc-pack.json
 !minecraft/config/bhmenu
 !minecraft/config/drippyloadingscreen
 !minecraft/config/fancymenu
+!minecraft/config/fabric_loader_dependencies.json
 !minecraft/config/ftbquests
 !minecraft/config/NoChatReports
 !minecraft/config/yosbr
