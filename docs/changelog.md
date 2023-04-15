@@ -5,7 +5,7 @@
 # then upload it to the server.
 # https://botaniamod.net/gardenofglass.html
 
-## Create Conquest Arcane 1.19.2-0.4.0 BETA
+## Create Conquest Arcane 1.19.2-0.4.1 BETA
 Apr. 14, 2023
 - Mods Added:
   - REIPluginCompatibilities-forge-9.0.48.jar
