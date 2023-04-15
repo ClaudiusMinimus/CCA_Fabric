@@ -20,6 +20,8 @@ minecraft/Xaero*/*
 *.gz
 CCA Fabric.code-workspace
 instance.cfg
+minecraft/servers.dat
+minecraft/servers.dat_old
 # keeps coming back to haunt
 minecraft/config/ftbquests/quests/chapters/silentgear.snbt
 minecraft/irisUpdateInfo.json
