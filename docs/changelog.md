@@ -2,7 +2,7 @@
 
 On Fabric servers, modded level types are not supported by default, so you’ll have to generate a GoG world in single player then upload it to the server. https://botaniamod.net/gardenofglass.html
 
-## Create Conquest Arcane 1.19.2-0.4.2 BETA
+## Create Conquest Arcane 1.19.2-0.4.3 BETA
 Apr. 14, 2023
 - Mods Added:
   - REIPluginCompatibilities-forge-9.0.48.jar
@@ -13,11 +13,12 @@ Apr. 14, 2023
   - harvestwithease-1.19.2-6.0.1.2-final-fabric.jar
   - iris-mc1.19.2-1.6.1.jar
   - mcdw-5.0.8-1.19.jar
-  - moonlight-1.19.2-2.2.31-fabric.jar (1.19.2-0.4.2)
+  - moonlight-1.19.2-2.2.31-fabric.jar (1.19.2-0.4.3)
   - optigui-2.0.0-alpha.5.jar
   - travelers-backpack-1.19.2-8.2.18.jar
 - Mods Removed:
   - jei-1.19.2-fabric-11.6.0.1013.jar
+  - REIPluginCompatibilities-forge-9.0.48.jar (GDLauncher installed as dependency, when it is not)
 - Other Changes:
   - Added REI back because found issue that kept crashing the client
   - More updates to CCA guidebook and quests
