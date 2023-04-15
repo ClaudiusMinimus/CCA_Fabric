@@ -770,7 +770,13 @@
 			rewards: [{
 				id: "16DA9389063EC0FC"
 				type: "item"
-				item: "storagedrawers:diamond_storage_upgrade"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: {
+						mana: 500000
+					}
+				}
 			}]
 		}
 		{
@@ -1037,12 +1043,12 @@
 						symmetry: {
 							type: "triple_plane"
 							direction: 0
+							enable: 1b
 							pos: [
 								-153.0f
 								4.0f
 								193.0f
 							]
-							enable: 1b
 						}
 					}
 				}
