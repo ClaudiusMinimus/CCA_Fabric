@@ -13,6 +13,7 @@ minecraft/logs/*
 minecraft/mods/*
 minecraft/resourcepacks/*
 minecraft/saves/*
+minecraft/schematics/*
 minecraft/screenshots/*
 minecraft/Xaero*/*
 
@@ -20,6 +21,7 @@ minecraft/Xaero*/*
 *.gz
 CCA Fabric.code-workspace
 instance.cfg
+minecraft/*.log
 minecraft/servers.dat
 minecraft/servers.dat_old
 # keeps coming back to haunt
