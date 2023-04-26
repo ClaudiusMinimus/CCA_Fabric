@@ -77,192 +77,49 @@
 				id: "0000000000000047"
 				type: "item"
 				item: {
-					id: "silentgear:bow"
+					id: "mcdw:bow_call_of_the_void"
 					Count: 1b
 					tag: {
-						SGear_UUID: [I;
-							2122763157
-							1392987313
-							-2089362133
-							1987469294
-						]
-						RepairCost: 63
 						Damage: 0
-						SGear_Data: {
-							Construction: {
-								Parts: [
-									{
-										Item: {
-											id: "silentgear:bow_limbs"
-											Count: 1b
-											tag: {
-												Damage: 0
-												Materials: [
-													{
-														Item: {
-															id: "minecraft:barrier"
-															Count: 1b
-															tag: {
-																display: {
-																	Name: "{\"text\":\"Empty Tag: forge:ingots/compressed_iron\"}"
-																}
-															}
-														}
-														ID: "silentgear:compressed_iron"
-													}
-													{
-														Item: {
-															id: "silentgems:carnelian"
-															Count: 1b
-														}
-														ID: "silentgems:carnelian"
-													}
-												]
-											}
-										}
-										ID: "silentgear:bow_limbs"
-									}
-									{
-										Item: {
-											id: "silentgear:rod"
-											Count: 1b
-											tag: {
-												Materials: [{
-													Item: {
-														id: "silentgems:citrine"
-														Count: 1b
-													}
-													ID: "silentgems:citrine"
-												}]
-											}
-										}
-										ID: "silentgear:rod"
-									}
-									{
-										Item: {
-											id: "silentgear:cord"
-											Count: 1b
-											tag: {
-												Materials: [{
-													Item: {
-														id: "silentgear:flax_string"
-														Count: 1b
-													}
-													ID: "silentgear:flax"
-												}]
-											}
-										}
-										ID: "silentgear:bowstring"
-									}
-									{
-										Item: {
-											id: "silentgear:tip"
-											Count: 1b
-											tag: {
-												Materials: [
-													{
-														Item: {
-															id: "minecraft:barrier"
-															Count: 1b
-															tag: {
-																display: {
-																	Name: "{\"text\":\"Empty Tag: forge:ingots/refined_glowstone\"}"
-																}
-															}
-														}
-														ID: "silentgear:refined_glowstone"
-													}
-													{
-														Item: {
-															id: "minecraft:diamond"
-															Count: 1b
-														}
-														ID: "silentgear:diamond"
-													}
-												]
-											}
-										}
-										ID: "silentgear:tip"
-									}
-									{
-										Item: {
-											id: "silentgear:coating"
-											Count: 1b
-											tag: {
-												CraftedCount: 1
-												Materials: [{
-													Item: {
-														id: "minecraft:netherite_ingot"
-														Count: 1b
-													}
-													ID: "silentgear:netherite"
-												}]
-											}
-										}
-										ID: "silentgear:coating"
-									}
-								]
-							}
-							Properties: {
-								ModVersion: "2.10.17"
-								Stats: {
-									"silentgear:enchantability": 13.0716095f
-									"silentgear:chargeability": 0.91117054f
-									"silentgear:ranged_speed": 1.0f
-									"silentgear:attack_reach": 3.0f
-									"silentgear:durability": 2038.8859f
-									"silentgear:ranged_damage": 6.4667773f
-									"silentgear:magic_damage": 2.6336918f
-									"silentgear:rarity": 67.86046f
-									"silentgear:attack_speed": -0.11715729f
-									"silentgear:repair_efficiency": 1.0f
-								}
-								LockStats: 0b
-								Traits: [
-									{
-										Level: 3b
-										Name: "silentgear:hard"
-									}
-									{
-										Level: 1b
-										Name: "silentgear:refractive"
-									}
-									{
-										Level: 1b
-										Name: "silentgear:fireproof"
-									}
-								]
-							}
-							Rendering: {
-								ModelKey: "bow:bow_limbs{compressed_iron,silentgems:carnelian},rod{silentgems:citrine},bowstring{flax},tip{refined_glowstone,diamond},coating{netherite},"
-							}
-						}
 						Enchantments: [
 							{
+								id: "mcdw:fuse_shot"
 								lvl: 1s
-								id: "minecraft:mending"
 							}
 							{
-								lvl: 3s
-								id: "minecraft:unbreaking"
-							}
-							{
-								lvl: 4s
-								id: "minecraft:piercing"
-							}
-							{
-								lvl: 2s
-								id: "minecraft:punch"
-							}
-							{
-								lvl: 5s
 								id: "minecraft:power"
+								lvl: 5s
 							}
 							{
+								id: "mcdw:accelerate"
 								lvl: 3s
-								id: "farmersdelight:backstabbing"
+							}
+							{
+								id: "mcdw:void_shot"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:flame"
+								lvl: 1s
+							}
+							{
+								id: "spirit:soul_reaper"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:infinity"
+								lvl: 1s
+							}
+							{
+								id: "mcdw:soul_siphon"
+								lvl: 3s
 							}
 						]
+						RepairCost: 7
 					}
 				}
 			}]
@@ -331,138 +188,36 @@
 				id: "0000000000000055"
 				type: "item"
 				item: {
-					id: "silentgear:leggings"
+					id: "mythicmetals:metallurgium_leggings"
 					Count: 1b
 					tag: {
-						SGear_UUID: [I;
-							1211860796
-							-315734239
-							-1837770505
-							-287012817
-						]
-						RepairCost: 1
-						Damage: 0
-						SGear_Data: {
-							Construction: {
-								Parts: [
-									{
-										Item: {
-											id: "silentgear:legging_plates"
-											Count: 1b
-											tag: {
-												CraftedCount: 1
-												Damage: 0
-												Materials: [{
-													Item: {
-														id: "silentgear:tyrian_steel_ingot"
-														Count: 1b
-														tag: {
-															SGear_Grade: "MAX"
-														}
-													}
-													ID: "silentgear:tyrian_steel"
-													Count: 7b
-												}]
-											}
-										}
-										ID: "silentgear:legging_plates"
-									}
-									{
-										Item: {
-											id: "silentgear:lining"
-											Count: 1b
-											tag: {
-												CraftedCount: 1
-												Materials: [{
-													Item: {
-														id: "minecraft:phantom_membrane"
-														Count: 1b
-														tag: {
-															SGear_Grade: "MAX"
-														}
-													}
-													ID: "silentgear:phantom_membrane"
-												}]
-											}
-										}
-										ID: "silentgear:lining"
-									}
-									{
-										Item: {
-											id: "silentgear:coating"
-											Count: 1b
-											tag: {
-												CraftedCount: 1
-												Materials: [{
-													Item: {
-														id: "minecraft:netherite_ingot"
-														Count: 1b
-														tag: {
-															SGear_Grade: "MAX"
-														}
-													}
-													ID: "silentgear:netherite"
-												}]
-											}
-										}
-										ID: "silentgear:coating"
-									}
-								]
-							}
-							Properties: {
-								ModVersion: "2.10.17"
-								Stats: {
-									"silentgear:chargeability": 1.1000001f
-									"silentgear:armor": 9.1f
-									"silentgear:projectile_speed": 1.1000001f
-									"silentgear:armor_durability": 127.092735f
-									"silentgear:armor_toughness": 5.200001f
-									"silentgear:knockback_resistance": 1.3f
-									"silentgear:projectile_accuracy": 1.1000001f
-									"silentgear:rarity": 100.0f
-									"silentgear:repair_efficiency": 1.0f
-									"silentgear:enchantability": 27.300001f
-									"silentgear:magic_armor": 3.9000006f
-									"silentgear:durability": 6601.764f
-								}
-								LockStats: 0b
-								Traits: [
-									{
-										Level: 3b
-										Name: "silentgear:sturdy"
-									}
-									{
-										Level: 1b
-										Name: "silentgear:void_ward"
-									}
-									{
-										Level: 2b
-										Name: "silentgear:light"
-									}
-									{
-										Level: 1b
-										Name: "silentgear:fireproof"
-									}
-								]
-							}
-							Rendering: {
-								ModelKey: "leggings:legging_plates{tyrian_steel,tyrian_steel,tyrian_steel,tyrian_steel,tyrian_steel,tyrian_steel,tyrian_steel},lining{phantom_membrane},coating{netherite},"
-							}
-						}
+						RepairCost: 3
 						Enchantments: [
 							{
-								lvl: 1s
-								id: "minecraft:mending"
-							}
-							{
-								lvl: 4s
 								id: "minecraft:protection"
+								lvl: 4s
 							}
 							{
-								lvl: 3s
 								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:mending"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:depth_strider"
+								lvl: 3s
+							}
+							{
+								id: "mcdw:anima_conduit"
+								lvl: 3s
 							}
 						]
+						Damage: 0
+						display: {
+							Name: "{\"text\":\"Slick's Tights\"}"
+						}
 					}
 				}
 			}]
@@ -532,196 +287,36 @@
 					id: "0000000000000060"
 					type: "item"
 					item: {
-						id: "silentgear:sword"
+						id: "mythicmetals:metallurgium_helmet"
 						Count: 1b
 						tag: {
-							SGear_UUID: [I;
-								-1167962668
-								-690470744
-								-1923355967
-								-1829596603
-							]
-							RepairCost: 31
-							SGear_Data: {
-								Construction: {
-									Parts: [
-										{
-											Item: {
-												id: "silentgear:sword_blade"
-												Count: 1b
-												tag: {
-													Damage: 0
-													Materials: [{
-														Item: {
-															id: "silentgear:tyrian_steel_ingot"
-															Count: 1b
-															tag: {
-																SGear_Grade: "MAX"
-															}
-														}
-														ID: "silentgear:tyrian_steel"
-														Count: 2b
-													}]
-												}
-											}
-											ID: "silentgear:sword_blade"
-										}
-										{
-											Item: {
-												id: "silentgear:rod"
-												Count: 1b
-												tag: {
-													Materials: [{
-														Item: {
-															id: "minecraft:air"
-															Count: 1b
-															tag: { }
-														}
-														ID: "silentgear:blaze_rod"
-													}]
-												}
-											}
-											ID: "silentgear:rod"
-										}
-										{
-											Item: {
-												id: "silentgear:coating"
-												Count: 1b
-												tag: {
-													CraftedCount: 1
-													Materials: [{
-														Item: {
-															id: "minecraft:netherite_ingot"
-															Count: 1b
-															tag: {
-																SGear_Grade: "MAX"
-															}
-														}
-														ID: "silentgear:netherite"
-													}]
-												}
-											}
-											ID: "silentgear:coating"
-										}
-										{
-											Item: {
-												id: "silentgear:tip"
-												Count: 1b
-												tag: {
-													CraftedCount: 1
-													Materials: [{
-														Item: {
-															id: "minecraft:quartz"
-															Count: 1b
-															tag: {
-																SGear_Grade: "MAX"
-															}
-														}
-														ID: "silentgear:quartz"
-													}]
-												}
-											}
-											ID: "silentgear:tip"
-										}
-										{
-											Item: {
-												id: "silentgear:grip"
-												Count: 1b
-												tag: {
-													CraftedCount: 1
-													Materials: [{
-														Item: {
-															id: "minecraft:phantom_membrane"
-															Count: 1b
-															tag: {
-																SGear_Grade: "MAX"
-															}
-														}
-														ID: "silentgear:phantom_membrane"
-													}]
-												}
-											}
-											ID: "silentgear:grip"
-										}
-									]
-								}
-								Properties: {
-									ModVersion: "2.10.17"
-									Stats: {
-										"silentgear:enchantability": 27.3f
-										"silentgear:chargeability": 1.1f
-										"silentgear:harvest_speed": 36.412704f
-										"silentgear:attack_reach": 3.0f
-										"silentgear:harvest_level": 5.0f
-										"silentgear:durability": 8334.755f
-										"silentgear:melee_damage": 26.088001f
-										"silentgear:magic_damage": 11.18f
-										"silentgear:rarity": 99.00505f
-										"silentgear:attack_speed": -2.2f
-										"silentgear:repair_efficiency": 1.15f
-									}
-									LockStats: 0b
-									Traits: [
-										{
-											Level: 3b
-											Name: "silentgear:sturdy"
-										}
-										{
-											Level: 3b
-											Name: "silentgear:flexible"
-										}
-										{
-											Level: 1b
-											Name: "silentgear:reach"
-										}
-										{
-											Level: 1b
-											Name: "silentgear:fireproof"
-										}
-										{
-											Level: 1b
-											Name: "silentgear:chipping"
-										}
-										{
-											Level: 3b
-											Name: "silentgear:jagged"
-										}
-										{
-											Level: 2b
-											Name: "silentgear:ancient"
-										}
-									]
-								}
-								Rendering: {
-									ModelKey: "sword:sword_blade{tyrian_steel,tyrian_steel},rod{blaze_rod},coating{netherite},tip{quartz},grip{phantom_membrane},"
-								}
-							}
+							RepairCost: 0
 							Enchantments: [
 								{
-									lvl: 3s
+									id: "minecraft:protection"
+									lvl: 4s
+								}
+								{
 									id: "minecraft:unbreaking"
-								}
-								{
 									lvl: 3s
-									id: "minecraft:looting"
 								}
 								{
-									lvl: 5s
-									id: "minecraft:sharpness"
-								}
-								{
-									lvl: 3s
-									id: "minecraft:sweeping"
-								}
-								{
-									lvl: 1s
 									id: "minecraft:mending"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:respiration"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:aqua_affinity"
+									lvl: 1s
 								}
 							]
-							display: {
-								Name: "{\"text\":\"Striker\"}"
-							}
 							Damage: 0
+							display: {
+								Name: "{\"text\":\"Airhead\"}"
+							}
 						}
 					}
 				}
@@ -797,139 +392,32 @@
 				id: "000000000000023D"
 				type: "item"
 				item: {
-					id: "silentgear:chestplate"
+					id: "mythicmetals:metallurgium_chestplate"
 					Count: 1b
 					tag: {
-						SGear_UUID: [I;
-							321477738
-							-1089451160
-							-1696251369
-							-523760802
-						]
 						RepairCost: 1
-						Damage: 0
-						SGear_Data: {
-							Construction: {
-								Parts: [
-									{
-										Item: {
-											id: "silentgear:chestplate_plates"
-											Count: 1b
-											tag: {
-												CraftedCount: 1
-												Damage: 0
-												Materials: [{
-													Item: {
-														id: "silentgear:tyrian_steel_ingot"
-														Count: 1b
-														tag: {
-															SGear_Grade: "MAX"
-														}
-													}
-													ID: "silentgear:tyrian_steel"
-													Count: 8b
-												}]
-											}
-										}
-										ID: "silentgear:chestplate_plates"
-									}
-									{
-										Item: {
-											id: "silentgear:lining"
-											Count: 1b
-											tag: {
-												CraftedCount: 1
-												Materials: [{
-													Item: {
-														id: "minecraft:phantom_membrane"
-														Count: 1b
-														tag: {
-															SGear_Grade: "MAX"
-														}
-													}
-													ID: "silentgear:phantom_membrane"
-												}]
-											}
-										}
-										ID: "silentgear:lining"
-									}
-									{
-										Item: {
-											id: "silentgear:coating"
-											Count: 1b
-											tag: {
-												CraftedCount: 1
-												Materials: [{
-													Item: {
-														id: "minecraft:netherite_ingot"
-														Count: 1b
-														tag: {
-															SGear_Grade: "MAX"
-														}
-													}
-													ID: "silentgear:netherite"
-												}]
-											}
-										}
-										ID: "silentgear:coating"
-									}
-								]
-								Tier: 4
-							}
-							Properties: {
-								ModVersion: "2.10.17"
-								Stats: {
-									"silentgear:chargeability": 1.1f
-									"silentgear:armor": 11.700001f
-									"silentgear:projectile_speed": 1.1f
-									"silentgear:armor_durability": 127.09273f
-									"silentgear:armor_toughness": 5.2000003f
-									"silentgear:knockback_resistance": 1.3f
-									"silentgear:projectile_accuracy": 1.1f
-									"silentgear:rarity": 100.0f
-									"silentgear:repair_efficiency": 1.0f
-									"silentgear:enchantability": 27.3f
-									"silentgear:magic_armor": 3.9000003f
-									"silentgear:durability": 6601.764f
-								}
-								LockStats: 0b
-								Traits: [
-									{
-										Level: 3b
-										Name: "silentgear:sturdy"
-									}
-									{
-										Level: 1b
-										Name: "silentgear:void_ward"
-									}
-									{
-										Level: 2b
-										Name: "silentgear:light"
-									}
-									{
-										Level: 1b
-										Name: "silentgear:fireproof"
-									}
-								]
-							}
-							Rendering: {
-								ModelKey: "chestplate:chestplate_plates{tyrian_steel,tyrian_steel,tyrian_steel,tyrian_steel,tyrian_steel,tyrian_steel,tyrian_steel,tyrian_steel},lining{phantom_membrane},coating{netherite},"
-							}
-						}
 						Enchantments: [
 							{
-								lvl: 1s
-								id: "minecraft:mending"
-							}
-							{
-								lvl: 4s
 								id: "minecraft:protection"
+								lvl: 4s
 							}
 							{
-								lvl: 3s
 								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:mending"
+								lvl: 1s
+							}
+							{
+								id: "mcdw:leeching"
+								lvl: 3s
 							}
 						]
+						Damage: 0
+						display: {
+							Name: "{\"text\":\"Brickhouse\"}"
+						}
 					}
 				}
 			}]
@@ -985,11 +473,74 @@
 				entity: "minecraft:wither_skeleton"
 				value: 1000L
 			}]
-			rewards: [{
-				id: "271DC0A1F6B4A800"
-				type: "item"
-				item: "create_sa:creative_filling_tank"
-			}]
+			rewards: [
+				{
+					id: "3E1F53DB2E11A882"
+					type: "item"
+					item: {
+						id: "emerald_tools:netherite_paxel"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							Enchantments: [
+								{
+									id: "minecraft:fortune"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:efficiency"
+									lvl: 5s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+							]
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Fortune Calls\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "2C6D8385499D1FD2"
+					type: "item"
+					item: {
+						id: "emerald_tools:netherite_hammer"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							Enchantments: [
+								{
+									id: "minecraft:fortune"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:efficiency"
+									lvl: 5s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+							]
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Bam Bam\"}"
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			icon: "minecraft:ghast_tear"
@@ -1106,150 +657,32 @@
 				id: "000000000000023B"
 				type: "item"
 				item: {
-					id: "silentgear:boots"
+					id: "emerald_tools:netherite_hammer"
 					Count: 1b
 					tag: {
-						SGear_UUID: [I;
-							2079055079
-							-313767425
-							-2087031862
-							-1972293736
-						]
-						RepairCost: 15
-						Damage: 0
-						SGear_Data: {
-							Construction: {
-								Parts: [
-									{
-										Item: {
-											id: "silentgear:boot_plates"
-											Count: 1b
-											tag: {
-												CraftedCount: 1
-												Damage: 0
-												Materials: [{
-													Item: {
-														id: "silentgear:tyrian_steel_ingot"
-														Count: 1b
-														tag: {
-															SGear_Grade: "MAX"
-														}
-													}
-													ID: "silentgear:tyrian_steel"
-													Count: 4b
-												}]
-											}
-										}
-										ID: "silentgear:boot_plates"
-									}
-									{
-										Item: {
-											id: "silentgear:lining"
-											Count: 1b
-											tag: {
-												CraftedCount: 1
-												Materials: [{
-													Item: {
-														id: "minecraft:phantom_membrane"
-														Count: 1b
-														tag: {
-															SGear_Grade: "MAX"
-														}
-													}
-													ID: "silentgear:phantom_membrane"
-												}]
-											}
-										}
-										ID: "silentgear:lining"
-									}
-									{
-										Item: {
-											id: "silentgear:coating"
-											Count: 1b
-											tag: {
-												CraftedCount: 1
-												Materials: [{
-													Item: {
-														id: "minecraft:netherite_ingot"
-														Count: 1b
-														tag: {
-															SGear_Grade: "MAX"
-														}
-													}
-													ID: "silentgear:netherite"
-												}]
-											}
-										}
-										ID: "silentgear:coating"
-									}
-								]
-							}
-							Properties: {
-								ModVersion: "2.10.17"
-								Stats: {
-									"silentgear:chargeability": 1.1f
-									"silentgear:armor": 5.2f
-									"silentgear:projectile_speed": 1.1f
-									"silentgear:armor_durability": 127.09273f
-									"silentgear:armor_toughness": 5.2000003f
-									"silentgear:knockback_resistance": 1.3f
-									"silentgear:projectile_accuracy": 1.1f
-									"silentgear:rarity": 100.0f
-									"silentgear:repair_efficiency": 1.0f
-									"silentgear:enchantability": 27.3f
-									"silentgear:magic_armor": 3.9000003f
-									"silentgear:durability": 6601.764f
-								}
-								LockStats: 0b
-								Traits: [
-									{
-										Level: 3b
-										Name: "silentgear:sturdy"
-									}
-									{
-										Level: 1b
-										Name: "silentgear:void_ward"
-									}
-									{
-										Level: 2b
-										Name: "silentgear:light"
-									}
-									{
-										Level: 1b
-										Name: "silentgear:fireproof"
-									}
-								]
-							}
-							Rendering: {
-								ModelKey: "boots:boot_plates{tyrian_steel,tyrian_steel,tyrian_steel,tyrian_steel},lining{phantom_membrane},coating{netherite},"
-							}
-						}
+						RepairCost: 0
 						Enchantments: [
 							{
+								id: "minecraft:silk_touch"
 								lvl: 1s
-								id: "minecraft:mending"
 							}
 							{
-								lvl: 4s
-								id: "minecraft:protection"
+								id: "minecraft:efficiency"
+								lvl: 5s
 							}
 							{
-								lvl: 3s
 								id: "minecraft:unbreaking"
-							}
-							{
 								lvl: 3s
-								id: "minecraft:soul_speed"
 							}
 							{
-								lvl: 3s
-								id: "minecraft:depth_strider"
-							}
-							{
-								lvl: 4s
-								id: "minecraft:feather_falling"
+								id: "minecraft:mending"
+								lvl: 1s
 							}
 						]
+						Damage: 0
+						display: {
+							Name: "{\"text\":\"Gentle Hammer\"}"
+						}
 					}
 				}
 			}]
@@ -1336,6 +769,17 @@
 					type: "item"
 					item: "minecraft:spawner"
 				}
+				{
+					id: "3340E116E46803F7"
+					type: "item"
+					item: {
+						id: "spawnermod:spawner_key"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
 			]
 		}
 		{
@@ -1357,12 +801,41 @@
 			rewards: [{
 				id: "0000000000000469"
 				type: "item"
-				item: "create:creative_motor"
+				item: {
+					id: "emerald_tools:netherite_excavator"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						Enchantments: [
+							{
+								id: "minecraft:silk_touch"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:efficiency"
+								lvl: 5s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:mending"
+								lvl: 1s
+							}
+						]
+						Damage: 0
+						display: {
+							Name: "{\"text\":\"Lawn Gatherer\"}"
+						}
+					}
+				}
 			}]
 		}
 		{
 			x: 1.5d
-			y: -4.5d
+			y: -6.0d
+			dependencies: ["415A1864EE2C9FFD"]
 			id: "000000000000045E"
 			tasks: [{
 				id: "000000000000045F"
@@ -1394,197 +867,12 @@
 				{
 					id: "5B6AF4DB05A31F61"
 					type: "item"
-					item: {
-						id: "create_jetpack:jetpack"
-						Count: 1b
-						tag: {
-							Air: 1800
-							display: {
-								Name: "{\"italic\":false,\"text\":\"CM's Immortal Jetpack\"}"
-							}
-							Enchantments: [
-								{
-									lvl: 10s
-									id: "minecraft:protection"
-								}
-								{
-									lvl: 3s
-									id: "create:capacity"
-								}
-							]
-						}
-					}
+					item: "create:creative_motor"
 				}
 				{
 					id: "47706A107768DA02"
 					type: "item"
-					item: {
-						id: "silentgear:paxel"
-						Count: 1b
-						tag: {
-							SGear_UUID: [I;
-								1142526363
-								-1725216193
-								-1371939864
-								-1369569424
-							]
-							Damage: 0
-							SGear_Data: {
-								Construction: {
-									Parts: [
-										{
-											Item: {
-												id: "silentgear:paxel_head"
-												Count: 1b
-												tag: {
-													Damage: 0
-													Materials: [{
-														Item: {
-															id: "silentgear:tyrian_steel_ingot"
-															Count: 1b
-															tag: {
-																SGear_Grade: "MAX"
-															}
-														}
-														ID: "silentgear:tyrian_steel"
-														Count: 5b
-													}]
-												}
-											}
-											ID: "silentgear:paxel_head"
-										}
-										{
-											Item: {
-												id: "silentgear:rod"
-												Count: 1b
-												tag: {
-													Materials: [{
-														Item: {
-															id: "minecraft:air"
-															Count: 1b
-															tag: { }
-														}
-														ID: "silentgear:blaze_rod"
-													}]
-												}
-											}
-											ID: "silentgear:rod"
-										}
-										{
-											Item: {
-												id: "silentgear:grip"
-												Count: 1b
-												tag: {
-													CraftedCount: 1
-													Materials: [{
-														Item: {
-															id: "minecraft:phantom_membrane"
-															Count: 1b
-															tag: {
-																SGear_Grade: "MAX"
-															}
-														}
-														ID: "silentgear:phantom_membrane"
-													}]
-												}
-											}
-											ID: "silentgear:grip"
-										}
-										{
-											Item: {
-												id: "silentgear:coating"
-												Count: 1b
-												tag: {
-													CraftedCount: 1
-													Materials: [{
-														Item: {
-															id: "minecraft:netherite_ingot"
-															Count: 1b
-															tag: {
-																SGear_Grade: "MAX"
-															}
-														}
-														ID: "silentgear:netherite"
-													}]
-												}
-											}
-											ID: "silentgear:coating"
-										}
-										{
-											Item: {
-												id: "silentgear:tip"
-												Count: 1b
-												tag: {
-													CraftedCount: 1
-													Materials: [{
-														Item: {
-															id: "minecraft:quartz"
-															Count: 1b
-															tag: {
-																SGear_Grade: "MAX"
-															}
-														}
-														ID: "silentgear:quartz"
-													}]
-												}
-											}
-											ID: "silentgear:tip"
-										}
-									]
-								}
-								Properties: {
-									ModVersion: "2.10.17"
-									Stats: {
-										"silentgear:enchantability": 21.06f
-										"silentgear:chargeability": 1.1f
-										"silentgear:harvest_speed": 30.428158f
-										"silentgear:attack_reach": 3.0f
-										"silentgear:harvest_level": 5.0f
-										"silentgear:durability": 11221.89f
-										"silentgear:melee_damage": 26.088001f
-										"silentgear:magic_damage": 11.180001f
-										"silentgear:rarity": 99.00505f
-										"silentgear:attack_speed": -2.8f
-										"silentgear:repair_efficiency": 1.3800001f
-									}
-									LockStats: 0b
-									Traits: [
-										{
-											Level: 3b
-											Name: "silentgear:sturdy"
-										}
-										{
-											Level: 3b
-											Name: "silentgear:flexible"
-										}
-										{
-											Level: 1b
-											Name: "silentgear:reach"
-										}
-										{
-											Level: 2b
-											Name: "silentgear:ancient"
-										}
-										{
-											Level: 1b
-											Name: "silentgear:fireproof"
-										}
-										{
-											Level: 1b
-											Name: "silentgear:chipping"
-										}
-										{
-											Level: 3b
-											Name: "silentgear:jagged"
-										}
-									]
-								}
-								Rendering: {
-									ModelKey: "paxel:paxel_head{tyrian_steel,tyrian_steel,tyrian_steel,tyrian_steel,tyrian_steel},rod{blaze_rod},grip{phantom_membrane},coating{netherite},tip{quartz},"
-								}
-							}
-						}
-					}
+					item: "create:creative_fluid_tank"
 				}
 			]
 		}
@@ -1640,146 +928,32 @@
 				id: "3470EA5C011CE0BC"
 				type: "item"
 				item: {
-					id: "silentgear:helmet"
+					id: "emerald_tools:netherite_excavator"
 					Count: 1b
 					tag: {
-						SGear_UUID: [I;
-							-1835720848
-							-366722749
-							-1231954001
-							13525945
-						]
-						RepairCost: 7
-						Damage: 0
-						SGear_Data: {
-							Construction: {
-								Parts: [
-									{
-										Item: {
-											id: "silentgear:helmet_plates"
-											Count: 1b
-											tag: {
-												CraftedCount: 1
-												Damage: 0
-												Materials: [{
-													Item: {
-														id: "silentgear:tyrian_steel_ingot"
-														Count: 1b
-														tag: {
-															SGear_Grade: "MAX"
-														}
-													}
-													ID: "silentgear:tyrian_steel"
-													Count: 5b
-												}]
-											}
-										}
-										ID: "silentgear:helmet_plates"
-									}
-									{
-										Item: {
-											id: "silentgear:lining"
-											Count: 1b
-											tag: {
-												CraftedCount: 1
-												Materials: [{
-													Item: {
-														id: "minecraft:phantom_membrane"
-														Count: 1b
-														tag: {
-															SGear_Grade: "MAX"
-														}
-													}
-													ID: "silentgear:phantom_membrane"
-												}]
-											}
-										}
-										ID: "silentgear:lining"
-									}
-									{
-										Item: {
-											id: "silentgear:coating"
-											Count: 1b
-											tag: {
-												CraftedCount: 1
-												Materials: [{
-													Item: {
-														id: "minecraft:netherite_ingot"
-														Count: 1b
-														tag: {
-															SGear_Grade: "MAX"
-														}
-													}
-													ID: "silentgear:netherite"
-												}]
-											}
-										}
-										ID: "silentgear:coating"
-									}
-								]
-							}
-							Properties: {
-								ModVersion: "2.10.17"
-								Stats: {
-									"silentgear:chargeability": 1.1f
-									"silentgear:armor": 6.5f
-									"silentgear:projectile_speed": 1.1f
-									"silentgear:armor_durability": 127.09273f
-									"silentgear:armor_toughness": 5.2000003f
-									"silentgear:knockback_resistance": 1.3f
-									"silentgear:projectile_accuracy": 1.1f
-									"silentgear:rarity": 100.0f
-									"silentgear:repair_efficiency": 1.0f
-									"silentgear:enchantability": 27.3f
-									"silentgear:magic_armor": 3.9000003f
-									"silentgear:durability": 6601.764f
-								}
-								LockStats: 0b
-								Traits: [
-									{
-										Level: 3b
-										Name: "silentgear:sturdy"
-									}
-									{
-										Level: 1b
-										Name: "silentgear:void_ward"
-									}
-									{
-										Level: 2b
-										Name: "silentgear:light"
-									}
-									{
-										Level: 1b
-										Name: "silentgear:fireproof"
-									}
-								]
-							}
-							Rendering: {
-								ModelKey: "helmet:helmet_plates{tyrian_steel,tyrian_steel,tyrian_steel,tyrian_steel,tyrian_steel},lining{phantom_membrane},coating{netherite},"
-							}
-						}
+						RepairCost: 0
 						Enchantments: [
 							{
-								lvl: 1s
-								id: "minecraft:mending"
-							}
-							{
-								lvl: 4s
-								id: "minecraft:protection"
-							}
-							{
+								id: "minecraft:fortune"
 								lvl: 3s
+							}
+							{
+								id: "minecraft:efficiency"
+								lvl: 5s
+							}
+							{
 								id: "minecraft:unbreaking"
-							}
-							{
 								lvl: 3s
-								id: "minecraft:respiration"
 							}
 							{
+								id: "minecraft:mending"
 								lvl: 1s
-								id: "minecraft:aqua_affinity"
 							}
 						]
+						Damage: 0
+						display: {
+							Name: "{\"text\":\"Pooper Scooper\"}"
+						}
 					}
 				}
 			}]
@@ -1824,13 +998,41 @@
 				value: 1000L
 			}]
 			rewards: [{
-				id: "1F17F0240EA879D1"
+				id: "1D729C9416CD33CA"
 				type: "item"
-				item: "create:creative_fluid_tank"
+				item: {
+					id: "emerald_tools:netherite_paxel"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						Enchantments: [
+							{
+								id: "minecraft:silk_touch"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:efficiency"
+								lvl: 5s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:mending"
+								lvl: 1s
+							}
+						]
+						Damage: 0
+						display: {
+							Name: "{\"text\":\"Silky Smooth\"}"
+						}
+					}
+				}
 			}]
 		}
 		{
-			title: "Novice Guardian of Gaia Hunter"
+			title: "Rookie Guardian of Gaia Hunter"
 			icon: "botania:gaia_head"
 			x: 0.0d
 			y: -4.5d
@@ -1840,12 +1042,56 @@
 				type: "kill"
 				icon: "botania:gaia_head"
 				entity: "botania:doppleganger"
-				value: 3L
+				value: 1L
 			}]
 			rewards: [{
 				id: "42029E11E8B56597"
 				type: "item"
-				item: "botania:creative_pool"
+				item: {
+					id: "emerald_tools:netherite_bow"
+					Count: 1b
+					tag: {
+						RepairCost: 15
+						Enchantments: [
+							{
+								id: "minecraft:power"
+								lvl: 5s
+							}
+							{
+								id: "minecraft:punch"
+								lvl: 2s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:mending"
+								lvl: 1s
+							}
+							{
+								id: "mcdw:enigma_resonator"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:looting"
+								lvl: 3s
+							}
+							{
+								id: "mcdw:soul_devourer"
+								lvl: 3s
+							}
+							{
+								id: "mcdw:freezing"
+								lvl: 3s
+							}
+						]
+						Damage: 0
+						display: {
+							Name: "{\"text\":\"Deep Freeze\"}"
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -1862,20 +1108,72 @@
 				entity: "botania:doppleganger"
 				value: 10L
 			}]
+			rewards: [{
+				id: "5BF981A4E75489A5"
+				type: "item"
+				item: "botania:creative_pool"
+			}]
 		}
 		{
-			title: "Journeyman Guardian of Gaia Hunter"
-			icon: "botania:gaia_head"
-			x: 0.0d
-			y: -7.5d
-			dependencies: ["7A8C524645660BF0"]
-			id: "6765D492E7ED9DF9"
+			x: 1.5d
+			y: -4.5d
+			id: "415A1864EE2C9FFD"
 			tasks: [{
-				id: "3A653F089A2CB11A"
+				id: "1CCB63C0383C8082"
 				type: "kill"
-				icon: "botania:gaia_head"
-				entity: "botania:doppleganger"
+				title: "Wither Slayer"
+				icon: "minecraft:nether_star"
+				entity: "minecraft:wither"
 				value: 3L
+			}]
+			rewards: [{
+				id: "516348C4603DA5B2"
+				type: "item"
+				item: {
+					id: "mythicmetals:metallurgium_sword"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						Enchantments: [
+							{
+								id: "minecraft:looting"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:smite"
+								lvl: 5s
+							}
+							{
+								id: "minecraft:sweeping"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:mending"
+								lvl: 1s
+							}
+							{
+								id: "mcdw:soul_siphon"
+								lvl: 3s
+							}
+							{
+								id: "mcdw:prospector"
+								lvl: 3s
+							}
+							{
+								id: "mcdw:echo"
+								lvl: 3s
+							}
+						]
+						Damage: 0
+						display: {
+							Name: "{\"text\":\"Wither's End\"}"
+						}
+					}
+				}
 			}]
 		}
 	]
