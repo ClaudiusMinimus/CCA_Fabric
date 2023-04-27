@@ -11,6 +11,7 @@
 		{
 			x: -4.5d
 			y: -4.5d
+			description: ["The Inventory Connector will treat touching inventories as a multiblock."]
 			dependencies: ["4689BFF22315E724"]
 			id: "797DA8F8F935D7AC"
 			tasks: [{
@@ -27,6 +28,11 @@
 		{
 			x: -4.5d
 			y: -3.0d
+			description: [
+				"Place next to most blocks that can hold an inventory to manage contents."
+				""
+				"Pro Tip: In this questline, place your cursor over the quest item and press shift to see tooltip help."
+			]
 			dependencies: ["4240DD5A5E1AB2A4"]
 			id: "4689BFF22315E724"
 			tasks: [{
@@ -44,6 +50,7 @@
 		{
 			x: -3.0d
 			y: -3.0d
+			description: ["Like the Storage Terminal, place next to most blocks that can hold an inventory to manage contents and crafting."]
 			dependencies: ["4689BFF22315E724"]
 			id: "2660A472837E54BE"
 			tasks: [{
@@ -66,6 +73,7 @@
 		{
 			x: -1.5d
 			y: -3.0d
+			description: ["Must be in line of sight of Storage/Crafting Terminal and within 16 blocks."]
 			dependencies: ["2660A472837E54BE"]
 			id: "00B0CDC31037C246"
 			tasks: [{
@@ -83,6 +91,7 @@
 		{
 			x: -4.5d
 			y: -6.0d
+			description: ["Inventory Cables allow you to access inventories not connected directly to an Inventory Connector.  Requires an Inventory Cable Connector attached to the remote inventory."]
 			dependencies: ["797DA8F8F935D7AC"]
 			id: "6EB9B4E0AF9DC643"
 			tasks: [{
@@ -202,6 +211,45 @@
 				type: "item"
 				item: "create:blaze_cake"
 				count: 4
+			}]
+		}
+		{
+			x: -6.0d
+			y: -6.0d
+			dependencies: ["6EB9B4E0AF9DC643"]
+			id: "5420C456DD99CBE9"
+			tasks: [{
+				id: "65F5C117273760CB"
+				type: "item"
+				item: "toms_storage:ts.level_emitter"
+			}]
+			rewards: [{
+				id: "1925A308EFB75061"
+				type: "item"
+				item: "toms_storage:ts.item_filter"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.0d
+			description: ["Hide those cables to look like surrounding blocks."]
+			dependencies: ["6EB9B4E0AF9DC643"]
+			id: "4B61E24C1333D13A"
+			tasks: [{
+				id: "613FB585E3D43E28"
+				type: "item"
+				item: "toms_storage:ts.inventory_cable_framed"
+			}]
+			rewards: [{
+				id: "34A39199CA4197CB"
+				type: "item"
+				item: {
+					id: "toms_storage:ts.paint_kit"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]
