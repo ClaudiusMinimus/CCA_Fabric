@@ -2,6 +2,41 @@
 
 On Fabric servers, modded level types are not supported by default, so you’ll have to generate a GoG world in single player then upload it to the server. https://botaniamod.net/gardenofglass.html
 
+## Create Conquest Arcane 1.19.2-1.0.0
+Apr. 27, 2023
+- Mods Added:
+  -  BuildGuide-1.19.2-0.3.3.jar
+  -  glassential-fabric-1.4.0.jar
+  -  UncraftingTable-fabric-1.2.4.jar
+- Mods Updated:
+  -  carryon-fabric-1.19.2-2.0.5.11.jar
+  -  create-fabric-0.5.0.i-1003+1.19.2.jar
+  -  createdeco-1.3.1-1.19.2.jar
+  -  drippyloadingscreen_fabric_2.2.1_MC_1.19-1.19.2.jar
+  -  EssentialGUI-1.8.8+1.19.2.jar
+  -  fabric-language-kotlin-1.9.4+kotlin.1.8.21.jar
+  -  fancymenu_fabric_2.14.7_MC_1.19-1.19.2.jar
+  -  Fastload+1.18.2-1.20-3.3.8.jar
+  -  ftb-chunks-fabric-1902.3.21-build.266.jar
+  -  ftb-library-fabric-1902.3.18-build.208.jar
+  -  ftb-quests-fabric-1902.4.13-build.219.jar
+  -  mcpitanlibarch-1.6.3-1.19.2-fabric.jar
+  -  moonlight-1.19.2-2.2.31-fabric.jar
+  -  mythic-mounts-1.19.2-7.2.jar
+  -  PuzzlesLib-v4.4.0-1.19.2-Fabric.jar
+  -  travelers-backpack-1.19.2-8.2.19.jar
+  -  Xaeros_Minimap_23.4.0_Fabric_1.19.1.jar
+  -  XaerosWorldMap_1.30.0_Fabric_1.19.1.jar
+- Mods Removed:
+- Other Changes:
+  - Fabric Loader 0.14.19
+  - Quests
+    - Fixed broken quest rewards
+    - Added descriptive text for Storage quests
+    - Add questline for Spirit
+  - CCA Guidebook
+    - Updated wiki and video pages for Tom's Storage
+
 ## Create Conquest Arcane 1.19.2-0.4.3 BETA
 Apr. 14, 2023
 - Mods Added:
@@ -181,3 +216,4 @@ Apr. 08, 2023
 - Mods Updated:
 - Mods Removed:
 - Other Changes:
+  - Fabric Loader 0.14.18
