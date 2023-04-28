@@ -45,3 +45,6 @@ mmc-pack.json
 # Stop ignoring these files
 !minecraft/config/bcc.json
 docs/recipes.txt
+
+# Temporary to ignore
+minecraft/kubejs/data/spirit/recipes/soul_transmutation/spirit/villager.json
