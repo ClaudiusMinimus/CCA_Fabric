@@ -24,3 +24,12 @@ com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BHMultiplayerS
 de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
