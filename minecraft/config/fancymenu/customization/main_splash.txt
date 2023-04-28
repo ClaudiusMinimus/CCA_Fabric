@@ -90,7 +90,7 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 0.8
-  source = Create Conquest Arcane 1.19.2-1.0.0-BETA
+  source = Create Conquest Arcane 1.19.2-1.0.1-BETA
   text_border = 0
   case_mode = normal
   source_mode = direct

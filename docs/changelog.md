@@ -2,7 +2,7 @@
 
 On Fabric servers, modded level types are not supported by default, so you’ll have to generate a GoG world in single player then upload it to the server. https://botaniamod.net/gardenofglass.html
 
-## Create Conquest Arcane 1.19.2-1.0.0
+## Create Conquest Arcane 1.19.2-1.0.1
 Apr. 27, 2023
 - Mods Added:
   -  BuildGuide-1.19.2-0.3.3.jar
@@ -34,8 +34,10 @@ Apr. 27, 2023
     - Fixed broken quest rewards
     - Added descriptive text for Storage quests
     - Add questline for Spirit
+    - Fixed duplicate Armor, Tools, and Weapons questline - hopefully!
   - CCA Guidebook
     - Updated wiki and video pages for Tom's Storage
+  - Removed recipes for Mytic Metals copper armor, tools and weapons
 
 ## Create Conquest Arcane 1.19.2-0.4.3 BETA
 Apr. 14, 2023
