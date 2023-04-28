@@ -1067,10 +1067,11 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -3.0d
+			x: -1.0d
+			y: -7.0d
 			shape: "diamond"
 			description: ["Test those weapons to see how good they are"]
+			size: 2.0d
 			id: "26F4541BB55BF47F"
 			tasks: [{
 				id: "456F9B4362D9863A"
