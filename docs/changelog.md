@@ -6,6 +6,7 @@ On Fabric servers, modded level types are not supported by default, so you’ll 
 Apr. 27, 2023
 - Mods Added:
   -  BuildGuide-1.19.2-0.3.3.jar
+  -  CreateFabricREIBugFix-0.1.2-mc1.19.x.jar
   -  glassential-fabric-1.4.0.jar
   -  UncraftingTable-fabric-1.2.4.jar
 - Mods Updated:
