@@ -1043,12 +1043,12 @@
 						symmetry: {
 							type: "triple_plane"
 							direction: 0
+							enable: 1b
 							pos: [
 								-153.0f
 								4.0f
 								193.0f
 							]
-							enable: 1b
 						}
 					}
 				}
