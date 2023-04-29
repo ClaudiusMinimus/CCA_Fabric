@@ -1,0 +1,14 @@
+{
+    "name": "Spirit",
+    "icon": "spirit:soul_cage",
+    "category": "patchouli:wikis",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Almost anything in Spirit revolves around soul fire, where you can engulf various items in soul flames in order to transform them into other objects. Sometimes an item requires special reinforcements in order to be fully engulfed in flames so a multiblock structure surrounding the flame is required."
+        },{
+            "type": "text",
+            "text": "$(li)$(l:https://codexadrian.gitbook.io/spirit/)Wiki$(/l) is somewhat outdated, but still has useful information.$(li)$(l:https://www.curseforge.com/minecraft/mc-mods/spirit)CurseForge$(/l)$(li)$(l:videos_spirit)Videos$(/l)"
+        }
+    ]
+}
