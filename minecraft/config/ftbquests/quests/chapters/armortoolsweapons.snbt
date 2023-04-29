@@ -1501,22 +1501,6 @@
 			}]
 		}
 		{
-			x: -14.5d
-			y: -6.0d
-			dependencies: ["285C55653B7D9986"]
-			id: "204C71F20437B89D"
-			tasks: [{
-				id: "6AC909B44D09977D"
-				type: "item"
-				item: "spirit:soul_pedestal"
-			}]
-			rewards: [{
-				id: "3B9890E4776412A8"
-				type: "item"
-				item: "spirit:soul_steel_block"
-			}]
-		}
-		{
 			icon: "spirit:soul_cage"
 			x: -13.0d
 			y: -3.0d
