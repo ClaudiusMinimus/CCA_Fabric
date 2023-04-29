@@ -52,14 +52,13 @@ customization {
   orientation = top-left
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://www.planetminecraft.com/project/elden-ring-round-table-hold-conquest-reforged-full-build/%btnaction_splitter_fm%
   x = 165
   width = 130
-  actionid = c11f9adc-14c4-48d2-b5b4-1a222a3f0dae1677620259749
   action = addbutton
+  actionid = c11f9adc-14c4-48d2-b5b4-1a222a3f0dae1677620259749
   y = 71
   label = Visit Round Table Hold
-  value = https://www.planetminecraft.com/project/elden-ring-round-table-hold-conquest-reforged-full-build/
   height = 20
 }
 
@@ -67,14 +66,13 @@ customization {
   orientation = top-left
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://www.planetminecraft.com/member/valfaan2/%btnaction_splitter_fm%
   x = 299
   width = 91
-  actionid = a5b6c0dd-7573-4172-ad02-8fb5c40764571677620371549
   action = addbutton
+  actionid = a5b6c0dd-7573-4172-ad02-8fb5c40764571677620371549
   y = 71
   label = Visit Valfann2
-  value = https://www.planetminecraft.com/member/valfaan2/
   height = 20
 }
 
@@ -83,7 +81,7 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = Conquest of ... Resource Packs%n%%n%Many thanks to Filty_Coin for his stunning%n%Conquest of ... resource packs! These beautiful%n%textures seamlessly stitch together most of the%n%mods in this pack into the Conquest world.
+  source = Conquest of ... Resource Packs%n%%n%Many thanks to TheUnknownDad for his stunning%n%Conquest of ... resource packs! These beautiful%n%textures seamlessly stitch together most of the%n%mods in this pack into the Conquest world.
   text_border = 0
   case_mode = normal
   source_mode = direct
@@ -101,14 +99,13 @@ customization {
   orientation = top-left
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://www.curseforge.com/members/filthy_coin/projects%btnaction_splitter_fm%
   x = 165
-  width = 230
-  actionid = 200df129-b91c-47dc-b742-87b7cf9910ba1679078257652
+  width = 260
   action = addbutton
+  actionid = 200df129-b91c-47dc-b742-87b7cf9910ba1679078257652
   y = 158
-  label = Visit Filthy_Coin's Projects on Curseforge
-  value = https://www.curseforge.com/members/filthy_coin/projects
+  label = Visit TheUnknownDad's Projects on Curseforge
   height = 20
 }
 
@@ -135,62 +132,58 @@ customization {
   orientation = top-left
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252ffaithfulpack.net%252f%btnaction_splitter_fm%
   x = 76
   width = 100
-  actionid = f131d4d6-ea45-4db9-806e-c16467b3bff01679104137400
   action = addbutton
+  actionid = f131d4d6-ea45-4db9-806e-c16467b3bff01679104137400
   y = 223
   label = FaithfulPack.net
-  value = https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252ffaithfulpack.net%252f
   height = 20
 }
 
 customization {
   orientation = top-left
-  restartbackgroundanimations = true
-  buttonaction = openfile
-  description = Open the Faithful Resource Pack license
-  label = License
   loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openfile;kubejs/assets/minecraft/license.txt%btnaction_splitter_fm%
   x = 180
   width = 90
-  actionid = 898d0fa5-eb91-4f24-ab93-417e38c41f281679104207736
   action = addbutton
+  actionid = 898d0fa5-eb91-4f24-ab93-417e38c41f281679104207736
   y = 223
-  value = kubejs/assets/minecraft/license.txt
+  description = Open the Faithful Resource Pack license
+  label = License
   height = 20
 }
 
 customization {
   orientation = top-left
-  restartbackgroundanimations = true
-  buttonaction = openfile
-  description = Open the Faithful credits document
-  label = Credits
   loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openfile;kubejs/assets/minecraft/credits.txt%btnaction_splitter_fm%
   x = 274
   width = 90
-  actionid = b0abb1a1-7a69-4bfb-bc0c-f79d65e6774b1679104301466
   action = addbutton
+  actionid = b0abb1a1-7a69-4bfb-bc0c-f79d65e6774b1679104301466
   y = 223
-  value = kubejs/assets/minecraft/credits.txt
+  description = Open the Faithful credits document
+  label = Credits
   height = 20
 }
 
 customization {
   orientation = top-left
-  restartbackgroundanimations = true
-  buttonaction = openfile
-  description = Open the CCA credits document
-  label = CCA Credits
   loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openfile;credits.md%btnaction_splitter_fm%
   x = 368
   width = 90
-  actionid = 8e4b9f43-aeff-4f9b-a982-74a3a4b837161679105496981
   action = addbutton
+  actionid = 8e4b9f43-aeff-4f9b-a982-74a3a4b837161679105496981
   y = 223
-  value = credits.md
+  description = Open the CCA credits document
+  label = CCA Credits
   height = 20
 }
 
@@ -218,17 +211,16 @@ customization {
 
 customization {
   orientation = top-left
-  restartbackgroundanimations = true
-  buttonaction = closegui
-  description = Close Window
-  label = X
   loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = closegui;null%btnaction_splitter_fm%
   x = 0
   width = 18
-  actionid = dbd14b75-dcc2-4c50-963f-70cfde7a30201679427780168
   action = addbutton
+  actionid = dbd14b75-dcc2-4c50-963f-70cfde7a30201679427780168
   y = 0
-  value = null
+  description = Close Window
+  label = X
   height = 20
 }
 
