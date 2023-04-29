@@ -4,4 +4,9 @@
     { "projectID": 826841, "fileID": 4492825, "required": true },
     { "projectID": 648361, "fileID": 4278390, "required": true },
     { "projectID": 631686, "fileID": 4011303, "required": true },
-    { "projectID": 639409, "fileID": 4011302, "required": true }
+    { "projectID": 639409, "fileID": 4011302, "required": true },
+    { "projectID": 701384, "fileID": 4271420, "required": false }
+
+
+
+    resourcePacks:["vanilla","Fabric Mods","file/CRRP-1.19.2-7.1.zip","file/CR-Create1.19v3.zip","file/darker_deepslate1.19v1.zip","file/WaystonesCR119.zip","file/GravestoneCR119.zip","file/Conquest+of+ResourceTools+Fabric+1.19v1.zip","file/farmers+delightCR.zip"]
