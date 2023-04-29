@@ -880,7 +880,16 @@
 			rewards: [{
 				id: "22467AC9C966A27A"
 				type: "item"
-				item: "mining_dims:hunting_teleporter"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:sweeping"
+							lvl: 2s
+						}]
+					}
+				}
 			}]
 		}
 		{
