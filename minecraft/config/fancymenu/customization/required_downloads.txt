@@ -60,7 +60,7 @@ customization {
   orientation = top-centered
   restartbackgroundanimations = true
   buttonaction = openlink;https://www.curseforge.com/minecraft/texture-packs/conquest-reforged-resource-pack/files/4464790%btnaction_splitter_fm%
-  description = This is the offical Conquest Reforged%n%Resourcepack found on CurseForge.%n%%n%Ignore if the Conquest Resource pack%n%is installed.%n%%n%Waiting for an update to hide button.
+  description = This is for the official Conquest Reforged%n%Resourcepack found on CurseForge.%n%%n%Ignore if the Conquest Resource pack%n%is installed.%n%%n%Waiting for a FancyMenu update to%n%automatically hide the button when%n%install.
   label = CR Resource Pack
   loopbackgroundanimations = true
   x = -102
@@ -70,25 +70,6 @@ customization {
   y = 60
   height = 20
   [loading_requirement:fancymenu_loading_requirement_is_mod_loaded][requirement_mode:if_not][req_id:ce0a5bd8-a409-4b7e-8d12-0ccf80cc26b11681528000905] = conquest_reforged
-}
-
-customization {
-  orientation = top-centered
-  enable_scrolling = false
-  shadow = true
-  scale = 1.0
-  source = For a more immersive experience, check out TheUnknownDad's beautiful%n%Conquest Reforged-themed 3rd party mod resource packs!
-  text_border = 0
-  case_mode = normal
-  source_mode = direct
-  line_spacing = 1
-  x = -176
-  width = 353
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = d4559adc-e609-421a-94ec-b064c750a7cc1676399706660
-  y = 125
-  alignment = centered
-  height = 28
 }
 
 customization {
@@ -156,8 +137,8 @@ customization {
   width = 201
   action = addbutton
   actionid = 830bac73-f94c-41ae-ba8f-1d4e18ceaa7b1676473761449
-  y = 153
-  description = Is you are using the Curseforge launcher, then all%n%optional resourcepacks should have been installed%n%already. If one is missing, then use the list on the%n%next page.
+  y = 119
+  description = If you are using the Curseforge launcher, then all%n%optional resource packs should have been installed%n%already. If one is missing, then use the list on the%n%next page to download the missing resource pack.
   label = Optional Resourcepack Downloads
   height = 20
 }
@@ -168,7 +149,7 @@ customization {
   restartbackgroundanimations = true
   buttonaction = closegui;null%btnaction_splitter_fm%
   x = 1
-  width = 20
+  width = 19
   action = addbutton
   actionid = dba1b5c2-9b17-4f88-b6f8-ad6f395ee2ae1679427927605
   y = 0
@@ -186,8 +167,8 @@ customization {
   width = 98
   action = addbutton
   actionid = c7525374-a135-47e3-828f-cb12f2a59dd11682786876167
-  y = 178
-  description = This will copy the default CCA options.txt file %n%to load all the Conquest of ... Resource Packs.%n%%n%Restart your game for this to take affect.%n%%n%This action will overwrite your existing settings. %n%Your original options.txt file has been renamed to%n%options.bak
+  y = 177
+  description = This button will copy the default CCA options.txt file %n%to load all the Conquest of [...] Resource Packs.%n%%n%Restart your game or press "F3 + t" on your keyboard%n%for this to take effect.%n%%n%This action will overwrite your existing settings. %n%Your original options.txt file is renamed to%n%options.bak
   label = Copy options.txt
   height = 20
 }
@@ -201,7 +182,7 @@ customization {
   width = 99
   action = addbutton
   actionid = d31bcf2f-92c7-4f09-84fd-3f55b53613281682787389013
-  y = 178
+  y = 202
   description = Opens options.txt in your default text editor.
   label = Open options.txt
   height = 20
@@ -212,13 +193,47 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = openfile;./%btnaction_splitter_fm%
-  x = -52
-  width = 100
+  x = -100
+  width = 98
   action = addbutton
   actionid = eab5757c-251f-4324-a11c-74ea6dfc984b1682787699458
-  y = 203
+  y = 202
   description = Opens the pack folder.
   label = Open Folder
   height = 20
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = copytoclipboard;resourcePacks:["vanilla","Fabric Mods","file/CRRP-1.19.2-7.1.zip","file/CR-Create1.19v3.zip","file/darker_deepslate1.19v1.zip","file/WaystonesCR119.zip","file/GravestoneCR119.zip","file/Conquest+of+ResourceTools+Fabric+1.19v1.zip","file/farmers+delightCR.zip"]%btnaction_splitter_fm%
+  x = 2
+  width = 99
+  action = addbutton
+  actionid = 5c2b7991-1a2a-4db4-a52a-85d83bf9161a1682803519875
+  y = 177
+  description = This button will copy the resourcePacks setting to your clipboard. %n%Open your options.txt file (use button below) and replace %n%the line starting with: "resourcePacks:["vanilla", "Fabric Mods",  ...]"%n%with the contents in your clipboard as shown below.%n%%n%Save the file and reload using "F3 + t" on your keyboard %n%or restart Minecraft.%n%%n%resourcePacks:["vanilla","Fabric Mods","file/CRRP-1.19.2-7.1.zip",%n%"file/CR-Create1.19v3.zip","file/darker_deepslate1.19v1.zip",%n%"file/WaystonesCR119.zip","file/GravestoneCR119.zip",%n%"file/Conquest+of+ResourceTools+Fabric+1.19v1.zip",%n%"file/farmers+delightCR.zip"]
+  label = Copy to Clipboard
+  height = 20
+}
+
+customization {
+  orientation = top-centered
+  enable_scrolling = false
+  shadow = true
+  scale = 0.75
+  source = If one or more of the resource packs did not load when you%n%installed CCA, the one of the options below should help. %n%When you are done, do NOT forget to either restart the game%n%or press "F3 + t" on your keyboard to reload the resource packs.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -120
+  width = 261
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 309f8585-a3b0-49cf-aab0-fd69370ad5b61682804095719
+  y = 143
+  alignment = left
+  height = 34
 }
 
