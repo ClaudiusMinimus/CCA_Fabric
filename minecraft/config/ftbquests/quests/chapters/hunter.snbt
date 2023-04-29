@@ -77,49 +77,40 @@
 				id: "0000000000000047"
 				type: "item"
 				item: {
-					id: "mcdw:bow_call_of_the_void"
+					id: "mythicmetals:metallurgium_boots"
 					Count: 1b
 					tag: {
-						Damage: 0
+						RepairCost: 1
 						Enchantments: [
 							{
-								id: "mcdw:fuse_shot"
-								lvl: 1s
-							}
-							{
-								id: "minecraft:power"
-								lvl: 5s
-							}
-							{
-								id: "mcdw:accelerate"
-								lvl: 3s
-							}
-							{
-								id: "mcdw:void_shot"
-								lvl: 1s
+								id: "minecraft:protection"
+								lvl: 4s
 							}
 							{
 								id: "minecraft:unbreaking"
 								lvl: 3s
 							}
 							{
-								id: "minecraft:flame"
+								id: "minecraft:mending"
 								lvl: 1s
 							}
 							{
-								id: "spirit:soul_reaper"
+								id: "minecraft:soul_speed"
 								lvl: 3s
 							}
 							{
-								id: "minecraft:infinity"
-								lvl: 1s
+								id: "minecraft:feather_falling"
+								lvl: 4s
 							}
 							{
-								id: "mcdw:soul_siphon"
+								id: "minecraft:depth_strider"
 								lvl: 3s
 							}
 						]
-						RepairCost: 7
+						Damage: 0
+						display: {
+							Name: "{\"text\":\"Dorthy's Slippers\"}"
+						}
 					}
 				}
 			}]
@@ -653,39 +644,64 @@
 				entity: "minecraft:blaze"
 				value: 1000L
 			}]
-			rewards: [{
-				id: "000000000000023B"
-				type: "item"
-				item: {
-					id: "emerald_tools:netherite_hammer"
-					Count: 1b
-					tag: {
-						RepairCost: 0
-						Enchantments: [
-							{
-								id: "minecraft:silk_touch"
-								lvl: 1s
-							}
-							{
-								id: "minecraft:efficiency"
-								lvl: 5s
-							}
-							{
-								id: "minecraft:unbreaking"
-								lvl: 3s
-							}
-							{
-								id: "minecraft:mending"
-								lvl: 1s
-							}
-						]
-						Damage: 0
-						display: {
-							Name: "{\"text\":\"Gentle Hammer\"}"
+			rewards: [
+				{
+					id: "000000000000023B"
+					type: "item"
+					item: {
+						id: "mcdw:bow_call_of_the_void"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "mcdw:fuse_shot"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 5s
+								}
+								{
+									id: "mcdw:accelerate"
+									lvl: 3s
+								}
+								{
+									id: "mcdw:void_shot"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:flame"
+									lvl: 1s
+								}
+								{
+									id: "spirit:soul_reaper"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:infinity"
+									lvl: 1s
+								}
+								{
+									id: "mcdw:soul_siphon"
+									lvl: 3s
+								}
+							]
+							RepairCost: 7
 						}
 					}
 				}
-			}]
+				{
+					id: "1C7C6987621120C9"
+					type: "item"
+					item: "emerald_tools:diamond_arrow"
+					count: 64
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -798,39 +814,74 @@
 				entity: "minecraft:enderman"
 				value: 1000L
 			}]
-			rewards: [{
-				id: "0000000000000469"
-				type: "item"
-				item: {
-					id: "emerald_tools:netherite_excavator"
-					Count: 1b
-					tag: {
-						RepairCost: 0
-						Enchantments: [
-							{
-								id: "minecraft:silk_touch"
-								lvl: 1s
+			rewards: [
+				{
+					id: "0000000000000469"
+					type: "item"
+					item: {
+						id: "emerald_tools:netherite_excavator"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							Enchantments: [
+								{
+									id: "minecraft:silk_touch"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:efficiency"
+									lvl: 5s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+							]
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Lawn Gatherer\"}"
 							}
-							{
-								id: "minecraft:efficiency"
-								lvl: 5s
-							}
-							{
-								id: "minecraft:unbreaking"
-								lvl: 3s
-							}
-							{
-								id: "minecraft:mending"
-								lvl: 1s
-							}
-						]
-						Damage: 0
-						display: {
-							Name: "{\"text\":\"Lawn Gatherer\"}"
 						}
 					}
 				}
-			}]
+				{
+					id: "158CC32E5ACA99D4"
+					type: "item"
+					item: {
+						id: "emerald_tools:netherite_hammer"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							Enchantments: [
+								{
+									id: "minecraft:silk_touch"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:efficiency"
+									lvl: 5s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+							]
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Gentle Hammer\"}"
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -1044,55 +1095,63 @@
 				entity: "botania:doppleganger"
 				value: 1L
 			}]
-			rewards: [{
-				id: "42029E11E8B56597"
-				type: "item"
-				item: {
-					id: "emerald_tools:netherite_bow"
-					Count: 1b
-					tag: {
-						RepairCost: 15
-						Enchantments: [
-							{
-								id: "minecraft:power"
-								lvl: 5s
+			rewards: [
+				{
+					id: "42029E11E8B56597"
+					type: "item"
+					item: {
+						id: "emerald_tools:netherite_bow"
+						Count: 1b
+						tag: {
+							RepairCost: 15
+							Enchantments: [
+								{
+									id: "minecraft:power"
+									lvl: 5s
+								}
+								{
+									id: "minecraft:punch"
+									lvl: 2s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+								{
+									id: "mcdw:enigma_resonator"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:looting"
+									lvl: 3s
+								}
+								{
+									id: "mcdw:soul_devourer"
+									lvl: 3s
+								}
+								{
+									id: "mcdw:freezing"
+									lvl: 3s
+								}
+							]
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Deep Freeze\"}"
 							}
-							{
-								id: "minecraft:punch"
-								lvl: 2s
-							}
-							{
-								id: "minecraft:unbreaking"
-								lvl: 3s
-							}
-							{
-								id: "minecraft:mending"
-								lvl: 1s
-							}
-							{
-								id: "mcdw:enigma_resonator"
-								lvl: 3s
-							}
-							{
-								id: "minecraft:looting"
-								lvl: 3s
-							}
-							{
-								id: "mcdw:soul_devourer"
-								lvl: 3s
-							}
-							{
-								id: "mcdw:freezing"
-								lvl: 3s
-							}
-						]
-						Damage: 0
-						display: {
-							Name: "{\"text\":\"Deep Freeze\"}"
 						}
 					}
 				}
-			}]
+				{
+					id: "2C4164FB8FBAAA08"
+					type: "item"
+					item: "mythicmetals:runite_arrow"
+					count: 64
+				}
+			]
 		}
 		{
 			title: "Novice Guardian of Gaia Hunter"
@@ -1126,55 +1185,118 @@
 				entity: "minecraft:wither"
 				value: 3L
 			}]
-			rewards: [{
-				id: "516348C4603DA5B2"
-				type: "item"
-				item: {
-					id: "mythicmetals:metallurgium_sword"
-					Count: 1b
-					tag: {
-						RepairCost: 0
-						Enchantments: [
-							{
-								id: "minecraft:looting"
-								lvl: 3s
+			rewards: [
+				{
+					id: "516348C4603DA5B2"
+					type: "item"
+					item: {
+						id: "mythicmetals:metallurgium_sword"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							Enchantments: [
+								{
+									id: "minecraft:looting"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:smite"
+									lvl: 5s
+								}
+								{
+									id: "minecraft:sweeping"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+								{
+									id: "mcdw:soul_siphon"
+									lvl: 3s
+								}
+								{
+									id: "mcdw:prospector"
+									lvl: 3s
+								}
+								{
+									id: "mcdw:echo"
+									lvl: 3s
+								}
+							]
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Wither's End\"}"
 							}
-							{
-								id: "minecraft:smite"
-								lvl: 5s
-							}
-							{
-								id: "minecraft:sweeping"
-								lvl: 3s
-							}
-							{
-								id: "minecraft:unbreaking"
-								lvl: 3s
-							}
-							{
-								id: "minecraft:mending"
-								lvl: 1s
-							}
-							{
-								id: "mcdw:soul_siphon"
-								lvl: 3s
-							}
-							{
-								id: "mcdw:prospector"
-								lvl: 3s
-							}
-							{
-								id: "mcdw:echo"
-								lvl: 3s
-							}
-						]
-						Damage: 0
-						display: {
-							Name: "{\"text\":\"Wither's End\"}"
 						}
 					}
 				}
-			}]
+				{
+					id: "1A3F2E72EF6EDDB6"
+					type: "item"
+					item: {
+						id: "spirit:soul_steel_bow"
+						Count: 1b
+						tag: {
+							RepairCost: 3
+							Enchantments: [
+								{
+									id: "minecraft:power"
+									lvl: 5s
+								}
+								{
+									id: "minecraft:flame"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+								{
+									id: "mcdw:bonus_shot"
+									lvl: 3s
+								}
+								{
+									id: "mcdw:enigma_resonator"
+									lvl: 3s
+								}
+								{
+									id: "mcdw:cobweb_shot"
+									lvl: 1s
+								}
+								{
+									id: "mcdw:accelerate"
+									lvl: 3s
+								}
+								{
+									id: "mcdw:replenish"
+									lvl: 3s
+								}
+								{
+									id: "spirit:soul_reaper"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:looting"
+									lvl: 3s
+								}
+							]
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Soul Stealer\"}"
+							}
+						}
+					}
+				}
+			]
 		}
 	]
 	quest_links: [ ]
