@@ -322,7 +322,7 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 0.8
-  source = Create Conquest Arcane 1.19.2-1.0.1-BETA
+  source = %n%Create Conquest Arcane 1.19.2-1.0.1
   text_border = 0
   case_mode = normal
   source_mode = direct
@@ -331,7 +331,7 @@ customization {
   width = 200
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 01d068fa-e435-431e-bcd6-9fbc5797f6321668556647946
-  y = 4
+  y = -4
   alignment = right
   base_color = #BE9557
   height = 40
