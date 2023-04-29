@@ -162,16 +162,17 @@ customization {
 }
 
 customization {
-  orientation = bottom-centered
+  orientation = top-left
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = closegui;null%btnaction_splitter_fm%
-  x = -49
-  width = 100
+  x = 0
+  width = 20
   action = addbutton
   actionid = dba1b5c2-9b17-4f88-b6f8-ad6f395ee2ae1679427927605
-  y = -20
-  label = Close Window
+  y = 0
+  description = Close Window
+  label = X
   height = 20
 }
 
