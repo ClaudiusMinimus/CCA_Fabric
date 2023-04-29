@@ -157,6 +157,7 @@ customization {
   action = addbutton
   actionid = 830bac73-f94c-41ae-ba8f-1d4e18ceaa7b1676473761449
   y = 153
+  description = Is you are using the Curseforge launcher, then all%n%optional resourcepacks should have been installed%n%already. If one is missing, then use the list on the%n%next page.
   label = Optional Resourcepack Downloads
   height = 20
 }
@@ -166,13 +167,58 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = closegui;null%btnaction_splitter_fm%
-  x = 0
+  x = 1
   width = 20
   action = addbutton
   actionid = dba1b5c2-9b17-4f88-b6f8-ad6f395ee2ae1679427927605
   y = 0
   description = Close Window
   label = X
+  height = 20
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = renamefile;options.txt;options.bak%btnaction_splitter_fm%copyfile;config/yosbr/options.txt;options.txt%btnaction_splitter_fm%
+  x = -100
+  width = 98
+  action = addbutton
+  actionid = c7525374-a135-47e3-828f-cb12f2a59dd11682786876167
+  y = 178
+  description = This will copy the default CCA options.txt file %n%to load all the Conquest of ... Resource Packs.%n%%n%Restart your game for this to take affect.%n%%n%This action will overwrite your existing settings. %n%Your original options.txt file has been renamed to%n%options.bak
+  label = Copy options.txt
+  height = 20
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openfile;options.txt%btnaction_splitter_fm%
+  x = 2
+  width = 99
+  action = addbutton
+  actionid = d31bcf2f-92c7-4f09-84fd-3f55b53613281682787389013
+  y = 178
+  description = Opens options.txt in your default text editor.
+  label = Open options.txt
+  height = 20
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openfile;./%btnaction_splitter_fm%
+  x = -52
+  width = 100
+  action = addbutton
+  actionid = eab5757c-251f-4324-a11c-74ea6dfc984b1682787699458
+  y = 203
+  description = Opens the pack folder.
+  label = Open Folder
   height = 20
 }
 
