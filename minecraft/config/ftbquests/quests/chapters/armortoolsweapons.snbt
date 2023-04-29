@@ -1536,6 +1536,28 @@
 				item: "spirit:broken_spawner"
 			}]
 		}
+		{
+			x: -14.5d
+			y: -6.0d
+			description: [
+				"The Soul Pedestal provides a method to summon mobs and uses the process of the transmutation of souls. Click on the above Soul Pedestal to see the recipe, and press \"U\" on your keyboard over the pedestal to see the available transmutation recipes."
+				""
+				"If you have suggestions for new mobs, please join CM's World Discord to make your suggestion. The link is in your CCA guidebook or on the main menu screen of CCA."
+			]
+			dependencies: ["285C55653B7D9986"]
+			id: "4EAE27A14244FED0"
+			tasks: [{
+				id: "59D122CB9051BBDA"
+				type: "item"
+				item: "spirit:soul_pedestal"
+			}]
+			rewards: [{
+				id: "562B658F0A513BDA"
+				type: "item"
+				item: "spirit:soul_crystal"
+				count: 2
+			}]
+		}
 	]
 	quest_links: [ ]
 }
