@@ -38,7 +38,7 @@ Apr. 27, 2023
     - Fixed duplicate Armor, Tools, and Weapons questline - hopefully!
   - CCA Guidebook
     - Updated wiki and video pages for Tom's Storage
-  - Removed recipes for Mytic Metals copper armor, tools and weapons
+  - Removed recipes for Mythic Metals copper armor, tools and weapons
 
 ## Create Conquest Arcane 1.19.2-0.4.3 BETA
 Apr. 14, 2023
