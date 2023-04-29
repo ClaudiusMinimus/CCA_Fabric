@@ -22,6 +22,10 @@ minecraft/Xaero*/*
 CCA Fabric.code-workspace
 instance.cfg
 minecraft/*.log
+minecraft/Link to resourcepacks
+minecraft/Link to saves
+minecraft/Link to XaeroWaypoints
+minecraft/Link to XaeroWorldMap
 minecraft/servers.dat
 minecraft/servers.dat_old
 # keeps coming back to haunt
