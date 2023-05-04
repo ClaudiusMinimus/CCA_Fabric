@@ -55,3 +55,4 @@ docs/recipes.txt
 
 # Temporary to ignore
 minecraft/kubejs/data/spirit/recipes/soul_transmutation/spirit/villager.json
+minecraft/kubejs/client_scripts/spirit/ponder/terra_plate.js.old
