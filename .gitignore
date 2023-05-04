@@ -14,6 +14,7 @@ minecraft/mods/*
 minecraft/resourcepacks/*
 minecraft/saves/*
 minecraft/schematics/*
+minecraft/shaderpacks/*
 minecraft/screenshots/*
 minecraft/Xaero*/*
 
@@ -24,6 +25,7 @@ instance.cfg
 minecraft/*.log
 minecraft/Link to resourcepacks
 minecraft/Link to saves
+minecraft/Link to shaderpacks
 minecraft/Link to XaeroWaypoints
 minecraft/Link to XaeroWorldMap
 minecraft/options.*
@@ -53,4 +55,3 @@ docs/recipes.txt
 
 # Temporary to ignore
 minecraft/kubejs/data/spirit/recipes/soul_transmutation/spirit/villager.json
-minecraft/Link to shaderpacks
