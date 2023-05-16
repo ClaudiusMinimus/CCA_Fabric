@@ -33,6 +33,8 @@ May. 15, 2023
 - Other Changes:
   - Added Soul Pedestal ponder scene
   - Update Soul Pedestal villager recipe
+  - Suppress Xaeros mod updates
+  - FTB Chunks force disable minimap
 
 ## Create Conquest Arcane 1.19.2-1.0.4
 Apr. 29, 2023
