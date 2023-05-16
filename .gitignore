@@ -1,6 +1,7 @@
 # Ignore these folders
 minecraft/.fabric/*
 minecraft/backups/*
+minecraft/commandaliases.*
 minecraft/config/*
 minecraft/crash-reports/*
 minecraft/data/*
