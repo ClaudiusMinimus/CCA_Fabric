@@ -1,0 +1,85 @@
+type = menu
+
+customization-meta {
+  identifier = com.conquestreforged.client.gui.dependency.screen.DependencyScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=415906%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=415906%
+  orientation = bottom-centered
+  x = -85
+  action = movebutton
+  y = -94
+}
+
+customization {
+  identifier = %id=450976%
+  orientation = bottom-centered
+  x = -86
+  action = movebutton
+  y = -69
+}
+
+customization {
+  identifier = %id=450976%
+  width = 171
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=450976%
+  action = setbuttonlabel
+  value = Continue to Main Menu
+}
+
+customization {
+  identifier = %id=558976%
+  orientation = bottom-centered
+  x = 90
+  action = movebutton
+  y = -69
+}
+
+customization {
+  identifier = %id=415930%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=415930%
+  orientation = bottom-centered
+  x = -85
+  action = movebutton
+  y = -70
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  x = -86
+  width = 171
+  actionid = de121cad-6f0f-4453-9113-4d6409a8ca321676406623103
+  action = addbutton
+  y = -93
+  label = Continue to Downloads
+  value = download_menu
+  height = 20
+}
+

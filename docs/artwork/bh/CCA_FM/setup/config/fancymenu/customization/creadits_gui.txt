@@ -1,0 +1,75 @@
+type = menu
+
+customization-meta {
+  identifier = credits
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = config/fancymenu/assets/credits/eldenringroundhold.png
+  orientation = mid-centered
+  x = -90
+  width = 180
+  action = addtexture
+  actionid = 16a2259a-7a7f-4aa8-b699-482e964fcc9b1677619350482
+  y = -15
+  height = 100
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Elden Ring - Round Table Hold%n%%n%We used this castle as a starting point to showcase ways%n%you can utilize Conquest Reforged in your builds.%n%We appreciate Valfaan2 for allowing us%n%to use his castle for Create Conquest Arcane.%n%%n%Please be sure to check out his other creations on Planet%n%Minecraft.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -132
+  width = 265
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 118337bf-5b80-4bdf-9db9-883bdbfd32751677619407961
+  y = -109
+  alignment = left
+  height = 92
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = -132
+  width = 150
+  actionid = c11f9adc-14c4-48d2-b5b4-1a222a3f0dae1677620259749
+  action = addbutton
+  y = -33
+  label = Visit Round Table Hold
+  value = https://www.planetminecraft.com/project/elden-ring-round-table-hold-conquest-reforged-full-build/
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 30
+  width = 100
+  actionid = a5b6c0dd-7573-4172-ad02-8fb5c40764571677620371549
+  action = addbutton
+  y = -33
+  label = Visit Valfann2
+  value = https://www.planetminecraft.com/member/valfaan2/
+  height = 20
+}
+

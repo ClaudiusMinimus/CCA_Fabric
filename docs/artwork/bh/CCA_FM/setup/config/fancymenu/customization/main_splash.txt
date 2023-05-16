@@ -1,0 +1,102 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = screenshots
+  action = setbackgroundslideshow
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 114
+  width = 252
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = b6a410a0-f4be-4599-882b-5739cf9c3dd31675746696672
+  y = 95
+  height = 62
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = 631a009c-1084-421f-b8e9-9b78067f848a1675746696673
+  y = -1000000
+  height = 0
+}
+
+customization {
+  custom_color_hex = F0CA78
+  orientation = top-left
+  hidden = false
+  x = 105
+  width = 270
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = 137693f4-8d5e-4fec-8f82-1307aaba35f91675746696673
+  y = 219
+  height = 10
+}
+
+customization {
+  orientation = top-right
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Create Conquest Arcane 1.18.2-1.11.0
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -202
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = f0785ff8-989c-49c1-8527-f8a7990a816e1675746856757
+  y = 3
+  alignment = right
+  height = 40
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/assets/cm_avatar_transparent_200x200.png
+  description = I love the character artwork%n%mangomeowie created for me.%n%If you need character art,%n%including full illustrations, please%n%visit https://mangomeowie.carrd.co/
+  label = 
+  loopbackgroundanimations = true
+  x = 13
+  width = 82
+  actionid = 229327ee-cb30-4222-b6c5-3351742e56af1675747194651
+  action = addbutton
+  y = -91
+  backgroundnormal = config/fancymenu/assets/cm_avatar_transparent_200x200.png
+  value = https://mangomeowie.carrd.co/
+  height = 82
+}
+
+customization {
+  path = config/fancymenu/assets/header.png
+  orientation = top-centered
+  x = -205
+  width = 409
+  action = addtexture
+  actionid = a2788b53-6118-4f5f-b17f-355e9e96b94a1679415428885
+  y = 32
+  height = 32
+}
+

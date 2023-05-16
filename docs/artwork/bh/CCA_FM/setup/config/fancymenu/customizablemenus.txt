@@ -1,0 +1,17 @@
+type = customizablemenus
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.client.gui.screens.PauseScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
+}
+
+com.conquestreforged.client.gui.dependency.screen.DependencyScreen {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+

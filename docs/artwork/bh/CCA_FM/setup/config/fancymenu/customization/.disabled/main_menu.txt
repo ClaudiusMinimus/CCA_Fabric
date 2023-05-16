@@ -1,0 +1,113 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 121
+  width = 238
+  action = deep_customization_element:title_screen_forge_top
+  actionid = c49f0e13-fbf9-4b56-9289-9b4c0fc788821668556515093
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 96
+  action = deep_customization_element:title_screen_branding
+  actionid = 93f2b97b-fe06-4a67-88f9-e5df66e101351668556515101
+  y = 211
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 265
+  width = 214
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = e4ca960c-3beb-4592-9ff2-fdc92ac9f8e61668556515102
+  y = 233
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 343
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 2d8b9dbc-e0d6-452e-b778-0caaa131cd001668556515102
+  y = 163
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 103
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 1a5c443d-86a4-4a2a-8a92-3eaba49cc5a21668556515102
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = a734175e-62d6-42e0-8c51-948a34ca7cdc1668556515102
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = top-right
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Create Conquest Arcane 1.18.2-1.11.0
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -203
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 01d068fa-e435-431e-bcd6-9fbc5797f6321668556647946
+  y = 3
+  alignment = right
+  height = 40
+}
+
+customization {
+  path = config/fancymenu/assets/cca_logo.png
+  orientation = top-centered
+  x = -196
+  width = 393
+  action = addtexture
+  actionid = e7468447-0bc9-4fab-b6b6-bf9301f427e91668557573195
+  y = 21
+  height = 75
+}
+
