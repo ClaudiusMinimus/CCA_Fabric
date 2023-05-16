@@ -2,6 +2,38 @@
 
 On Fabric servers, modded level types are not supported by default, so you’ll have to generate a GoG world in single player then upload it to the server. https://botaniamod.net/gardenofglass.html
 
+## Create Conquest Arcane 1.19.2-1.1.0
+May. 15, 2023
+- Mods Added:
+  - commandaliases-1.0.0+mc1.19.2-build.58.jar
+  - CraftPresence-2.0.0-rc.3+1.19.2.jar
+  - EditSign-1.19.2-2.6.0.jar
+  - LuckPerms-Fabric-5.4.66.jar
+  - sliceanddice-fabric-2.1.2-fabric.jar
+- Mods Updated:
+  - architectury-6.5.82-fabric.jar
+  - bettercombat-fabric-1.7.1+1.19.jar
+  - BHMenu-Fabric-1.19.2-2.3.1.jar
+  - Botania-1.19.2-439-FABRIC.jar
+  - clienttweaks-fabric-1.19.2-8.1.2.jar
+  - craftingtweaks-fabric-1.19.2-15.1.7.jar
+  - create-fabric-0.5.0.i-1017+1.19.2.jar
+  - createaddition-fabric+1.19.2-20230508b.jar
+  - createdeco-1.3.2-1.19.2.jar
+  - essential_commands-0.33.0-mc1.19.2.jar
+  - Fastload+1.18.2-1.20-3.4.0.jar
+  - ftb-quests-fabric-1902.4.15-build.228.jar
+  - konkrete_fabric_1.6.1_MC_1.19.1-1.19.2.jar
+  - moonlight-1.19.2-2.2.32-fabric.jar
+  - spirit-fabric-1.19.2-2.2.6.jar
+  - toms_storage_fabric-1.19-1.5.6.jar
+  - travelers-backpack-1.19.2-8.2.21.jar
+  - waystones-fabric-1.19.2-11.4.0.jar
+- Mods Removed:
+- Other Changes:
+  - Added Soul Pedestal ponder scene
+  - Update Soul Pedestal villager recipe
+
 ## Create Conquest Arcane 1.19.2-1.0.4
 Apr. 29, 2023
 - Mods Added:
