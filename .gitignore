@@ -3,6 +3,7 @@ minecraft/.fabric/*
 minecraft/backups/*
 minecraft/commandaliases.*
 minecraft/config/*
+minecraft/craftpresence/*
 minecraft/crash-reports/*
 minecraft/data/*
 minecraft/ESM/*
