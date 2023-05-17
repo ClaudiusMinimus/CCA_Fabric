@@ -34,12 +34,17 @@ May. 16, 2023
   - Fastload+1.18.2-1.20-3.4.0.jar (crashing server)
   - memoryleakfix-fabric-1.17+-1.0.0.jar (crashing server)
 - Other Changes:
-  - Added Soul Pedestal ponder scene
+  - Added Soul Pedestal ponder scene with link in CCA book
   - Update Soul Pedestal villager recipe
   - Suppress Xaeros mod updates
   - FTB Chunks force disable minimap
   - Added Craft Presence (discord) support
   - Tweaked BH mod menu button
+  - CCA Guidebook
+    - Added Wiki pages for:
+      - Building Wands
+      - Traveler's Backpack
+    - Added video link for Traveler's Backpack
 
 ## Create Conquest Arcane 1.19.2-1.0.4
 Apr. 29, 2023
