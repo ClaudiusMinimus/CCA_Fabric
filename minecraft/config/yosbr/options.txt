@@ -37,7 +37,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["vanilla","Fabric Mods","file/CRRP-1.19.2-7.1.zip","file/CR-Create1.19v3.zip","file/darker_deepslate1.19v1.zip","file/WaystonesCR119.zip","file/GravestoneCR119.zip","file/Conquest+of+ResourceTools+Fabric+1.19v1.zip","file/farmers+delightCR.zip"]
+resourcePacks:["vanilla","Fabric Mods","file/CRRP-1.19.2-7.1.zip","file/CR-Create1.19v3.zip","file/Conquest+of+CreateAdditionsV1-1.19.zip","file/darker_deepslate1.19v1.zip","file/WaystonesCR119.zip","file/GravestoneCR119.zip","file/Conquest+of+ResourceTools+Fabric+1.19v1.zip","file/farmers+delightCR.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -92,7 +92,7 @@ key_key.chat:key.keyboard.t
 key_key.playerlist:key.keyboard.tab
 key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.slash
-key_key.socialInteractions:key.keyboard.p
+key_key.socialInteractions:key.keyboard.unknown
 key_key.screenshot:key.keyboard.f2
 key_key.togglePerspective:key.keyboard.f5
 key_key.smoothCamera:key.keyboard.unknown
@@ -111,7 +111,7 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-key_Reload Menu | CTRL + ALT + :key.keyboard.r
+key_Reload Menu | CTRL + ALT + :key.keyboard.keypad.2
 key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.keypad.1
 key_key.ftbchunks.map:key.keyboard.home
 key_key.ftbchunks.minimap.zoomIn:key.keyboard.unknown
@@ -122,8 +122,8 @@ key_key.ftbquests.quests:key.keyboard.period
 key_key.ftbteams.open_gui:key.keyboard.unknown
 key_keybinds.bettercombat.feint:key.keyboard.unknown
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
-key_key.botania_corporea_request:key.keyboard.c
-key_key.buildguide.openbuildguide:key.keyboard.b
+key_key.botania_corporea_request:key.keyboard.unknown
+key_key.buildguide.openbuildguide:key.keyboard.unknown
 key_key.buildguide.openshapelist:key.keyboard.unknown
 key_key.buildguide.openvisualisation:key.keyboard.unknown
 key_key.buildguide.toggleenable:key.keyboard.unknown
@@ -164,31 +164,32 @@ key_key.essentialgui.contextual_menu:key.keyboard.left.alt
 key_key.essentialgui.toggle_night_vision:key.keyboard.f8
 key_key.open_muffler_gui:key.keyboard.unknown
 key_key.fabricskyboxes.toggle:key.keyboard.keypad.0
+key_key.craftpresence.config_keycode.name:key.keyboard.grave.accent
 key_key.lightoverlay.enable_overlay:key.keyboard.f7
 key_key.modmenu.open_menu:key.keyboard.unknown
 key_key.spirit.toggle:key.keyboard.v
 key_key.toms_storage.open_terminal:key.keyboard.b
 key_key.travelersbackpack.inventory:key.keyboard.comma
 key_key.travelersbackpack.toggle_tank:key.keyboard.n
-key_key.travelersbackpack.cycle_tool:key.keyboard.z
-key_key.wands.wand_orientation:key.keyboard.unknown
+key_key.travelersbackpack.cycle_tool:key.keyboard.g
+key_key.wands.wand_rotate:key.keyboard.r
 key_key.wands.wand_fill_circle:key.keyboard.k
+key_key.wands.n_dec:key.keyboard.down
+key_key.wands.wand_invert:key.keyboard.i
+key_key.wands.wand_mode:key.keyboard.left.bracket
+key_key.wands.n_inc:key.keyboard.up
+key_key.wands.toggle_stair_slab:key.keyboard.backslash
+key_key.wands.wand_menu:key.keyboard.semicolon
+key_key.wands.wand_orientation:key.keyboard.right.bracket
+key_key.wands.wand_action:key.keyboard.h
+key_key.wands.inc_sel_block:key.keyboard.o
 key_key.wands.wand_undo:key.keyboard.f6
 key_key.wands.clear_wand:key.keyboard.c
-key_key.wands.m_inc:key.keyboard.right
-key_key.wands.toggle_stair_slab:key.keyboard.unknown
 key_key.wands.palette_menu:key.keyboard.j
-key_key.wands.wand_invert:key.keyboard.i
 key_key.wands.wand_palette_mode:key.keyboard.p
-key_key.wands.inc_sel_block:key.keyboard.z
-key_key.wands.wand_action:key.keyboard.h
-key_key.wands.wand_rotate:key.keyboard.r
-key_key.wands.n_inc:key.keyboard.up
-key_key.wands.wand_mode:key.keyboard.unknown
-key_key.wands.wand_menu:key.keyboard.semicolon
+key_key.wands.area_diagonal_spread:key.keyboard.keypad.5
+key_key.wands.m_inc:key.keyboard.right
 key_key.wands.m_dec:key.keyboard.left
-key_key.wands.area_diagonal_spread:key.keyboard.unknown
-key_key.wands.n_dec:key.keyboard.down
 key_gui.xaero_switch_waypoint_set:key.keyboard.unknown
 key_gui.xaero_instant_waypoint:key.keyboard.x
 key_gui.xaero_toggle_slime:key.keyboard.unknown
@@ -198,8 +199,8 @@ key_gui.xaero_toggle_map_waypoints:key.keyboard.unknown
 key_gui.xaero_toggle_map:key.keyboard.unknown
 key_gui.xaero_enlarge_map:key.keyboard.equal
 key_gui.xaero_waypoints_key:key.keyboard.u
-key_gui.xaero_zoom_in:key.keyboard.unknown
-key_gui.xaero_zoom_out:key.keyboard.unknown
+key_gui.xaero_zoom_in:key.keyboard.equal
+key_gui.xaero_zoom_out:key.keyboard.keypad.subtract
 key_gui.xaero_new_waypoint:key.keyboard.unknown
 key_gui.xaero_display_all_sets:key.keyboard.unknown
 key_gui.xaero_toggle_light_overlay:key.keyboard.unknown
