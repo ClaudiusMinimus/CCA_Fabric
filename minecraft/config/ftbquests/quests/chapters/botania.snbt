@@ -21,6 +21,8 @@
 				"You Lexica Botania is an invaluable wealth of information - use it often!"
 				""
 				"Holding the Ctrl key when hovering the cursor over an item with an entry while the book is in the hotbar will open the item's entry. Shift right-clicking with the Lexica on a block will open the relevant page, if one exists, otherwise it will attempt to open a relevant wiki page in the user's web browser."
+				""
+				"&lQuests with Squares are important to progress&r"
 			]
 			size: 2.0d
 			id: "678645C952FCF8CC"
@@ -168,6 +170,7 @@
 		{
 			x: 0.0d
 			y: 9.5d
+			shape: "square"
 			description: ["The Mana Spreader is the single most important tool a botanist needs to manipulate Mana."]
 			dependencies: ["542DD76032B66B50"]
 			id: "60760C5B4FB95DEA"
@@ -185,6 +188,7 @@
 		{
 			x: 1.5d
 			y: 14.0d
+			shape: "square"
 			description: ["Used for storing mana."]
 			dependencies: ["754F5D734147F8BA"]
 			id: "2D9DC78C66027DF2"
@@ -202,6 +206,7 @@
 		{
 			x: -3.0d
 			y: 16.5d
+			shape: "square"
 			description: [
 				"This crafting station can be used to create each of the 16 Runes. When it is placed, 2 cubes can be seen swirling around above it."
 				""
@@ -225,7 +230,14 @@
 		{
 			x: -1.5d
 			y: 11.0d
-			description: [" The Orechid uses Mana to synthesize ores from nearby Stone blocks. The ores it generates are random, but rarer ores seem to be created less often."]
+			shape: "square"
+			subtitle: "Ore Generation for Skyblock"
+			description: [
+				" The Orechid uses Mana to synthesize ores from nearby Stone blocks. The ores it generates are random, but rarer ores seem to be created less often."
+				""
+				""
+				"Be sure to try Deepslate!"
+			]
 			dependencies: ["78FEF9A7E20E7C06"]
 			id: "1EACB6765A8C7988"
 			tasks: [{
@@ -306,6 +318,7 @@
 		{
 			x: -7.0d
 			y: 17.5d
+			shape: "square"
 			description: ["Right-click with this rod will place Dirt for some mana cost."]
 			dependencies: ["6D698E9864D3C153"]
 			id: "2AC4427434E9FBCB"
@@ -453,7 +466,12 @@
 		{
 			x: 3.0d
 			y: 11.0d
-			description: ["When the Alchemy Catalyst is placed under a Mana Pool the Mana Pool will output different recipes. Check REI for what the Alchemy Catalyst can do."]
+			shape: "square"
+			description: [
+				"When the Alchemy Catalyst is placed under a Mana Pool the Mana Pool will output different recipes. Check REI for what the Alchemy Catalyst can do."
+				""
+				"In skyblock a lot of items can only be obtained with this block under a Mana Pool."
+			]
 			dependencies: ["754F5D734147F8BA"]
 			id: "0A865D877C969C7B"
 			tasks: [{
@@ -613,6 +631,7 @@
 			title: "Wand of the Forest"
 			x: -1.5d
 			y: 9.5d
+			shape: "square"
 			description: [
 				"A botanist's most important tool for manipulating flowers is the Wand of the Forest. This wand, crafted from a pair of Mystical Petals strapped to a few Livingwood Twigs, is a must-have for a huge number of botanical tasks."
 				""
@@ -629,8 +648,8 @@
 					id: "botania:twig_wand"
 					Count: 1b
 					tag: {
-						color2: 1
 						color1: 15
+						color2: 1
 						boundTileZ: 0
 						boundTileX: 0
 						boundTileY: -1

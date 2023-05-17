@@ -109,6 +109,7 @@
 		{
 			x: 0.0d
 			y: 7.5d
+			shape: "square"
 			description: ["The Mechanical Press is a workhorse that you will use a lot. Drop iron, brass, copper, or gold ingot(s) under the press or place them on a depot or belt to make a sheet."]
 			dependencies: ["0000000000000799"]
 			id: "0000000000000797"
@@ -277,6 +278,7 @@
 		{
 			x: 3.5d
 			y: -4.5d
+			shape: "square"
 			description: [
 				"A water wheel is great for early game Rotational Force."
 				""
@@ -683,6 +685,7 @@
 		{
 			x: -4.5d
 			y: 7.5d
+			shape: "square"
 			dependencies: ["00000000000007A1"]
 			id: "00000000000008D6"
 			tasks: [
@@ -1043,12 +1046,12 @@
 						symmetry: {
 							type: "triple_plane"
 							direction: 0
-							enable: 1b
 							pos: [
 								-153.0f
 								4.0f
 								193.0f
 							]
+							enable: 1b
 						}
 					}
 				}
