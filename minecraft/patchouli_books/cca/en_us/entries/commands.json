@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "List of commonly used commands: $(br)$(l)Spawn$()$(li)$(c:/spawn tp)/spawn tp$(/c)$(li)$(c:/spawn set)/spawn set$(/c) $(4)$(l)*$()$(br)$(l)Teleport requests$()$(li)/tpa <target-player>$(li)/tpahere <target-player>$(li)/tpaccept <target-player>$(li)/tpdeny <target-player>$()$(br)$(l)Player Homes$()$(li)/home set <home-name>$(li)/home tp <home-name>$(li)/home delete <home-name>$()"
+            "text": "$(l)Commonly used commands:$() See also $(l:commands#aliases)Command Aliases$(/l)$(br)$(l)Spawn$()$(li)$(c:/spawn tp)/spawn tp$(/c)$(li)$(c:/spawn set)/spawn set$(/c) $(4)$(l)*$()$(br)$(l)Teleport requests$()$(li)/tpa <target-player>$(li)/tpahere <target-player>$(li)/tpaccept <target-player>$(li)/tpdeny <target-player>$()$(br)$(l)Player Homes$()$(li)/home set <home-name>$(li)/home tp <home-name>$(li)/home delete <home-name>$()"
         },
         {
             "type": "patchouli:text",
@@ -18,6 +18,12 @@
         {
             "type": "patchouli:text",
             "text": "$(li)Names in brackets '[name]' are optional. Names in '<name>' are required. Do not use quotes ', brackets '[]' or '<>' in commands."
+        },
+        {
+            "type": "text",
+            "title": "Command Aliases",
+            "anchor":"aliases",
+            "text": "Command Aliases now allows for traditional command syntax: $(li)/sethome $(li)/home $(li)/delhome $(li)/spawn $(li)/tpa $(li)/afk"
         }
     ]
 }
