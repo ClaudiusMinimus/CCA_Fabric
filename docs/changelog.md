@@ -45,6 +45,9 @@ May. 16, 2023
       - Building Wands
       - Traveler's Backpack
     - Added video link for Traveler's Backpack
+  - Added Elven trade for sponges
+  - Changed icon shape from circle to square for important early game quests
+
 
 ## Create Conquest Arcane 1.19.2-1.0.4
 Apr. 29, 2023
