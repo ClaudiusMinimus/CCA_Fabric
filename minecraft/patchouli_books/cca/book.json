@@ -1,6 +1,6 @@
 {
     "name": "Create Conquest Arcane",
-    "subtitle": "v. 1.19.2-1.1.2",
+    "subtitle": "v. 1.19.2-1.1.3",
     "book_texture": "patchouli:textures/gui/book_purple.png",
     "version": 0,
     "landing_text": "$(playername), Welcome to Create Conquest Arcane! This book should help you get started playing this pack.",
