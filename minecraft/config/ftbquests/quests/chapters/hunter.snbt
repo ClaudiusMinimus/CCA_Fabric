@@ -1166,11 +1166,77 @@
 				entity: "botania:doppleganger"
 				value: 10L
 			}]
-			rewards: [{
-				id: "5BF981A4E75489A5"
-				type: "item"
-				item: "botania:creative_pool"
-			}]
+			rewards: [
+				{
+					id: "5BF981A4E75489A5"
+					type: "item"
+					item: "botania:creative_pool"
+				}
+				{
+					id: "2042AE5EB177C7C1"
+					type: "item"
+					item: {
+						id: "wands:creative_wand"
+						Count: 1b
+						tag: {
+							diag_spread: 0b
+							rfill: 1b
+							grid_n: 8
+							cfill: 0b
+							inverted: 0b
+							plane: 0
+							grid_noff: 11
+							tunnel_w: 4
+							tunnel_oy: 0
+							grid_nsp: 1
+							axis: 0
+							blast_radius: 8
+							inc_sel_block: 0b
+							orientation: 0
+							grid_msp: 0
+							row_col_limit: 0
+							tunnel_ox: 0
+							Damage: 0
+							grid_m: 6
+							action: 0
+							state_mode: 0
+							multiplier: 1
+							stair_slab: 0b
+							rotation: 0
+							Tools: [
+								{
+									Tool: {
+										id: "emerald_tools:netherite_paxel"
+										tag: {
+											Damage: 0
+										}
+										Count: 1b
+									}
+									Slot: 0
+								}
+								{
+									Tool: {
+										id: "minecraft:netherite_shovel"
+										tag: {
+											Damage: 0
+										}
+										Count: 1b
+									}
+									Slot: 1
+								}
+							]
+							mode: 9
+							tunnel_d: 12
+							grid_moff: 5
+							target_air: 0b
+							match_state: 0b
+							circle_even: 0b
+							tunnel_h: 2
+							area_limit: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 1.5d
