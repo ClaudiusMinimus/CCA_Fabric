@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Support can be found in two places:$(li)$(l:https://discord.com/invite/jXrx4Tu)CM's World discord$(/l)$(li)$(l:https://github.com/ClaudiusMinimus/CCA_Fabric/issues)Github$(/l)$()$(br2)If you feel a topic needs to be added to this book, please post it on our $(l:https://discord.com/invite/jXrx4Tu)discord$(/l)."
+            "text": "Support can be found in two places:$(li)$(l:https://discord.com/invite/jXrx4Tu)CM's World discord$(/l)$(li)$(l:https://github.com/ClaudiusMinimus/CCA_Fabric/issues)Github$(/l)$()$(li)$(l:https://claudiusminimuss-organization.gitbook.io/create-conquest-arcane/)Wiki$(/l) is under construction.$(br2)If you feel a topic needs to be added to this book, please post it on $(l:https://discord.com/invite/jXrx4Tu)CM's World Discord$(/l)."
         }
     ]
 }

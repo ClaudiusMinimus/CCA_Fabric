@@ -1,0 +1,11 @@
+{
+    "name": "Traveler's Backpack",
+    "icon": "travelersbackpack:bee",
+    "category": "patchouli:videos",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(l:https://www.youtube.com/watch?v=wD8jGA9YhFQ)Traveler's Backpack$(/l) Mod Showcase"
+        }
+    ]
+}

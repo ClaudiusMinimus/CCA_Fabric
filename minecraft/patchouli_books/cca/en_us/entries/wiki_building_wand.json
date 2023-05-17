@@ -1,0 +1,11 @@
+{
+    "name": "Building Wands",
+    "icon": "wands:stone_wand",
+    "category": "patchouli:wikis",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Building Wands is an assortment of tiered wands with a lot of options.$(li)$(l:https://github.com/nicguzzo/wands/wiki)Wiki$(/l)$(li)$(l:https://www.curseforge.com/minecraft/mc-mods/building-wands)Building Wands$(/l) CurseForge page contains useful information.$(li)$(l:https://discord.com/invite/T9VbYBNYCR)nicguzzo's$(/l) discord"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Traveler's Backpack",
+    "icon": "travelersbackpack:standard",
+    "category": "patchouli:wikis",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Choose your personal style from over 45 custom backpacks, which represent various creatures and blocks. As if that weren't enough, some of them can provide special abilities! All backpacks' textures have been remade one by one to fit new Minecraft style."
+        },{
+            "type": "text",
+            "text": "$(li)$(l:https://www.curseforge.com/minecraft/mc-mods/travelers-backpack)Traveler's Backpack$(/l) CurseForge page contains a lot of valuable information. Be sure to checkout the spoilers on the page.$(li)$(l:videos_travelers_backpack)Videos$(/l)"
+        }
+    ]
+}
