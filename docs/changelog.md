@@ -2,7 +2,7 @@
 
 On Fabric servers, modded level types are not supported by default, so you’ll have to generate a GoG world in single player then upload it to the server. https://botaniamod.net/gardenofglass.html
 
-## Create Conquest Arcane 1.19.2-1.1.3
+## Create Conquest Arcane 1.19.2-1.1.4
 May. 16, 2023
 - Mods Added:
   - commandaliases-1.0.0+mc1.19.2-build.58.jar
@@ -33,20 +33,23 @@ May. 16, 2023
   - Fastload+1.18.2-1.20-3.4.0.jar (crashing server)
   - memoryleakfix-fabric-1.17+-1.0.0.jar (crashing server)
 - Other Changes:
-  - Added Soul Pedestal ponder scene with link in CCA book
-  - Update Soul Pedestal villager recipe
-  - Suppress Xaeros mod updates
-  - FTB Chunks force disable minimap
+  - Added better rewards for some of the Armor, Tools, and Weapons quests
   - Added Craft Presence (discord) support
-  - Tweaked BH mod menu button
+  - Added default settings for Light Level Overlay
+  - Added download for Conquest of Create Additions to manifest
+  - Added Elven trade for sponges
+  - Added Soul Pedestal ponder scene with link in CCA book
   - CCA Guidebook
     - Added Wiki pages for:
       - Building Wands
       - Traveler's Backpack
     - Added video link for Traveler's Backpack
-  - Added Elven trade for sponges
   - Changed icon shape from circle to square for important early game quests
-
+  - Cleaned up Key Bindings
+  - FTB Chunks disable minimap
+  - Suppress Xaeros mod updates
+  - Tweaked BH mod menu button
+  - Update Soul Pedestal villager recipe
 
 ## Create Conquest Arcane 1.19.2-1.0.4
 Apr. 29, 2023
@@ -230,7 +233,7 @@ Apr. 08, 2023
   - player-animation-lib-fabric-1.0.2.jar
   - polylib-fabric-1900.0.2-build.42.jar
   - polymorph-fabric-0.46.1+1.19.2.jar
-  - ponderjs-1.19.2-1.1.31.jar
+  - ponderjs-1.19.2-1.1.41.jar
   - PuzzlesLib-v4.3.12-1.19.2-Fabric.jar
   - reeses_sodium_options-1.4.9+mc1.19.2-build.67.jar
   - REIPluginCompatibilities-forge-9.0.48.jar
