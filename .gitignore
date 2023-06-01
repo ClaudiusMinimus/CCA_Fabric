@@ -31,6 +31,8 @@ minecraft/Link to shaderpacks
 minecraft/Link to XaeroWaypoints
 minecraft/Link to XaeroWorldMap
 minecraft/options.*
+# symlink to schematics
+minecraft/schematics
 minecraft/servers.dat
 minecraft/servers.dat_old
 # keeps coming back to haunt
