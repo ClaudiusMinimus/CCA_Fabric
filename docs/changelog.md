@@ -2,6 +2,15 @@
 
 On Fabric servers, modded level types are not supported by default, so you’ll have to generate a GoG world in single player then upload it to the server. https://botaniamod.net/gardenofglass.html
 
+## Create Conquest Arcane 1.19.2-1.2.0
+May. 31, 2023
+- Mods Added:
+  - Ender Dragon Egg Respawn
+- Mods Updated:
+- Mods Removed:
+- Other Changes:
+  - FTB Chunks disable death waypoints
+
 ## Create Conquest Arcane 1.19.2-1.1.4
 May. 18, 2023
 - Mods Added:
