@@ -1,0 +1,162 @@
+type = menu
+
+customization-meta {
+  identifier = shaders
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/assets/bg2.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-centered
+  enable_scrolling = false
+  shadow = true
+  scale = 1.5
+  source = Optional Shaders
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -157
+  width = 315
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 07e45a7c-3d0a-4956-94a8-64a6f76e98a71685810996841
+  y = 19
+  alignment = centered
+  height = 17
+}
+
+customization {
+  orientation = top-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = To use a Shader Pack you first need to install Iris, which is used%n%for loading and managing shaders. The button below will take you%n%to load the Iris mod page on Modrinth.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -167
+  width = 335
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = dabab2d1-8806-48c4-8097-fe0a815b9a4f1685811067125
+  y = 46
+  alignment = left
+  height = 40
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://modrinth.com/mod/iris%btnaction_splitter_fm%
+  x = -50
+  width = 100
+  action = addbutton
+  actionid = 34bec30a-4ced-4caf-a29e-7958ca68dd6e1685811326778
+  y = 83
+  label = Iris on Modrinth
+  height = 20
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.curseforge.com/minecraft/customization/complementary-shaders%btnaction_splitter_fm%
+  x = -171
+  width = 170
+  action = addbutton
+  actionid = afb23e47-80ed-4101-a825-93e01af1e7a21685811572132
+  y = 129
+  label = Complementary Shaders v4
+  height = 20
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.curseforge.com/minecraft/customization/makeup-ultra-fast-shader%btnaction_splitter_fm%
+  x = 3
+  width = 170
+  action = addbutton
+  actionid = e96c89c9-bfb8-4f14-ac52-9750737398911685811710332
+  y = 129
+  label = MakeUp - Ultra Fast | Shaders
+  height = 20
+}
+
+customization {
+  orientation = top-centered
+  enable_scrolling = false
+  shadow = true
+  scale = 1.5
+  source = Tested Shader Packs
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -157
+  width = 315
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = e50916f3-0353-4cd7-b555-a0ae977a6b691685811857376
+  y = 110
+  alignment = centered
+  height = 17
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://modrinth.com/shaders%btnaction_splitter_fm%
+  x = -85
+  width = 170
+  action = addbutton
+  actionid = 16108ab1-e300-405d-8f81-b463a92108ec1685812087467
+  y = 192
+  label = More Shaders on Modrinth
+  height = 20
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.curseforge.com/minecraft/search?search=shader%btnaction_splitter_fm%
+  x = -85
+  width = 170
+  action = addbutton
+  actionid = 1c4f656a-748b-427b-a5f5-5623ed9afc971685812294332
+  y = 216
+  label = More Shaders on Curseforge
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = closegui;null%btnaction_splitter_fm%
+  x = 1
+  width = 20
+  action = addbutton
+  actionid = 48f499ec-311c-4a3d-9092-8927fa348d4e1685812532608
+  y = 1
+  description = Close Window
+  label = X
+  height = 20
+}
+
