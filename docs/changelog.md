@@ -3,13 +3,45 @@
 On Fabric servers, modded level types are not supported by default, so you’ll have to generate a GoG world in single player then upload it to the server. https://botaniamod.net/gardenofglass.html
 
 ## Create Conquest Arcane 1.19.2-1.2.0
-May. 31, 2023
+June. 13, 2023
 - Mods Added:
-  - Ender Dragon Egg Respawn
+  - EnderDragonEggRespawn-1.0.0_1.19.2-Fabric.jar (dragon egg for each kill)
 - Mods Updated:
+  - architectury-6.5.85-fabric.jar
+  - Bookshelf-Fabric-1.19.2-16.3.20.jar
+  - cleancut-6.0.jar
+  - ConquestRecipes-v0.0.4-1.19.2.jar
+  - essential_commands-0.33.2-mc1.19.2.jar
+  - EssentialGUI-1.8.10+1.19.2.jar
+  - fabric-language-kotlin-1.9.5+kotlin.1.8.22.jar
+  - ftb-chunks-fabric-1902.3.22-build.271.jar
+  - ftb-library-fabric-1902.3.19-build.214.jar
+  - ftb-quests-fabric-1902.4.16-build.235.jar
+  - ftbbackups2-fabric-1.19.2-1.0.19.jar
+  - grind-enchantments-3.1.1+1.19.2.jar
+  - item-filters-fabric-1902.2.9-build.51.jar
+  - kubejs_botania-1.1-fabric.jar
+  - language-reload-1.5.7+1.19.2.jar
+  - lootr-1.19-0.4.26.65.jar
+  - mcdw-5.0.12-1.19.jar
+  - mcpitanlibarch-1.6.7-1.19.2-fabric.jar
+  - moonlight-1.19.2-2.2.38-fabric.jar
+  - optigui-2.1.2.jar
+  - PuzzlesLib-v4.4.1-1.19.2-Fabric.jar
+  - RoughlyEnoughItems-9.1.619.jar
+  - sliceanddice-fabric-2.1.6.jar
+  - toms_storage_fabric-1.19-1.5.7.jar
+  - travelers-backpack-1.19.2-8.2.23.jar
+  - UncraftingTable-fabric-1.2.5.jar
+  - Xaeros_Minimap_23.4.4_Fabric_1.19.1.jar
+  - XaerosWorldMap_1.30.3_Fabric_1.19.1.jar
+  - xp_obelisk_additions-0.1.9-r+1.19.2-Fabric.jar
+  - xp_obelisk-0.4.9-r+1.19.2-Fabric.jar
+  - yosbr-0.1.2.jar
 - Mods Removed:
 - Other Changes:
   - FTB Chunks disable death waypoints
+  - Other minor updates to guidebook and quests
 
 ## Create Conquest Arcane 1.19.2-1.1.4
 May. 18, 2023
