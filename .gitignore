@@ -46,6 +46,7 @@ mmc-pack.json
 
 # Stop ignoring these folders
 !minecraft/config/bhmenu
+!minecraft/config/commandaliases
 !minecraft/config/drippyloadingscreen
 !minecraft/config/fancymenu
 !minecraft/config/fabric_loader_dependencies.json

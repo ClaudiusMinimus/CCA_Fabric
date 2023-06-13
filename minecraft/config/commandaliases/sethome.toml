@@ -1,0 +1,26 @@
+schemaVersion = 1
+commandMode = "COMMAND_CUSTOM"
+command = "sethome"
+
+[[children]]
+child = "name"
+type = "argument"
+argumentType = "minecraft:word"
+
+[children.suggestionProvider]
+suggestionMode = "DATABASE_STARTS_WITH"
+suggestion = "$executor_name().home.suggestions"
+
+[[children.actions]]
+command = "commandaliases database put $executor_name().home.suggestions.{{name}} {{name}}"
+commandType = "SERVER"
+requireSuccess = true
+
+[[children.actions]]
+command = "commandaliases database put $executor_name().home.{{name}}.command execute in $get_dimension($executor_name()) run tp $executor_name() $get_block_pos_x($executor_name()) $get_block_pos_y($executor_name()) $get_block_pos_z($executor_name()) $get_yaw($executor_name()) $get_pitch($executor_name())"
+commandType = "SERVER"
+messageIfSuccessful = "$executor_name() [{{name}}] home has been set in [$get_dimension($executor_name())] with coordinates of $get_block_pos_x($executor_name()) $get_block_pos_y($executor_name()) $get_block_pos_z($executor_name())"
+
+[[actions]]
+command = "sethome main"
+commandType = "CLIENT"

@@ -1,0 +1,27 @@
+schemaVersion = 1
+commandMode = "COMMAND_CUSTOM"
+command = "home"
+
+[[children]]
+child = "name"
+type = "argument"
+argumentType = "minecraft:word"
+
+[children.suggestionProvider]
+suggestionMode = "DATABASE_STARTS_WITH"
+suggestion = "$executor_name().home.suggestions"
+
+[[children.actions]]
+command = "commandaliases database match $executor_name().home.suggestions.{{name}}"
+commandType = "SERVER"
+messageIfUnsuccessful = "$executor_name() [{{name}}] home has not been set!"
+requireSuccess = true
+
+[[children.actions]]
+command = "$get_database_value($executor_name().home.{{name}}.command)"
+commandType = "SERVER"
+messageIfSuccessful = "Teleporting to $executor_name() [{{name}}] home!"
+
+[[actions]]
+command = "home main"
+commandType = "CLIENT"

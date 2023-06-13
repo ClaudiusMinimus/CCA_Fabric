@@ -1,0 +1,39 @@
+schemaVersion = 1
+commandMode = "COMMAND_CUSTOM"
+command = "afk-checker"
+permission = 4
+
+[[children]]
+child = "username"
+type = "argument"
+argumentType = "minecraft:greedy_string"
+
+[[children.actions]]
+id = "{{username}}"
+startTime = "1000"
+command = "commandaliases compare equals \"afk.{{username}}.state\" \"$get_pos_x({{username}}) $get_pos_y({{username}}) $get_pos_z({{username}}) $get_yaw({{username}}) $get_pitch({{username}})\" \"$get_database_value(afk.{{username}}.pos_rotation)\""
+commandType = "SERVER"
+requireSuccess = true
+
+[[children.actions]]
+id = "{{username}}"
+command = "commandaliases compare equals \"$get_database_value(afk.{{username}}.state)\" \"true\""
+commandType = "SERVER"
+requireSuccess = true
+
+[[children.actions.actionsIfUnsuccessful]]
+command = "commandaliases database delete afk.{{username}}.pos_rotation"
+commandType = "SERVER"
+requireSuccess = true
+
+[[children.actions.actionsIfUnsuccessful]]
+command = "team remove afk.{{username}}"
+commandType = "SERVER"
+
+[[children.actions.actionsIfUnsuccessful]]
+command = "tellraw @a \"{{username}} is no longer AFK.\""
+commandType = "SERVER"
+
+[[children.actions]]
+command = "afk-checker {{username}}"
+commandType = "SERVER"

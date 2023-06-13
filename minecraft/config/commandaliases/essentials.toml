@@ -1,0 +1,71 @@
+schemaVersion = 1
+commandMode = "COMMAND_CUSTOM"
+command = "essentials"
+
+[[children]]
+child = "setMaximumHome"
+type = "literal"
+
+[[children.children]]
+child = "state"
+type = "argument"
+argumentType = "brigadier:bool"
+
+[[children.children.actions]]
+command = "commandaliases database put essentials.max_home {{state}}"
+commandType = "SERVER"
+requireSuccess = true
+
+[[children.children.actions]]
+command = "commandaliases compute equals true {{state}}"
+commandType = "SERVER"
+messageIfSuccessful = "Enabled maximum homes!"
+messageIfUnsuccessful = "Disabled maximum homes!"
+
+[[children]]
+child = "setMaximumHomeAmount"
+type = "literal"
+
+[[children.children]]
+child = "amount"
+type = "argument"
+argumentType = "brigadier:integer"
+
+[[children.children.actions]]
+command = "commandaliases database put essentials.max_home_amount {{amount}}"
+commandType = "SERVER"
+messageIfSuccessful = "Maximum amount of homes set to {{amount}}!"
+
+[[children]]
+child = "setTeleportRequestTimeoutSeconds"
+type = "literal"
+
+[[children.children]]
+child = "seconds"
+type = "argument"
+argumentType = "brigadier:integer"
+
+[[children.children.actions]]
+command = "commandaliases compute multiplication essentials.tpa_timeout_seconds {{seconds}} 1000"
+commandType = "SERVER"
+messageIfSuccessful = "Teleportion request timeout set to {{seconds}}s!"
+
+[[children]]
+child = "setTeleportRequestTimeout"
+type = "literal"
+
+[[children.children]]
+child = "state"
+type = "argument"
+argumentType = "brigadier:bool"
+
+[[children.children.actions]]
+command = "commandaliases database put essentials.tpa_timeout {{state}}"
+commandType = "SERVER"
+requireSuccess = true
+
+[[children.children.actions]]
+command = "commandaliases compare equals \"true\" \"{{state}}\""
+commandType = "SERVER"
+messageIfSuccessful = "Enabled teleportion request timeout!"
+messageIfUnsuccessful = "Disabled teleportion request timeout!"
