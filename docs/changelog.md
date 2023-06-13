@@ -42,6 +42,7 @@ June. 13, 2023
 - Other Changes:
   - FTB Chunks disable death waypoints
   - Other minor updates to guidebook and quests
+  - Fabric Loader 0.14.21
 
 ## Create Conquest Arcane 1.19.2-1.1.4
 May. 18, 2023
