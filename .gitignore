@@ -31,6 +31,8 @@ minecraft/Link to shaderpacks
 minecraft/Link to XaeroWaypoints
 minecraft/Link to XaeroWorldMap
 minecraft/options.*
+# symlink to schematics
+minecraft/schematics
 minecraft/servers.dat
 minecraft/servers.dat_old
 # keeps coming back to haunt
@@ -44,6 +46,7 @@ mmc-pack.json
 
 # Stop ignoring these folders
 !minecraft/config/bhmenu
+!minecraft/config/commandaliases
 !minecraft/config/drippyloadingscreen
 !minecraft/config/fancymenu
 !minecraft/config/fabric_loader_dependencies.json

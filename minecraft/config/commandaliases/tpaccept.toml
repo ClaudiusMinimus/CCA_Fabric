@@ -1,0 +1,84 @@
+schemaVersion = 1
+commandMode = "COMMAND_CUSTOM"
+command = "tpaccept"
+
+[[actions]]
+command = "commandaliases database match $executor_name().tpa.last_player"
+commandType = "SERVER"
+requireSuccess = true
+
+[[actions.actionsIfUnsuccessful]]
+command = "commandaliases database match $executor_name().tpahere.last_player"
+commandType = "SERVER"
+messageIfUnsuccessful = "You have no pending teleport request!"
+requireSuccess = true
+
+[[actions.actionsIfUnsuccessful]]
+command = "execute in $get_database_value($executor_name().tpahere.dimension) run tp $executor_name() $get_database_value($executor_name().tpahere.x) $get_database_value($executor_name().tpahere.y) $get_database_value($executor_name().tpahere.z) $get_database_value($executor_name().tpahere.yaw) $get_database_value($executor_name().tpahere.pitch)"
+commandType = "SERVER"
+requireSuccess = true
+
+[[actions.actionsIfUnsuccessful]]
+command = "commandaliases scheduler remove $executor_name().tpahere.event.$get_database_value($executor_name().tpahere.last_player)"
+commandType = "SERVER"
+requireSuccess = true
+
+[[actions.actionsIfUnsuccessful]]
+command = 'tellraw $get_database_value($executor_name().tpahere.last_player) "$executor_name() is teleporting to the requested location..."'
+commandType = "SERVER"
+requireSuccess = true
+messageIfSuccessful = "You are being teleported to the requested location by $get_database_value($executor_name().tpahere.last_player)."
+
+[[actions.actionsIfUnsuccessful]]
+command = "commandaliases database delete $executor_name().tpahere.last_player"
+commandType = "SERVER"
+requireSuccess = true
+
+[[actions.actionsIfUnsuccessful]]
+command = "commandaliases database delete $executor_name().tpahere.dimension"
+commandType = "SERVER"
+requireSuccess = true
+
+[[actions.actionsIfUnsuccessful]]
+command = "commandaliases database delete $executor_name().tpahere.x"
+commandType = "SERVER"
+requireSuccess = true
+
+[[actions.actionsIfUnsuccessful]]
+command = "commandaliases database delete $executor_name().tpahere.y"
+commandType = "SERVER"
+requireSuccess = true
+
+[[actions.actionsIfUnsuccessful]]
+command = "commandaliases database delete $executor_name().tpahere.z"
+commandType = "SERVER"
+requireSuccess = true
+
+[[actions.actionsIfUnsuccessful]]
+command = "commandaliases database delete $executor_name().tpahere.yaw"
+commandType = "SERVER"
+requireSuccess = true
+
+[[actions.actionsIfUnsuccessful]]
+command = "commandaliases database delete $executor_name().tpahere.pitch"
+commandType = "SERVER"
+
+[[actions]]
+command = "tp $get_database_value($executor_name().tpa.last_player) $executor_name()"
+commandType = "SERVER"
+requireSuccess = true
+
+[[actions]]
+command = "commandaliases scheduler remove $executor_name().tpa.event.$get_database_value($executor_name().tpa.last_player)"
+commandType = "SERVER"
+requireSuccess = true
+
+[[actions]]
+command = 'tellraw $get_database_value($executor_name().tpa.last_player) "Teleporting to $executor_name()..."'
+commandType = "SERVER"
+requireSuccess = true
+messageIfSuccessful = "Teleporting $get_database_value($executor_name().tpa.last_player) to you..."
+
+[[actions]]
+command = "commandaliases database delete $executor_name().tpa.last_player"
+commandType = "SERVER"

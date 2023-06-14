@@ -1,0 +1,107 @@
+schemaVersion = 1
+commandMode = "COMMAND_CUSTOM"
+command = "tpahere"
+
+[[children]]
+child = "player"
+type = "argument"
+argumentType = "minecraft:player"
+
+[[children.actions]]
+command = "commandaliases compare equals {{player}} $executor_name()"
+commandType = "SERVER"
+messageIfSuccessful = "You can not request to teleport to yourself!"
+
+[[children.actions.actionsIfUnsuccessful]]
+command = "commandaliases database match {{player}}.tpahere.last_player"
+commandType = "SERVER"
+requireSuccess = true
+messageIfSuccessful = "{{name}} has a pending request! Please wait..."
+
+[[children.actions.actionsIfUnsuccessful.actionsIfUnsuccessful]]
+command = "commandaliases database put {{player}}.tpahere.last_player $executor_name()"
+commandType = "SERVER"
+requireSuccess = true
+
+[[children.actions.actionsIfUnsuccessful.actionsIfUnsuccessful]]
+command = "commandaliases database put {{player}}.tpahere.dimension $get_dimension($executor_name())"
+commandType = "SERVER"
+requireSuccess = true
+
+[[children.actions.actionsIfUnsuccessful.actionsIfUnsuccessful]]
+command = "commandaliases database put {{player}}.tpahere.x $get_block_pos_x($executor_name())"
+commandType = "SERVER"
+requireSuccess = true
+
+[[children.actions.actionsIfUnsuccessful.actionsIfUnsuccessful]]
+command = "commandaliases database put {{player}}.tpahere.y $get_block_pos_y($executor_name())"
+commandType = "SERVER"
+requireSuccess = true
+
+[[children.actions.actionsIfUnsuccessful.actionsIfUnsuccessful]]
+command = "commandaliases database put {{player}}.tpahere.z $get_block_pos_z($executor_name())"
+commandType = "SERVER"
+requireSuccess = true
+
+[[children.actions.actionsIfUnsuccessful.actionsIfUnsuccessful]]
+command = "commandaliases database put {{player}}.tpahere.yaw $get_yaw($executor_name())"
+commandType = "SERVER"
+requireSuccess = true
+
+[[children.actions.actionsIfUnsuccessful.actionsIfUnsuccessful]]
+command = "commandaliases database put {{player}}.tpahere.pitch $get_pitch($executor_name())"
+commandType = "SERVER"
+requireSuccess = true
+
+[[children.actions.actionsIfUnsuccessful.actionsIfUnsuccessful]]
+command = 'tellraw {{player}} "$executor_name() has requested you to teleport to them. Type /tpaccept to accept this request. This request will expire in 60 seconds."'
+commandType = "SERVER"
+requireSuccess = true
+messageIfSuccessful = "You have requested to teleport to {{player}}."
+
+[[children.actions.actionsIfUnsuccessful.actionsIfUnsuccessful]]
+startTime = "60000"
+id = "{{player}}.tpahere.event.$executor_name()"
+command = "commandaliases database match {{player}}.tpahere.last_player"
+commandType = "SERVER"
+requireSuccess = true
+
+[[children.actions.actionsIfUnsuccessful.actionsIfUnsuccessful]]
+command = "commandaliases database delete {{player}}.tpahere.last_player"
+commandType = "SERVER"
+requireSuccess = true
+
+[[children.actions.actionsIfUnsuccessful.actionsIfUnsuccessful]]
+command = "commandaliases database delete {{player}}.tpahere.dimension"
+commandType = "SERVER"
+requireSuccess = true
+
+[[children.actions.actionsIfUnsuccessful.actionsIfUnsuccessful]]
+command = "commandaliases database delete {{player}}.tpahere.x"
+commandType = "SERVER"
+requireSuccess = true
+
+[[children.actions.actionsIfUnsuccessful.actionsIfUnsuccessful]]
+command = "commandaliases database delete {{player}}.tpahere.y"
+commandType = "SERVER"
+requireSuccess = true
+
+[[children.actions.actionsIfUnsuccessful.actionsIfUnsuccessful]]
+command = "commandaliases database delete {{player}}.tpahere.z"
+commandType = "SERVER"
+requireSuccess = true
+
+[[children.actions.actionsIfUnsuccessful.actionsIfUnsuccessful]]
+command = "commandaliases database delete {{player}}.tpahere.yaw"
+commandType = "SERVER"
+requireSuccess = true
+
+[[children.actions.actionsIfUnsuccessful.actionsIfUnsuccessful]]
+command = "commandaliases database delete {{player}}.tpahere.pitch"
+commandType = "SERVER"
+requireSuccess = true
+
+[[children.actions.actionsIfUnsuccessful.actionsIfUnsuccessful]]
+command = 'tellraw {{player}} "The request has expired."'
+commandType = "SERVER"
+messageIfSuccessful = "The request to {{player}} has expired."

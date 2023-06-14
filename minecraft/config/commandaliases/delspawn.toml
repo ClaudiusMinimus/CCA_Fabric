@@ -1,0 +1,24 @@
+schemaVersion = 1
+commandMode = "COMMAND_CUSTOM"
+command = "delspawn"
+
+[[actions]]
+command = "commandaliases database match spawn.dimension"
+commandType = "SERVER"
+messageIfUnsuccessful = "Spawn has not been set!"
+requireSuccess = true
+
+[[actions]]
+command = "commandaliases database delete spawn.dimension"
+commandType = "SERVER"
+requireSuccess = true
+
+[[actions]]
+command = "commandaliases database delete spawn.pos"
+commandType = "SERVER"
+requireSuccess = true
+
+[[actions]]
+command = "commandaliases database delete spawn.rotation"
+commandType = "SERVER"
+messageIfSuccessful = "Spawn has been deleted!"

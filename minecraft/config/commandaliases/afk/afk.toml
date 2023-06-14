@@ -1,0 +1,34 @@
+schemaVersion = 1
+commandMode = "COMMAND_CUSTOM"
+command = "afk"
+
+[[actions]]
+command = "team add afk.$executor_name()"
+commandType = "SERVER"
+
+[[actions]]
+command = "team modify afk.$executor_name() color gray"
+commandType = "SERVER"
+
+[[actions]]
+command = "team modify afk.$executor_name() prefix {\"text\":\"[AFK] \",\"bold\":true,\"color\":\"gray\"}"
+commandType = "SERVER"
+requireSuccess = true
+
+[[actions]]
+command = "commandaliases database put afk.$executor_name().pos_rotation $get_pos_x($executor_name()) $get_pos_y($executor_name()) $get_pos_z($executor_name()) $get_yaw($executor_name()) $get_pitch($executor_name())"
+commandType = "SERVER"
+requireSuccess = true
+
+[[actions]]
+command = "team join afk.$executor_name() $executor_name()"
+commandType = "SERVER"
+requireSuccess = true
+
+[[actions]]
+command = "afk-checker $executor_name()"
+commandType = "SERVER"
+
+[[actions]]
+command = "tellraw @a \"$executor_name() is now AFK.\""
+commandType = "SERVER"

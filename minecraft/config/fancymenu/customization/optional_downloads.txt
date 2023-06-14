@@ -23,8 +23,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = openlink;https://www.curseforge.com/minecraft/texture-packs/conquest-of-create%btnaction_splitter_fm%
-  x = -75
-  width = 150
+  x = -172
+  width = 170
   action = addbutton
   actionid = 004a5c2f-cdf3-402b-ac18-9ec2b226b1951676474079950
   y = 92
@@ -75,12 +75,11 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = openlink;https://www.curseforge.com/minecraft/texture-packs/conquest-of-lootr%btnaction_splitter_fm%
-  x = -75
-  width = 150
+  x = 2
+  width = 170
   action = addbutton
   actionid = 7e2f9655-8ca1-4a50-95c5-718a154281a91676474079950
-  y = 216
-  description = If Conquest of Lootr is loaded with Darker %n%Conquest Deepslate, then loading of the %n%resource packs may fail and/or result in a crash.%n%%n%If loading of resource packs fail, consider not %n%loading Conquest of Lootr. The developer is %n%aware of this and a fix will be available sometime%n%in the future, please do not ask when.
+  y = 140
   label = Conquest of Lootr
   height = 20
 }
@@ -90,11 +89,11 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = openlink;https://www.curseforge.com/minecraft/texture-packs/conquest-of-farmers-delight%btnaction_splitter_fm%
-  x = -75
-  width = 150
+  x = -172
+  width = 170
   action = addbutton
   actionid = b8cd6f4b-e5db-402d-949e-0f700f40f1a51676474079950
-  y = 141
+  y = 140
   label = Conquest of Farmer's Delight
   height = 20
 }
@@ -104,11 +103,11 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = openlink;https://www.curseforge.com/minecraft/texture-packs/conquest-of-waystones%btnaction_splitter_fm%
-  x = -75
-  width = 150
+  x = -172
+  width = 170
   action = addbutton
   actionid = c0858783-cf64-430c-9266-6cde93f7d48a1676474079950
-  y = 166
+  y = 164
   label = Conquest of Waystones
   height = 20
 }
@@ -118,11 +117,11 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = openlink;https://www.curseforge.com/minecraft/texture-packs/conquest-of-gravestone-mod%btnaction_splitter_fm%
-  x = -75
-  width = 150
+  x = 2
+  width = 170
   action = addbutton
   actionid = 8edb7d90-7f51-4775-a58e-1b3667ef631e1676474079950
-  y = 191
+  y = 116
   label = Conquest of Gravestone Mod
   height = 20
 }
@@ -141,7 +140,7 @@ customization {
   width = 361
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = f967ae5f-3fb4-4c6e-b59e-a1b3d0f2e55c1676474079950
-  y = 241
+  y = 191
   alignment = centered
   height = 15
 }
@@ -151,11 +150,11 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = closegui;null%btnaction_splitter_fm%
-  x = 0
+  x = 1
   width = 20
   action = addbutton
   actionid = b727579e-cd50-4761-9af4-d0191856775b1679427987028
-  y = 0
+  y = 1
   description = Close Window
   label = X
   height = 20
@@ -166,12 +165,40 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = openlink;https://www.curseforge.com/minecraft/texture-packs/darker-conquest-deepslate%btnaction_splitter_fm%
-  x = -75
-  width = 150
+  x = -172
+  width = 170
   action = addbutton
   actionid = 92bf03de-b5bd-46ad-8c6b-04922a505eda1679428009320
   y = 116
   label = Darker Conquest Deepslate
+  height = 20
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://legacy.curseforge.com/minecraft/texture-packs/conquest-of-resourceful-tools%btnaction_splitter_fm%
+  x = 2
+  width = 170
+  action = addbutton
+  actionid = 4e02d94d-43ce-4253-9efd-1731abc2b26a1685807357798
+  y = 164
+  label = Conquest of Resourceful Tools
+  height = 20
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://legacy.curseforge.com/minecraft/texture-packs/conquest-of-createadditions%btnaction_splitter_fm%
+  x = 2
+  width = 170
+  action = addbutton
+  actionid = 5fb2731f-e62f-4d65-b686-78eea91611411685807899319
+  y = 92
+  label = Conquest of CreateAdditions
   height = 20
 }
 

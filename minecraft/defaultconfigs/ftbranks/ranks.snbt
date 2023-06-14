@@ -4,7 +4,7 @@
 		power: 1000
 		condition: "op"
 		ftbranks.name_format: "&5Admin - {name}"
-		ftbchunks.max_claimed: 500
+		ftbchunks.max_claimed: 1000
 		ftbchunks.max_force_loaded: 20
 	}
 	beginner: {

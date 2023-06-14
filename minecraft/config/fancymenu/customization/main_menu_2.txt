@@ -322,7 +322,7 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 0.8
-  source = %n%Create Conquest Arcane 1.19.2-1.1.4
+  source = %n%Create Conquest Arcane 1.19.2-1.2.1
   text_border = 0
   case_mode = normal
   source_mode = direct
@@ -478,7 +478,7 @@ customization {
   width = 205
   actionid = 5a5a58a7-2514-4cc3-8241-7135323ac5bb1679335686208
   action = addslideshow
-  y = -39
+  y = -42
   height = 108
 }
 
@@ -506,7 +506,7 @@ customization {
   width = 228
   action = addtexture
   actionid = 56aa8f9b-f265-4ed4-a7ca-0c2a024934081679334387487
-  y = -52
+  y = -50
   height = 127
 }
 

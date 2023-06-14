@@ -1,0 +1,47 @@
+schemaVersion = 1
+commandMode = "COMMAND_CUSTOM"
+command = "tpa"
+
+[[children]]
+child = "player"
+type = "argument"
+argumentType = "minecraft:player"
+
+[[children.actions]]
+command = "commandaliases compare equals \"{{player}}\" \"$executor_name()\""
+commandType = "SERVER"
+messageIfSuccessful = "You can not request to teleport to yourself!"
+
+[[children.actions.actionsIfUnsuccessful]]
+command = "commandaliases database match {{player}}.tpa.last_player"
+commandType = "SERVER"
+requireSuccess = true
+messageIfSuccessful = "{{name}} has a pending request! Please wait..."
+
+[[children.actions.actionsIfUnsuccessful.actionsIfUnsuccessful]]
+command = "commandaliases database put {{player}}.tpa.last_player $executor_name()"
+commandType = "SERVER"
+requireSuccess = true
+
+[[children.actions.actionsIfUnsuccessful.actionsIfUnsuccessful]]
+command = 'tellraw {{player}} "$executor_name() has requested to teleport to you. Type /tpaccept to accept this request. This request will expire in 60 seconds."'
+commandType = "SERVER"
+requireSuccess = true
+messageIfSuccessful = "You have requested to teleport to {{player}}."
+
+[[children.actions.actionsIfUnsuccessful.actionsIfUnsuccessful]]
+startTime = "60000"
+id = "{{player}}.tpa.event.$executor_name()"
+command = "commandaliases database match {{player}}.tpa.last_player"
+commandType = "SERVER"
+requireSuccess = true
+
+[[children.actions.actionsIfUnsuccessful.actionsIfUnsuccessful]]
+command = "commandaliases database delete {{player}}.tpa.last_player"
+commandType = "SERVER"
+requireSuccess = true
+
+[[children.actions.actionsIfUnsuccessful.actionsIfUnsuccessful]]
+command = 'tellraw {{player}} "The request has expired."'
+commandType = "SERVER"
+messageIfSuccessful = "The request to {{player}} has expired."
