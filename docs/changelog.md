@@ -3,7 +3,7 @@
 On Fabric servers, modded level types are not supported by default, so you’ll have to generate a GoG world in single player then upload it to the server. https://botaniamod.net/gardenofglass.html
 # Change Log
 
-## Create Conquest Arcane 1.19.2-1.3.0
+## Create Conquest Arcane 1.19.2-1.3.1
 Jul. 24, 2023
 - Mods Added:
 - Mods Updated:
@@ -104,6 +104,8 @@ Jul. 24, 2023
   - Disable FTB Chunks Death & Waypoints
   - Quests
     - Changed Greater Band of Mana quest task to Greater Band of Aura
+    - Added Create Additions Straw quest
+  - Added set of default command aliases
 
 ## Create Conquest Arcane 1.19.2-1.2.1
 June. 13, 2023
