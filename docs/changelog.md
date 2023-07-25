@@ -4,8 +4,9 @@ On Fabric servers, modded level types are not supported by default, so you’ll 
 # Change Log
 
 ## Create Conquest Arcane 1.19.2-1.3.2
-Jul. 24, 2023
+Jul. 25, 2023
 - Mods Added:
+  - keywizard-fabric-v2.0.1-1.19.2.jar (handy for cleaning up key bind conflicts)
 - Mods Updated:
   - animatica-0.5+1.19.jar
   - appleskin-fabric-mc1.19-2.4.1.jar
