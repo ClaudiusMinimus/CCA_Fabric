@@ -1,6 +1,6 @@
 {
     "name": "Create Conquest Arcane",
-    "subtitle": "v. 1.19.2-1.3.1",
+    "subtitle": "v. 1.19.2-1.3.2",
     "book_texture": "patchouli:textures/gui/book_purple.png",
     "version": 0,
     "landing_text": "$(playername), Welcome to Create Conquest Arcane (CCA)! This wiki is regularly updated to help play and get the most out of CCA.$(br2)Please check out the new  $(l:https://claudiusminimuss-organization.gitbook.io/create-conquest-arcane/)Wiki$(/l) under construction. You are also invited to join $(l:https://discord.com/invite/jXrx4Tu)CM's World Discord$(/l).Thank you for playing CCA!$(br)ClaudiusMinimus",

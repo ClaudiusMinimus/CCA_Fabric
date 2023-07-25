@@ -32,7 +32,7 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = 'Create Conquest Arcane 1.19.2-1.3.1';
+S:customwindowtitle = 'Create Conquest Arcane 1.19.2-1.3.2';
 [A minecraft restart is required after changing this value.]
 B:customwindowicon = 'true';
 
