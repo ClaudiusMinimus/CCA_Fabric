@@ -1,36 +1,20 @@
 {
-	id: "000000000000038C"
-	group: ""
-	order_index: 6
-	filename: "cooking"
-	title: "Cooking"
-	icon: "farmersdelight:stove"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cooking"
+	group: ""
+	icon: "farmersdelight:stove"
+	id: "000000000000038C"
+	order_index: 6
+	quest_links: [ ]
 	quests: [
 		{
-			x: -2.5d
-			y: -0.5d
-			shape: "diamond"
-			size: 1.5d
 			id: "000000000000038D"
-			tasks: [{
-				id: "000000000000038E"
-				type: "item"
-				item: {
-					id: "farmersdelight:flint_knife"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "5B96905F09A853DC"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
 							id: "minecraft:looting"
@@ -38,197 +22,208 @@
 						}]
 					}
 				}
+				type: "item"
 			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "000000000000038E"
+				item: {
+					Count: 1b
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
 		}
 		{
-			x: -2.5d
-			y: -2.0d
 			dependencies: ["000000000000038D"]
 			id: "000000000000038F"
-			tasks: [{
-				id: "0000000000000390"
-				type: "item"
-				item: "farmersdelight:cutting_board"
-			}]
 			rewards: [
 				{
-					id: "39FA67C79F0D393E"
-					type: "item"
-					item: "farmersdelight:pumpkin_slice"
 					count: 8
+					id: "39FA67C79F0D393E"
+					item: "farmersdelight:pumpkin_slice"
+					type: "item"
 				}
 				{
-					id: "3FB350514B076481"
-					type: "item"
-					item: "farmersdelight:canvas"
 					count: 4
+					id: "3FB350514B076481"
+					item: "farmersdelight:canvas"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "0000000000000390"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
 		}
 		{
-			x: -2.5d
-			y: -3.5d
 			dependencies: ["000000000000038F"]
 			id: "00000000000003A6"
-			tasks: [{
-				id: "00000000000003A7"
-				type: "item"
-				item: "farmersdelight:stove"
-			}]
 			rewards: [{
 				id: "0000000000000553"
-				type: "item"
 				item: "farmersdelight:basket"
+				type: "item"
 			}]
+			tasks: [{
+				id: "00000000000003A7"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
 		}
 		{
-			x: -9.0d
-			y: -1.5d
 			id: "00000000000003BA"
-			tasks: [{
-				id: "00000000000003BB"
-				type: "item"
-				item: "farmersdelight:dog_food"
-			}]
 			rewards: [{
 				id: "460C279A01F39644"
-				type: "item"
 				item: "minecraft:wolf_spawn_egg"
+				type: "item"
 			}]
+			tasks: [{
+				id: "00000000000003BB"
+				item: "farmersdelight:dog_food"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
 		}
 		{
-			x: -5.0d
-			y: -4.0d
 			id: "00000000000003BE"
+			rewards: [{
+				count: 8
+				id: "1DD4F35F479C2946"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00000000000003BF"
-				type: "item"
 				item: "farmersdelight:squid_ink_pasta"
-			}]
-			rewards: [{
-				id: "1DD4F35F479C2946"
 				type: "item"
-				item: "minecraft:slime_ball"
-				count: 8
 			}]
+			x: -5.0d
+			y: -4.0d
 		}
 		{
-			x: -10.0d
-			y: -4.0d
 			id: "00000000000003C0"
+			rewards: [{
+				count: 2
+				id: "396B56B924339E0D"
+				item: "minecraft:frogspawn"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00000000000003C1"
-				type: "item"
 				item: "farmersdelight:hot_cocoa"
-			}]
-			rewards: [{
-				id: "396B56B924339E0D"
 				type: "item"
-				item: "minecraft:frogspawn"
-				count: 2
 			}]
+			x: -10.0d
+			y: -4.0d
 		}
 		{
-			x: -10.0d
-			y: -5.0d
 			description: ["Use a Knife to extract Ham from Pigs or Hoglins."]
 			id: "00000000000003C2"
+			rewards: [{
+				count: 16
+				id: "52F7A66720414FCB"
+				item: "minecraft:egg"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00000000000003C3"
-				type: "item"
 				item: "farmersdelight:smoked_ham"
-			}]
-			rewards: [{
-				id: "52F7A66720414FCB"
 				type: "item"
-				item: "minecraft:egg"
-				count: 16
 			}]
+			x: -10.0d
+			y: -5.0d
 		}
 		{
-			x: -7.5d
-			y: -6.5d
 			id: "00000000000003C4"
+			rewards: [{
+				count: 4
+				id: "01C0A83627F940A6"
+				item: "minecraft:fermented_spider_eye"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00000000000003C5"
-				type: "item"
 				item: "farmersdelight:chicken_sandwich"
-			}]
-			rewards: [{
-				id: "01C0A83627F940A6"
 				type: "item"
-				item: "minecraft:fermented_spider_eye"
-				count: 4
 			}]
+			x: -7.5d
+			y: -6.5d
 		}
 		{
-			x: -6.0d
-			y: -1.5d
 			id: "00000000000003C8"
+			rewards: [{
+				count: 4
+				id: "1E71B0D524D43DA6"
+				item: "botania:grass_seeds"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00000000000003C9"
-				type: "item"
 				item: "farmersdelight:grilled_salmon"
-			}]
-			rewards: [{
-				id: "1E71B0D524D43DA6"
 				type: "item"
-				item: "botania:grass_seeds"
-				count: 4
 			}]
+			x: -6.0d
+			y: -1.5d
 		}
 		{
-			x: -5.0d
-			y: -5.0d
 			id: "00000000000003CA"
-			tasks: [{
-				id: "00000000000003CB"
-				type: "item"
-				item: "farmersdelight:cabbage_rolls"
-			}]
 			rewards: [{
 				id: "67974D2AD6BCF85E"
-				type: "item"
 				item: "minecraft:jungle_chest_boat"
+				type: "item"
 			}]
+			tasks: [{
+				id: "00000000000003CB"
+				item: "farmersdelight:cabbage_rolls"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
 		}
 		{
-			x: -6.0d
-			y: -2.5d
 			id: "00000000000003D0"
-			tasks: [{
-				id: "00000000000003D1"
-				type: "item"
-				item: "farmersdelight:fruit_salad"
-			}]
 			rewards: [{
 				id: "5801CF15E0152D24"
-				type: "item"
 				item: "minecraft:totem_of_undying"
+				type: "item"
 			}]
+			tasks: [{
+				id: "00000000000003D1"
+				item: "farmersdelight:fruit_salad"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
 		}
 		{
-			x: -9.0d
-			y: -2.5d
 			id: "00000000000003D2"
+			rewards: [{
+				count: 4
+				id: "4A0772D0D25B8B70"
+				item: "minecraft:honeycomb_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00000000000003D3"
-				type: "item"
 				item: "farmersdelight:beef_stew"
-			}]
-			rewards: [{
-				id: "4A0772D0D25B8B70"
 				type: "item"
-				item: "minecraft:honeycomb_block"
-				count: 4
 			}]
+			x: -9.0d
+			y: -2.5d
 		}
 		{
-			title: "Eat all of your vegtables"
-			x: -7.5d
-			y: -4.5d
-			shape: "heart"
-			description: ["A healthy and varied diet can provide many health benefits. Eating a variety of foods will even give you extra hearts!"]
 			dependencies: [
 				"00000000000003D0"
 				"00000000000003D2"
@@ -240,35 +235,40 @@
 				"00000000000003BA"
 				"00000000000003CA"
 			]
-			size: 1.5d
+			description: ["A healthy and varied diet can provide many health benefits. Eating a variety of foods will even give you extra hearts!"]
 			id: "00000000000005E3"
+			rewards: [{
+				id: "00000000000007D5"
+				item: "botania:enchanter"
+				type: "item"
+			}]
+			shape: "heart"
+			size: 1.5d
 			tasks: [{
 				id: "00000000000005E4"
 				type: "checkmark"
 			}]
-			rewards: [{
-				id: "00000000000007D5"
-				type: "item"
-				item: "botania:enchanter"
-			}]
+			title: "Eat all of your vegtables"
+			x: -7.5d
+			y: -4.5d
 		}
 		{
-			x: -2.5d
-			y: -5.0d
 			dependencies: ["00000000000003A6"]
 			id: "7ACEB0A0BE146DD6"
+			rewards: [{
+				count: 10
+				id: "2A481F0DC3473533"
+				item: "farmersdelight:rice"
+				type: "item"
+			}]
 			tasks: [{
 				id: "27F1FFDC332D5202"
-				type: "item"
 				item: "farmersdelight:cooking_pot"
-			}]
-			rewards: [{
-				id: "2A481F0DC3473533"
 				type: "item"
-				item: "farmersdelight:rice"
-				count: 10
 			}]
+			x: -2.5d
+			y: -5.0d
 		}
 	]
-	quest_links: [ ]
+	title: "Cooking"
 }

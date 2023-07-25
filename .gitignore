@@ -42,6 +42,7 @@ minecraft/options.txt
 minecraft/patchouli_data.json
 minecraft/rhino.local.properties
 minecraft/usercache.json
+minecraft/usernamecache.json
 mmc-pack.json
 
 # Stop ignoring these folders

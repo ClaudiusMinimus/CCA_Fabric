@@ -1,6 +1,112 @@
 # Change Log
 
 On Fabric servers, modded level types are not supported by default, so you’ll have to generate a GoG world in single player then upload it to the server. https://botaniamod.net/gardenofglass.html
+# Change Log
+
+## Create Conquest Arcane 1.19.2-1.3.2
+Jul. 25, 2023
+- Mods Added:
+  - keywizard-fabric-v2.0.1-1.19.2.jar (handy for cleaning up key bind conflicts)
+- Mods Updated:
+  - animatica-0.5+1.19.jar
+  - appleskin-fabric-mc1.19-2.4.1.jar
+  - architectury-6.5.85-fabric.jar
+  - balm-fabric-1.19.2-4.5.7.jar
+  - bettercombat-fabric-1.7.1+1.19.jar
+  - BHMenu-Fabric-1.19.2-2.4.0.jar
+  - borderless-mining-1.1.5+1.19.jar
+  - Botania-1.19.2-440-FABRIC.jar
+  - BuildingWands-mc1.19.2-2.6.8-release-fabric.jar
+  - cardinal-components-api-5.0.2.jar
+  - carryon-fabric-1.19.2-2.1.0.19.jar
+  - clienttweaks-fabric-1.19.2-8.1.2.jar
+  - cloth-config-8.3.103-fabric.jar
+  - Clumps-fabric-1.19.2-9.0.0+14.jar
+  - ConquestRecipes-v0.0.6-1.19.2.jar
+  - continuity-2.0.2+1.19.jar
+  - Controlling-fabric-1.19.2-10.0+7.jar
+  - craftingtweaks-fabric-1.19.2-15.1.7.jar
+  - CraftPresence-Fabric-1.19.2-Release-1.8.10.jar
+  - create-fabric-0.5.1-b-build.1089+mc1.19.2.jar
+  - createaddition-fabric+1.19.2-20230723a.jar
+  - createdeco-1.3.3-1.19.2.jar
+  - CreateFabricREIBugFix-0.1.5-create0.5.1-mc1.19.x.jar
+  - DisableCustomWorldsAdvice-3.0.jar
+  - drippyloadingscreen_fabric_2.2.2_MC_1.19-1.19.2.jar
+  - dummmmmmy-1.19.2-1.7.1-fabric.jar
+  - EnderDragonEggRespawn-1.0.0_1.19.2-Fabric.jar
+  - entityculling-fabric-1.6.1-mc1.19.2.jar
+  - EssentialGUI-1.8.10+1.19.2.jar
+  - fabric-api-0.76.0+1.19.2.jar
+  - fabric-language-kotlin-1.10.8+kotlin.1.9.0.jar
+  - fabricskyboxes-0.7.2+mc1.19.2.jar
+  - fancymenu_fabric_2.14.9_MC_1.19-1.19.2.jar
+  - farmers-delight-fabric-1.19.2-1.3.10.jar
+  - ferritecore-5.0.3-fabric.jar
+  - ForgeConfigAPIPort-v4.2.11-1.19.2-Fabric.jar
+  - ftb-chunks-fabric-1902.4.1-build.290.jar
+  - ftb-library-fabric-1902.4.1-build.236.jar
+  - ftb-quests-fabric-1902.5.1-build.250.jar
+  - ftb-ranks-fabric-1902.1.15-build.77.jar
+  - ftb-teams-fabric-1902.2.14-build.123.jar
+  - ftbbackups2-fabric-1.19.2-1.0.19.jar
+  - geckolib-fabric-1.19-3.1.40.jar
+  - gravestones-v1.13.jar
+  - grind-enchantments-3.1.1+1.19.2.jar
+  - harvestwithease-1.19.2-6.0.1.4-final-fabric.jar
+  - ImmediatelyFast-1.1.12+1.19.jar
+  - indium-1.0.9+mc1.19.2.jar
+  - InventorySorter-1.8.10-1.19.jar
+  - kibe-1.10.1-BETA+1.19.jar
+  - Kiwi-1.19.1-fabric-8.3.4.jar
+  - konkrete_fabric_1.6.1_MC_1.19.1-1.19.2.jar
+  - kubejs_botania-1.3-fabric-fix.jar
+  - kubejs-create-fabric-1902.2.4-build.30.jar
+  - kubejs-fabric-1902.6.1-build.327.jar
+  - language-reload-1.5.8+1.19.2.jar
+  - light-overlay-7.0.0.jar
+  - lootr-1.19-0.4.27.67.jar
+  - LuckPerms-Fabric-5.4.66.jar
+  - malilib-fabric-1.19.2-0.13.0.jar
+  - mcdw-5.0.13-1.19.jar
+  - mcpitanlibarch-1.7.5-1.19.2-fabric.jar
+  - moonlight-1.19.2-2.2.43-fabric.jar
+  - MouseTweaks-fabric-mc1.19-2.22.jar
+  - mythicmetals-0.17.3+1.19.2.jar
+  - netherportalfix-fabric-1.19-10.0.1.jar
+  - NoChatReports-FABRIC-1.19.2-v1.13.12.jar
+  - optigui-2.1.5.jar
+  - owo-lib-0.9.3+1.19.jar
+  - player-animation-lib-fabric-1.0.2.jar
+  - polylib-fabric-1900.0.2-build.73.jar
+  - polymorph-fabric-0.46.4+1.19.2.jar
+  - ponderjs-1.19.2-1.2.0.jar
+  - PuzzlesLib-v4.4.3-1.19.2-Fabric.jar
+  - questsadditions-fabric-1.19.2-1.4.1.jar
+  - reeses_sodium_options-1.4.9+mc1.19.2-build.67.jar
+  - RoughlyEnoughItems-9.1.632.jar
+  - sliceanddice-fabric-2.2.1.jar
+  - starlight-1.1.1+fabric.ae22326.jar
+  - tempad-fabric-1.19.2-1.4.5.jar
+  - toms_storage_fabric-1.19-1.5.9.jar
+  - tooltipfix-1.1.1-1.19.jar
+  - travelers-backpack-1.19.2-8.2.26.jar
+  - tweakeroo-fabric-1.19.2-0.14.3.jar
+  - UncraftingTable-fabric-1.2.6.jar
+  - waystones-fabric-1.19.2-11.4.1.jar
+  - Xaeros_Minimap_23.5.0_Fabric_1.19.1.jar
+  - XaerosWorldMap_1.30.6_Fabric_1.19.1.jar
+  - YetAnotherConfigLib-2.2.0-for-1.19.2.jar
+  - YungsBetterNetherFortresses-1.19.2-Fabric-1.0.6.jar
+- Mods Removed:
+- Other Changes:
+  - Disable the custome Game Menu to restore Open to LAN
+  - Added additional Trinket ring slots for both hands
+  - Disable FTB Chunks Death & Waypoints
+  - Quests
+    - Changed Greater Band of Mana quest task to Greater Band of Aura
+    - Added Create Additions Straw quest
+  - Added set of default command aliases
 
 ## Create Conquest Arcane 1.19.2-1.2.1
 June. 13, 2023

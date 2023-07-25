@@ -1,0 +1,14 @@
+schemaVersion = 1
+commandMode = "COMMAND_CUSTOM"
+command = "spawn"
+
+[[actions]]
+command = "commandaliases database match spawn.dimension"
+commandType = "SERVER"
+messageIfUnsuccessful = "Spawn has not been set!"
+requireSuccess = true
+
+[[actions]]
+command = "execute in $get_database_value(spawn.dimension) run tp $executor_name() $get_database_value(spawn.pos) $get_database_value(spawn.rotation)"
+commandType = "SERVER"
+messageIfSuccessful = "Teleporting to $executor_name() to spawn!"

@@ -1,336 +1,286 @@
 {
-	id: "12B4A68954D0B9E6"
-	group: ""
-	order_index: 3
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
 	filename: "armortoolsweapons"
-	title: "Armor, Tools and Weapons"
+	group: ""
 	icon: {
-		id: "emerald_tools:copper_helmet"
 		Count: 1b
+		id: "emerald_tools:copper_helmet"
 		tag: {
 			Damage: 0
 		}
 	}
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
+	id: "12B4A68954D0B9E6"
+	order_index: 3
+	quest_links: [ ]
 	quests: [
 		{
-			x: -1.0d
-			y: -2.5d
+			id: "0B831B71D9154587"
 			shape: "diamond"
 			size: 1.5d
-			id: "0B831B71D9154587"
 			tasks: [{
-				id: "6D5B2A8CCEBAB745"
-				type: "item"
-				item: "minecraft:copper_ingot"
 				count: 64L
+				id: "6D5B2A8CCEBAB745"
+				item: "minecraft:copper_ingot"
+				type: "item"
 			}]
+			x: -1.0d
+			y: -2.5d
 		}
 		{
-			x: -1.0d
-			y: -4.5d
 			dependencies: ["0B831B71D9154587"]
 			id: "3E7F1217CF1D8012"
+			rewards: [{
+				id: "65961EBED61933FA"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:sharpness"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "29BCAF9996667962"
-				type: "item"
 				item: {
-					id: "emerald_tools:copper_sword"
 					Count: 1b
+					id: "emerald_tools:copper_sword"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "65961EBED61933FA"
 				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0B831B71D9154587"]
+			id: "5CC6829C38B95E12"
+			rewards: [{
+				id: "51BFD92E68850D40"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
+							id: "minecraft:protection"
 							lvl: 2s
-							id: "minecraft:sharpness"
 						}]
 					}
 				}
+				type: "item"
 			}]
-		}
-		{
-			x: -2.5d
-			y: -3.5d
-			dependencies: ["0B831B71D9154587"]
-			id: "5CC6829C38B95E12"
 			tasks: [
 				{
 					id: "417E4659DC8E10C4"
-					type: "item"
 					item: {
-						id: "emerald_tools:copper_helmet"
 						Count: 1b
+						id: "emerald_tools:copper_helmet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "67FF0E0C5B1D5CF9"
-					type: "item"
 					item: {
-						id: "emerald_tools:copper_chestplate"
 						Count: 1b
+						id: "emerald_tools:copper_chestplate"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "6BB5931CD742C623"
-					type: "item"
 					item: {
-						id: "emerald_tools:copper_leggings"
 						Count: 1b
+						id: "emerald_tools:copper_leggings"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "4DFF2309CFBD0D6E"
-					type: "item"
 					item: {
-						id: "emerald_tools:copper_boots"
 						Count: 1b
+						id: "emerald_tools:copper_boots"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "51BFD92E68850D40"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 2s
-							id: "minecraft:protection"
-						}]
-					}
-				}
-			}]
+			x: -2.5d
+			y: -3.5d
 		}
 		{
-			x: 0.5d
-			y: -3.5d
+			dependencies: ["0B831B71D9154587"]
 			description: [
 				"Trade your copper  tools for an enchanted Copper Paxel. "
 				""
 				"You need to click on each tool shown above and press Submit to claim your paxel."
 			]
-			dependencies: ["0B831B71D9154587"]
 			id: "1302CAEBB798A620"
-			tasks: [
-				{
-					id: "2A5E6B375F5D9CDF"
-					type: "item"
-					item: {
-						id: "emerald_tools:copper_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					consume_items: true
-				}
-				{
-					id: "6D5E86CDC6750798"
-					type: "item"
-					item: {
-						id: "emerald_tools:copper_axe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					consume_items: true
-				}
-				{
-					id: "1037CB99CFA7284C"
-					type: "item"
-					item: {
-						id: "emerald_tools:copper_shovel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					consume_items: true
-				}
-			]
 			rewards: [{
 				id: "1721CB986E0EEEA0"
-				type: "item"
 				item: {
-					id: "emerald_tools:copper_paxel"
 					Count: 1b
+					id: "emerald_tools:copper_paxel"
 					tag: {
-						RepairCost: 1
+						Damage: 0
 						Enchantments: [
 							{
-								lvl: 2s
 								id: "minecraft:efficiency"
+								lvl: 2s
 							}
 							{
-								lvl: 2s
 								id: "minecraft:unbreaking"
+								lvl: 2s
 							}
 						]
-						Damage: 0
+						RepairCost: 1
 					}
 				}
+				type: "item"
 			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "2A5E6B375F5D9CDF"
+					item: {
+						Count: 1b
+						id: "emerald_tools:copper_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6D5E86CDC6750798"
+					item: {
+						Count: 1b
+						id: "emerald_tools:copper_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1037CB99CFA7284C"
+					item: {
+						Count: 1b
+						id: "emerald_tools:copper_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -3.5d
 		}
 		{
-			x: 0.5d
-			y: -1.5d
 			dependencies: ["0B831B71D9154587"]
 			id: "1405326D0FDA9CD5"
-			tasks: [{
-				id: "4783DAF9ECB5BF8F"
-				type: "item"
-				item: {
-					id: "emerald_tools:copper_hammer"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "6B10C227372053D8"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
-							lvl: 1s
 							id: "minecraft:fortune"
+							lvl: 1s
 						}]
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "4783DAF9ECB5BF8F"
+				item: {
+					Count: 1b
+					id: "emerald_tools:copper_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
 		}
 		{
-			x: -1.0d
-			y: -0.5d
 			dependencies: ["0B831B71D9154587"]
 			id: "690C4FD803EBC5AD"
+			rewards: [{
+				count: 8
+				id: "21507C566D64E340"
+				item: "minecraft:brown_mushroom"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7C6536E9053489D8"
-				type: "item"
 				item: {
-					id: "emerald_tools:copper_excavator"
 					Count: 1b
+					id: "emerald_tools:copper_excavator"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "21507C566D64E340"
 				type: "item"
-				item: "minecraft:brown_mushroom"
-				count: 8
 			}]
+			x: -1.0d
+			y: -0.5d
 		}
 		{
-			x: -2.5d
-			y: -1.5d
 			dependencies: ["0B831B71D9154587"]
 			id: "6CEDDCCD7F6A1180"
+			rewards: [{
+				count: 32
+				id: "2D2C80CA64B77667"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
 			tasks: [{
 				id: "34D4110E2D1F5365"
-				type: "item"
 				item: {
-					id: "emerald_tools:copper_bow"
 					Count: 1b
+					id: "emerald_tools:copper_bow"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "2D2C80CA64B77667"
 				type: "item"
-				item: "minecraft:arrow"
-				count: 32
 			}]
+			x: -2.5d
+			y: -1.5d
 		}
 		{
-			x: 4.0d
-			y: -7.0d
-			shape: "diamond"
-			size: 1.5d
 			id: "3DB0BA5BF6ECD31C"
-			tasks: [
-				{
-					id: "68E27237782B008D"
-					type: "item"
-					item: {
-						id: "emerald_tools:ruby_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "4ACFE0073EA86DE7"
-					type: "item"
-					item: {
-						id: "emerald_tools:ruby_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "08C672E2D2EB1848"
-					type: "item"
-					item: {
-						id: "emerald_tools:ruby_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "37702CDBFD02DF7F"
-					type: "item"
-					item: {
-						id: "emerald_tools:ruby_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
 			rewards: [
 				{
+					count: 2
 					id: "637BF30DA41E830E"
-					type: "item"
 					item: {
-						id: "minecraft:enchanted_book"
 						Count: 1b
+						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
 								id: "minecraft:protection"
@@ -338,14 +288,14 @@
 							}]
 						}
 					}
-					count: 2
+					type: "item"
 				}
 				{
+					count: 2
 					id: "14D2B8B27BFAC133"
-					type: "item"
 					item: {
-						id: "minecraft:enchanted_book"
 						Count: 1b
+						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
 								id: "minecraft:mending"
@@ -353,166 +303,202 @@
 							}]
 						}
 					}
-					count: 2
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 6.5d
-			y: -1.0d
 			shape: "diamond"
 			size: 1.5d
+			tasks: [
+				{
+					id: "68E27237782B008D"
+					item: {
+						Count: 1b
+						id: "emerald_tools:ruby_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ACFE0073EA86DE7"
+					item: {
+						Count: 1b
+						id: "emerald_tools:ruby_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08C672E2D2EB1848"
+					item: {
+						Count: 1b
+						id: "emerald_tools:ruby_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37702CDBFD02DF7F"
+					item: {
+						Count: 1b
+						id: "emerald_tools:ruby_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
 			id: "2B5CEA799CF3BA54"
+			rewards: [{
+				id: "7CAF67E0C80D384A"
+				item: {
+					Count: 1b
+					id: "wands:netherite_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "17A949EFF8AA0698"
-					type: "item"
 					item: {
-						id: "emerald_tools:emerald_helmet"
 						Count: 1b
+						id: "emerald_tools:emerald_helmet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "7ECD751EBE19F730"
-					type: "item"
 					item: {
-						id: "emerald_tools:emerald_chestplate"
 						Count: 1b
+						id: "emerald_tools:emerald_chestplate"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "781A8901DD21B67A"
-					type: "item"
 					item: {
-						id: "emerald_tools:emerald_leggings"
 						Count: 1b
+						id: "emerald_tools:emerald_leggings"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "29B78E0C4DD37BAE"
-					type: "item"
 					item: {
-						id: "emerald_tools:emerald_boots"
 						Count: 1b
+						id: "emerald_tools:emerald_boots"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "7CAF67E0C80D384A"
-				type: "item"
-				item: {
-					id: "wands:netherite_wand"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
+			x: 6.5d
+			y: -1.0d
 		}
 		{
-			x: 9.5d
-			y: -7.0d
-			shape: "diamond"
-			size: 1.5d
 			id: "1F74ACC70FC165F4"
-			tasks: [
-				{
-					id: "0108BD2F10207F73"
-					type: "item"
-					item: {
-						id: "emerald_tools:amethyst_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "7C7648508055AC74"
-					type: "item"
-					item: {
-						id: "emerald_tools:amethyst_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					consume_items: false
-				}
-				{
-					id: "7549B0FD26D4422B"
-					type: "item"
-					item: {
-						id: "emerald_tools:amethyst_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "7778EA3CC163A0A9"
-					type: "item"
-					item: {
-						id: "emerald_tools:amethyst_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
 			rewards: [{
+				count: 2
 				id: "1D2E9D454E0E569B"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
-							lvl: 4s
 							id: "minecraft:protection"
+							lvl: 4s
 						}]
 					}
 				}
-				count: 2
+				type: "item"
 			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0108BD2F10207F73"
+					item: {
+						Count: 1b
+						id: "emerald_tools:amethyst_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7C7648508055AC74"
+					item: {
+						Count: 1b
+						id: "emerald_tools:amethyst_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7549B0FD26D4422B"
+					item: {
+						Count: 1b
+						id: "emerald_tools:amethyst_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7778EA3CC163A0A9"
+					item: {
+						Count: 1b
+						id: "emerald_tools:amethyst_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -7.0d
 		}
 		{
-			x: 5.5d
-			y: -2.5d
 			dependencies: ["2B5CEA799CF3BA54"]
 			id: "4FB7D8ABADC758D9"
-			tasks: [{
-				id: "5F8FDFED3D89ADFA"
-				type: "item"
-				item: {
-					id: "emerald_tools:emerald_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [
 				{
 					id: "40D2A6474D34ED5A"
-					type: "item"
 					item: {
-						id: "minecraft:enchanted_book"
 						Count: 1b
+						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
 								id: "minecraft:unbreaking"
@@ -520,13 +506,13 @@
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "3DC7C476C8BCEBD4"
-					type: "item"
 					item: {
-						id: "minecraft:enchanted_book"
 						Count: 1b
+						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
 								id: "minecraft:sharpness"
@@ -534,106 +520,106 @@
 							}]
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "5F8FDFED3D89ADFA"
+				item: {
+					Count: 1b
+					id: "emerald_tools:emerald_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
 		}
 		{
-			x: 7.5d
-			y: -2.5d
+			dependencies: ["2B5CEA799CF3BA54"]
 			description: [
 				"Trade your emerald tools for an enchanted Emerald Paxel."
 				""
 				"You need to click on each tool shown above and press Submit to claim your paxel."
 			]
-			dependencies: ["2B5CEA799CF3BA54"]
 			id: "6A05AB80D173ECD8"
-			tasks: [
-				{
-					id: "67465E433470CEF5"
-					type: "item"
-					item: {
-						id: "emerald_tools:emerald_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					consume_items: true
-				}
-				{
-					id: "5C0473058B95B7A7"
-					type: "item"
-					item: {
-						id: "emerald_tools:emerald_axe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					consume_items: true
-				}
-				{
-					id: "7D07C23D5A570992"
-					type: "item"
-					item: {
-						id: "emerald_tools:emerald_shovel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					consume_items: true
-				}
-			]
 			rewards: [{
 				id: "656BF6D3D1424F52"
-				type: "item"
 				item: {
-					id: "emerald_tools:emerald_paxel"
 					Count: 1b
+					id: "emerald_tools:emerald_paxel"
 					tag: {
-						RepairCost: 1
+						Damage: 0
 						Enchantments: [
 							{
-								lvl: 4s
 								id: "minecraft:efficiency"
+								lvl: 4s
 							}
 							{
-								lvl: 3s
 								id: "minecraft:unbreaking"
+								lvl: 3s
 							}
 							{
-								lvl: 3s
 								id: "minecraft:fortune"
+								lvl: 3s
 							}
 						]
-						Damage: 0
+						RepairCost: 1
 					}
 				}
+				type: "item"
 			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "67465E433470CEF5"
+					item: {
+						Count: 1b
+						id: "emerald_tools:emerald_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5C0473058B95B7A7"
+					item: {
+						Count: 1b
+						id: "emerald_tools:emerald_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7D07C23D5A570992"
+					item: {
+						Count: 1b
+						id: "emerald_tools:emerald_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -2.5d
 		}
 		{
-			x: 8.0d
-			y: -1.0d
 			dependencies: ["2B5CEA799CF3BA54"]
 			id: "5D1F8D59301E9F80"
-			tasks: [{
-				id: "1F9AC90A321EDAD8"
-				type: "item"
-				item: {
-					id: "emerald_tools:emerald_hammer"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "373EA2790377EAAA"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
 							id: "minecraft:efficiency"
@@ -641,99 +627,99 @@
 						}]
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "1F9AC90A321EDAD8"
+				item: {
+					Count: 1b
+					id: "emerald_tools:emerald_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
 		}
 		{
-			x: 6.5d
-			y: 1.0d
 			dependencies: ["2B5CEA799CF3BA54"]
 			id: "48060A78B15630DB"
+			rewards: [{
+				count: 6
+				id: "266134606A1B7918"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
 			tasks: [{
 				id: "76FB4811A6103CE4"
-				type: "item"
 				item: {
-					id: "emerald_tools:emerald_excavator"
 					Count: 1b
+					id: "emerald_tools:emerald_excavator"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "266134606A1B7918"
 				type: "item"
-				item: "minecraft:ender_pearl"
-				count: 6
 			}]
+			x: 6.5d
+			y: 1.0d
 		}
 		{
-			x: 5.0d
-			y: -1.0d
 			dependencies: ["2B5CEA799CF3BA54"]
 			id: "4D32D56D2D874FB6"
-			tasks: [{
-				id: "2744ECA0711D316C"
-				type: "item"
-				item: {
-					id: "emerald_tools:emerald_bow"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "052357F67FB8EF55"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
-							lvl: 3s
 							id: "minecraft:thorns"
+							lvl: 3s
 						}]
 					}
 				}
-			}]
-		}
-		{
-			x: 3.0d
-			y: -8.5d
-			dependencies: ["3DB0BA5BF6ECD31C"]
-			id: "436FEE9F5F335425"
-			tasks: [{
-				id: "0BCB202598C734E0"
 				type: "item"
+			}]
+			tasks: [{
+				id: "2744ECA0711D316C"
 				item: {
-					id: "emerald_tools:ruby_sword"
 					Count: 1b
+					id: "emerald_tools:emerald_bow"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DB0BA5BF6ECD31C"]
+			id: "436FEE9F5F335425"
 			rewards: [
 				{
 					id: "5DB10EB51929C5D8"
-					type: "item"
 					item: {
-						id: "minecraft:enchanted_book"
 						Count: 1b
+						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
-								lvl: 1s
 								id: "minecraft:mending"
+								lvl: 1s
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "0FA5310F93CED473"
-					type: "item"
 					item: {
-						id: "minecraft:enchanted_book"
 						Count: 1b
+						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
 								id: "minecraft:looting"
@@ -741,116 +727,116 @@
 							}]
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "0BCB202598C734E0"
+				item: {
+					Count: 1b
+					id: "emerald_tools:ruby_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.5d
 		}
 		{
-			x: 5.0d
-			y: -8.5d
 			dependencies: ["3DB0BA5BF6ECD31C"]
 			id: "7273F5D456F7A469"
-			tasks: [
-				{
-					id: "6441C51614099924"
-					type: "item"
-					item: {
-						id: "emerald_tools:ruby_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					consume_items: true
-				}
-				{
-					id: "75AE1A33269CECB6"
-					type: "item"
-					item: {
-						id: "emerald_tools:ruby_axe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					consume_items: true
-				}
-				{
-					id: "0F57219ED8CEFFF1"
-					type: "item"
-					item: {
-						id: "emerald_tools:ruby_shovel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					consume_items: true
-				}
-			]
 			rewards: [{
 				id: "7D8E628E80D0437C"
-				type: "item"
 				item: {
-					id: "emerald_tools:ruby_paxel"
 					Count: 1b
+					id: "emerald_tools:ruby_paxel"
 					tag: {
-						RepairCost: 1
+						Damage: 0
 						Enchantments: [
 							{
-								lvl: 4s
 								id: "minecraft:efficiency"
+								lvl: 4s
 							}
 							{
-								lvl: 3s
 								id: "minecraft:unbreaking"
+								lvl: 3s
 							}
 							{
-								lvl: 1s
 								id: "minecraft:mending"
+								lvl: 1s
 							}
 						]
-						Damage: 0
+						RepairCost: 1
 					}
 				}
+				type: "item"
 			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "6441C51614099924"
+					item: {
+						Count: 1b
+						id: "emerald_tools:ruby_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "75AE1A33269CECB6"
+					item: {
+						Count: 1b
+						id: "emerald_tools:ruby_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0F57219ED8CEFFF1"
+					item: {
+						Count: 1b
+						id: "emerald_tools:ruby_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -8.5d
 		}
 		{
-			x: 5.5d
-			y: -7.0d
 			dependencies: ["3DB0BA5BF6ECD31C"]
 			id: "1B413B1488389D6F"
-			tasks: [{
-				id: "01A1B6C9C4DAB39C"
-				type: "item"
-				item: {
-					id: "emerald_tools:ruby_hammer"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [
 				{
 					id: "06685B75F2BC57D6"
-					type: "item"
 					item: {
-						id: "minecraft:enchanted_book"
 						Count: 1b
+						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
-								lvl: 3s
 								id: "minecraft:efficiency"
+								lvl: 3s
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "429346EB72750C2E"
-					type: "item"
 					item: {
-						id: "minecraft:enchanted_book"
 						Count: 1b
+						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
 								id: "minecraft:fortune"
@@ -858,31 +844,31 @@
 							}]
 						}
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 4.0d
-			y: -5.0d
-			dependencies: ["3DB0BA5BF6ECD31C"]
-			id: "0E60601BBB170D76"
 			tasks: [{
-				id: "62F7E6F11EBC6385"
-				type: "item"
+				id: "01A1B6C9C4DAB39C"
 				item: {
-					id: "emerald_tools:ruby_excavator"
 					Count: 1b
+					id: "emerald_tools:ruby_hammer"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3DB0BA5BF6ECD31C"]
+			id: "0E60601BBB170D76"
 			rewards: [{
 				id: "331F3298EC740FA2"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
 							id: "minecraft:fortune"
@@ -890,43 +876,43 @@
 						}]
 					}
 				}
-			}]
-		}
-		{
-			x: 2.5d
-			y: -7.0d
-			dependencies: ["3DB0BA5BF6ECD31C"]
-			id: "0A3FF0F14973AFD5"
-			tasks: [{
-				id: "71E208767339DDD6"
 				type: "item"
+			}]
+			tasks: [{
+				id: "62F7E6F11EBC6385"
 				item: {
-					id: "emerald_tools:ruby_bow"
 					Count: 1b
+					id: "emerald_tools:ruby_excavator"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3DB0BA5BF6ECD31C"]
+			id: "0A3FF0F14973AFD5"
 			rewards: [
 				{
+					count: 32
 					id: "562047B82F1AE1FD"
-					type: "item"
 					item: {
-						id: "minecraft:tipped_arrow"
 						Count: 1b
+						id: "minecraft:tipped_arrow"
 						tag: {
 							Potion: "minecraft:strong_harming"
 						}
 					}
-					count: 32
+					type: "item"
 				}
 				{
 					id: "6AE529C0CDE9288C"
-					type: "item"
 					item: {
-						id: "minecraft:enchanted_book"
 						Count: 1b
+						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
 								id: "minecraft:power"
@@ -934,32 +920,32 @@
 							}]
 						}
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 8.5d
-			y: -8.5d
-			dependencies: ["1F74ACC70FC165F4"]
-			id: "34B763F326DDBB58"
 			tasks: [{
-				id: "4159930C9ABE469C"
-				type: "item"
+				id: "71E208767339DDD6"
 				item: {
-					id: "emerald_tools:amethyst_sword"
 					Count: 1b
+					id: "emerald_tools:ruby_bow"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1F74ACC70FC165F4"]
+			id: "34B763F326DDBB58"
 			rewards: [
 				{
 					id: "22467AC9C966A27A"
-					type: "item"
 					item: {
-						id: "minecraft:enchanted_book"
 						Count: 1b
+						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
 								id: "minecraft:sweeping"
@@ -967,13 +953,13 @@
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "52B81CB1ADF5D694"
-					type: "item"
 					item: {
-						id: "minecraft:enchanted_book"
 						Count: 1b
+						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
 								id: "minecraft:looting"
@@ -981,218 +967,231 @@
 							}]
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "4159930C9ABE469C"
+				item: {
+					Count: 1b
+					id: "emerald_tools:amethyst_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -8.5d
 		}
 		{
-			x: 10.5d
-			y: -8.5d
+			dependencies: ["1F74ACC70FC165F4"]
 			description: [
 				"Trade in your Amethyst tools for an Amethyst Paxel. You will need to remove Silk Touch from the Pickaxe to make the trade. Be sure to put a book with the pickaxe in the Grindstone with enough XP you can have a Silk Touch book as well."
 				""
 				"You need to click on each tool shown above and press Submit to claim your paxel."
 			]
-			dependencies: ["1F74ACC70FC165F4"]
 			id: "2A0AA48A60097749"
-			tasks: [
-				{
-					id: "2A645F4403D78B2D"
-					type: "item"
-					item: {
-						id: "emerald_tools:amethyst_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					consume_items: true
-				}
-				{
-					id: "0D93985F70841C15"
-					type: "item"
-					item: {
-						id: "emerald_tools:amethyst_axe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					consume_items: true
-				}
-				{
-					id: "38C518F1BCEB3BA4"
-					type: "item"
-					item: {
-						id: "emerald_tools:amethyst_shovel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					consume_items: true
-				}
-			]
 			rewards: [{
 				id: "078D02B235EF9E61"
-				type: "item"
 				item: {
-					id: "emerald_tools:amethyst_paxel"
 					Count: 1b
+					id: "emerald_tools:amethyst_paxel"
 					tag: {
-						RepairCost: 3
+						Damage: 0
 						Enchantments: [
 							{
-								lvl: 3s
 								id: "minecraft:unbreaking"
+								lvl: 3s
 							}
 							{
-								lvl: 1s
 								id: "minecraft:silk_touch"
-							}
-							{
 								lvl: 1s
-								id: "minecraft:mending"
 							}
 							{
-								lvl: 5s
+								id: "minecraft:mending"
+								lvl: 1s
+							}
+							{
 								id: "minecraft:efficiency"
+								lvl: 5s
 							}
 						]
-						Damage: 0
+						RepairCost: 3
 					}
 				}
+				type: "item"
 			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "2A645F4403D78B2D"
+					item: {
+						Count: 1b
+						id: "emerald_tools:amethyst_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0D93985F70841C15"
+					item: {
+						Count: 1b
+						id: "emerald_tools:amethyst_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "38C518F1BCEB3BA4"
+					item: {
+						Count: 1b
+						id: "emerald_tools:amethyst_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -8.5d
 		}
 		{
-			x: 11.0d
-			y: -7.0d
 			dependencies: ["1F74ACC70FC165F4"]
 			id: "70B2E39AD66C2D90"
+			rewards: [{
+				count: 8
+				id: "594492AF9243B565"
+				item: "farmersdelight:honey_glazed_ham_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "277D6AE861D6A747"
-				type: "item"
 				item: {
-					id: "emerald_tools:amethyst_hammer"
 					Count: 1b
+					id: "emerald_tools:amethyst_hammer"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "594492AF9243B565"
 				type: "item"
-				item: "farmersdelight:honey_glazed_ham_block"
-				count: 8
 			}]
+			x: 11.0d
+			y: -7.0d
 		}
 		{
-			x: 9.5d
-			y: -5.0d
 			dependencies: ["1F74ACC70FC165F4"]
 			id: "7E34AC1144BC320B"
-			tasks: [{
-				id: "48FF84FC86A5C397"
-				type: "item"
-				item: {
-					id: "emerald_tools:amethyst_excavator"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "5FBAE6F71D4A9E49"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
-							lvl: 3s
 							id: "minecraft:efficiency"
+							lvl: 3s
 						}]
 					}
 				}
-			}]
-		}
-		{
-			x: 8.0d
-			y: -7.0d
-			dependencies: ["1F74ACC70FC165F4"]
-			id: "4BC9C299642FB58F"
-			tasks: [{
-				id: "13E320D5D83E1BC9"
 				type: "item"
+			}]
+			tasks: [{
+				id: "48FF84FC86A5C397"
 				item: {
-					id: "emerald_tools:amethyst_bow"
 					Count: 1b
+					id: "emerald_tools:amethyst_excavator"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1F74ACC70FC165F4"]
+			id: "4BC9C299642FB58F"
 			rewards: [{
 				id: "7CBC892C562AE99D"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
-							lvl: 1s
 							id: "minecraft:flame"
+							lvl: 1s
 						}]
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "13E320D5D83E1BC9"
+				item: {
+					Count: 1b
+					id: "emerald_tools:amethyst_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.0d
 		}
 		{
-			title: "Complete one of the sets"
-			x: 6.5d
-			y: -4.5d
-			shape: "hexagon"
-			min_required_dependencies: 1
 			dependencies: [
 				"3DB0BA5BF6ECD31C"
 				"1F74ACC70FC165F4"
 				"2B5CEA799CF3BA54"
 			]
 			dependency_requirement: "one_completed"
-			size: 1.5d
 			id: "599136C07D927135"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "65E5E1600D67BD39"
+				item: "minecraft:netherite_block"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "73FF75A4D70CEE87"
 				type: "checkmark"
 			}]
-			rewards: [{
-				id: "65E5E1600D67BD39"
-				type: "item"
-				item: "minecraft:netherite_block"
-			}]
+			title: "Complete one of the sets"
+			x: 6.5d
+			y: -4.5d
 		}
 		{
-			x: -1.0d
-			y: -7.0d
-			shape: "diamond"
 			description: ["Test those weapons to see how good they are"]
-			size: 2.0d
 			id: "26F4541BB55BF47F"
-			tasks: [{
-				id: "456F9B4362D9863A"
-				type: "item"
-				item: "dummmmmmy:target_dummy"
-			}]
 			rewards: [{
 				id: "0813ED19D014EC7B"
-				type: "item"
 				item: "minecraft:anvil"
+				type: "item"
 			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "456F9B4362D9863A"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
 		}
 		{
-			x: -10.0d
-			y: -7.0d
+			dependencies: ["7096FC1E34B01239"]
 			description: [
 				"Engulfing is a process used to create several items. "
 				""
@@ -1201,22 +1200,22 @@
 				""
 				"The Glowstone is engulfed and transforms to Soul Powder. You know the process is complete when the particles stop."
 			]
-			dependencies: ["7096FC1E34B01239"]
 			id: "4F6E0E92124349DC"
-			tasks: [{
-				id: "39A1240C8FD33B81"
-				type: "item"
-				item: "spirit:soul_powder"
-			}]
 			rewards: [{
 				id: "30451AFDFFFE5C9F"
-				type: "item"
 				item: "minecraft:glowstone"
+				type: "item"
 			}]
+			tasks: [{
+				id: "39A1240C8FD33B81"
+				item: "spirit:soul_powder"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -7.0d
 		}
 		{
-			x: -10.0d
-			y: -4.5d
+			dependencies: ["4F6E0E92124349DC"]
 			description: [
 				"Soul Steel is made by engulfing an Iron Ingot."
 				""
@@ -1226,24 +1225,24 @@
 				""
 				"The Soul Sand and Soul Powder Blocks are consumed."
 			]
-			dependencies: ["4F6E0E92124349DC"]
 			id: "295C490677A12969"
-			tasks: [{
-				id: "15568562DA6C9CD6"
-				type: "item"
-				item: "spirit:soul_steel_ingot"
-				count: 4L
-			}]
 			rewards: [{
-				id: "74B69C90ED7C52F0"
-				type: "item"
-				item: "spirit:soul_steel_ingot"
 				count: 4
+				id: "74B69C90ED7C52F0"
+				item: "spirit:soul_steel_ingot"
+				type: "item"
 			}]
+			tasks: [{
+				count: 4L
+				id: "15568562DA6C9CD6"
+				item: "spirit:soul_steel_ingot"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.5d
 		}
 		{
-			x: -10.0d
-			y: -14.5d
+			dependencies: ["43EAC6FC5F6EA055"]
 			description: [
 				"Soul Crystals are made by engulfing Crude Soul Crystals with Soul Glass on each side of the Soul Sand. Engulfing does consume the Soul Sand and Soul Glass."
 				""
@@ -1251,36 +1250,36 @@
 				""
 				"A Tier 1 Soul Crystal contains 64 souls, which is used later on."
 			]
-			dependencies: ["43EAC6FC5F6EA055"]
 			id: "3602578C34607815"
 			tasks: [{
 				id: "287F9614A2682AD4"
-				type: "item"
 				item: "spirit:soul_crystal"
+				type: "item"
 			}]
+			x: -10.0d
+			y: -14.5d
 		}
 		{
+			dependencies: ["72715F6612DFFB53"]
+			description: ["Soul Glass is made by engulfing Tinted Glass with Blocks of Lapis Lazuli on each side of the Soul Sand. Engulfing does NOT consume the Soul Sand and Lapis Lazuli."]
+			id: "43EAC6FC5F6EA055"
+			rewards: [{
+				count: 4
+				id: "76AB460041163A01"
+				item: "minecraft:tinted_glass"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "4069D664641878CD"
+				item: "spirit:soul_glass"
+				type: "item"
+			}]
 			x: -10.0d
 			y: -13.0d
-			description: ["Soul Glass is made by engulfing Tinted Glass with Blocks of Lapis Lazuli on each side of the Soul Sand. Engulfing does NOT consume the Soul Sand and Lapis Lazuli."]
-			dependencies: ["72715F6612DFFB53"]
-			id: "43EAC6FC5F6EA055"
-			tasks: [{
-				id: "4069D664641878CD"
-				type: "item"
-				item: "spirit:soul_glass"
-				count: 4L
-			}]
-			rewards: [{
-				id: "76AB460041163A01"
-				type: "item"
-				item: "minecraft:tinted_glass"
-				count: 4
-			}]
 		}
 		{
-			x: -10.0d
-			y: -10.0d
+			dependencies: ["055A99B77E833C0C"]
 			description: [
 				"To make Soul Slate:"
 				""
@@ -1289,61 +1288,61 @@
 				""
 				"The Deepslate is engulfed and transforms to Soul Slate."
 			]
-			dependencies: ["055A99B77E833C0C"]
 			id: "67741E0E5A6D273B"
-			tasks: [{
-				id: "183DD14E0824E545"
-				type: "item"
-				item: "spirit:soul_slate"
-				count: 4L
-			}]
 			rewards: [{
-				id: "74F11B32C9AC3212"
-				type: "item"
-				item: "minecraft:deepslate"
 				count: 4
+				id: "74F11B32C9AC3212"
+				item: "minecraft:deepslate"
+				type: "item"
 			}]
+			tasks: [{
+				count: 4L
+				id: "183DD14E0824E545"
+				item: "spirit:soul_slate"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -10.0d
 		}
 		{
-			x: -11.5d
-			y: -3.0d
-			description: ["To make a Soul Cage you will need to go out and break a spawner in the wild."]
 			dependencies: ["295C490677A12969"]
+			description: ["To make a Soul Cage you will need to go out and break a spawner in the wild."]
 			id: "3C1EFBE7930233C2"
+			rewards: [{
+				count: 4
+				id: "17D079A3E72E64B8"
+				item: "minecraft:golden_carrot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1E396A9DA41B1CA2"
-				type: "item"
 				item: "spirit:broken_spawner"
-			}]
-			rewards: [{
-				id: "17D079A3E72E64B8"
 				type: "item"
-				item: "minecraft:golden_carrot"
-				count: 4
 			}]
+			x: -11.5d
+			y: -3.0d
 		}
 		{
-			x: -11.5d
-			y: -6.0d
 			dependencies: [
 				"67741E0E5A6D273B"
 				"295C490677A12969"
 			]
 			id: "035DAFB3D5C8B586"
-			tasks: [{
-				id: "012C1D3DDE9C33A9"
-				type: "item"
-				item: "spirit:pedestal"
-			}]
 			rewards: [{
 				id: "4B626F1FD278556C"
-				type: "item"
 				item: "spirit:pedestal"
+				type: "item"
 			}]
+			tasks: [{
+				id: "012C1D3DDE9C33A9"
+				item: "spirit:pedestal"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -6.0d
 		}
 		{
-			x: -10.0d
-			y: -8.5d
+			dependencies: ["4F6E0E92124349DC"]
 			description: [
 				"Some items like Soul Crystal Shards require a certain block on each side of the Soul Sand."
 				""
@@ -1354,84 +1353,48 @@
 				""
 				"The Soul Sand and Quartz is consumed in this engulfing process."
 			]
-			dependencies: ["4F6E0E92124349DC"]
 			id: "055A99B77E833C0C"
+			rewards: [{
+				count: 4
+				id: "45DA7806ED7C91F4"
+				item: "minecraft:quartz_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5993A629C778730B"
-				type: "item"
 				item: "spirit:soul_crystal_shard"
-			}]
-			rewards: [{
-				id: "45DA7806ED7C91F4"
 				type: "item"
-				item: "minecraft:quartz_block"
-				count: 4
 			}]
+			x: -10.0d
+			y: -8.5d
 		}
 		{
-			x: -10.0d
-			y: -11.5d
-			description: ["Crude Soul Crystal are made by engulfing a Soul Crystal Shard. Place a Soul Slate on each side of the Soul Sand and toss the Soul Crystal Shard in the soul fire. Like with making the Soul Crystal Shard, the Soul Sand and Soul Slate are consumed."]
 			dependencies: ["67741E0E5A6D273B"]
+			description: ["Crude Soul Crystal are made by engulfing a Soul Crystal Shard. Place a Soul Slate on each side of the Soul Sand and toss the Soul Crystal Shard in the soul fire. Like with making the Soul Crystal Shard, the Soul Sand and Soul Slate are consumed."]
 			id: "72715F6612DFFB53"
-			tasks: [{
-				id: "394BDAD78125A37B"
-				type: "item"
-				item: "spirit:crude_soul_crystal"
-			}]
 			rewards: [{
 				id: "0AB241E496207FC2"
-				type: "item"
 				item: "spirit:soul_crystal_shard"
+				type: "item"
 			}]
+			tasks: [{
+				id: "394BDAD78125A37B"
+				item: "spirit:crude_soul_crystal"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -11.5d
 		}
 		{
-			x: -8.5d
-			y: -6.0d
-			description: ["Soul Steel Tools and Weapons are repaired by throwing them into a soul fire for a few seconds."]
 			dependencies: ["295C490677A12969"]
+			description: ["Soul Steel Tools and Weapons are repaired by throwing them into a soul fire for a few seconds."]
 			id: "056EECB776B33AF5"
-			tasks: [
-				{
-					id: "0C38DF757E45BB33"
-					type: "item"
-					item: {
-						id: "spirit:soul_steel_axe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "6F45AB8630BB0427"
-					type: "item"
-					item: {
-						id: "spirit:soul_steel_shovel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "577BB91C64FC9CD5"
-					type: "item"
-					item: {
-						id: "spirit:soul_steel_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
 			rewards: [{
+				count: 3
 				id: "49F34476A4664251"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
 							id: "minecraft:efficiency"
@@ -1439,36 +1402,59 @@
 						}]
 					}
 				}
-				count: 3
+				type: "item"
 			}]
+			tasks: [
+				{
+					id: "0C38DF757E45BB33"
+					item: {
+						Count: 1b
+						id: "spirit:soul_steel_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F45AB8630BB0427"
+					item: {
+						Count: 1b
+						id: "spirit:soul_steel_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "577BB91C64FC9CD5"
+					item: {
+						Count: 1b
+						id: "spirit:soul_steel_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -6.0d
 		}
 		{
-			x: -10.0d
-			y: -2.5d
+			dependencies: ["295C490677A12969"]
 			description: [
 				"Soul Steel Bows do not require arrows, and will consume souls to shoot."
 				""
 				"See Soul Steel Sword for more information"
 			]
-			dependencies: ["295C490677A12969"]
 			id: "43CBCC67B0E30D28"
-			tasks: [{
-				id: "197F2568F062D957"
-				type: "item"
-				item: {
-					id: "spirit:soul_steel_bow"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "1525508CF4C0BB7D"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
 							id: "minecraft:power"
@@ -1476,34 +1462,47 @@
 						}]
 					}
 				}
-			}]
-		}
-		{
-			x: -8.0d
-			y: -4.5d
-			dependencies: ["295C490677A12969"]
-			id: "248CBFEFE0C236B8"
-			tasks: [{
-				id: "7D9807895DD142B9"
 				type: "item"
+			}]
+			tasks: [{
+				id: "197F2568F062D957"
 				item: {
-					id: "spirit:soul_steel_hoe"
 					Count: 1b
+					id: "spirit:soul_steel_bow"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "5ECF758420E1298E"
 				type: "item"
-				item: "farmersdelight:rich_soil"
-				count: 8
 			}]
+			x: -10.0d
+			y: -2.5d
 		}
 		{
-			x: -8.5d
-			y: -3.0d
+			dependencies: ["295C490677A12969"]
+			id: "248CBFEFE0C236B8"
+			rewards: [{
+				count: 8
+				id: "5ECF758420E1298E"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D9807895DD142B9"
+				item: {
+					Count: 1b
+					id: "spirit:soul_steel_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["295C490677A12969"]
 			description: [
 				"Tools and Weapons crafted with Soul Steel absorb twice the amount of souls when a mob is killed that a Soul Crystal can absorb. "
 				""
@@ -1511,25 +1510,12 @@
 				""
 				"The default key to toggle empowering is \"V\""
 			]
-			dependencies: ["295C490677A12969"]
 			id: "3FB2D6D3AD8C8077"
-			tasks: [{
-				id: "257A5CAA7F501E4F"
-				type: "item"
-				item: {
-					id: "spirit:soul_steel_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "72417C0D1BDA77E4"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
 							id: "spirit:soul_reaper"
@@ -1537,24 +1523,34 @@
 						}]
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "257A5CAA7F501E4F"
+				item: {
+					Count: 1b
+					id: "spirit:soul_steel_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
 		}
 		{
-			x: -12.0d
-			y: -4.5d
 			dependencies: ["295C490677A12969"]
 			id: "10BB64C1264B4A63"
 			tasks: [{
 				id: "048623C19F45D292"
-				type: "item"
 				item: "spirit:soul_steel_wand"
+				type: "item"
 			}]
+			x: -12.0d
+			y: -4.5d
 		}
 		{
-			title: "Spirit - Soul Magic, Spawner Manipulation, Magical Tools \\& Weapons."
-			x: -5.5d
-			y: -7.0d
-			shape: "diamond"
 			description: [
 				"Spirit is a soul magic mod. Utilizing the power of souls, players can summon mobs, create new ones, or channel their power to perform incredible new feats."
 				""
@@ -1571,45 +1567,47 @@
 				"x1 Flint \\& Steel"
 				"x1 Glowstone or GlowstoneDust"
 			]
-			size: 1.5d
 			id: "7096FC1E34B01239"
+			rewards: [{
+				count: 4
+				id: "383A4DD0F79910C2"
+				item: "farmersdelight:apple_pie_slice"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "72C6E373051FAADA"
-				type: "checkmark"
 				title: "Spirit"
+				type: "checkmark"
 			}]
-			rewards: [{
-				id: "383A4DD0F79910C2"
-				type: "item"
-				item: "farmersdelight:apple_pie_slice"
-				count: 4
-			}]
+			title: "Spirit - Soul Magic, Spawner Manipulation, Magical Tools \\& Weapons."
+			x: -5.5d
+			y: -7.0d
 		}
 		{
-			x: -13.0d
-			y: -6.0d
+			dependencies: ["035DAFB3D5C8B586"]
 			description: [
 				"The Crystal Pedestal is used for clearing souls stored in a Soul Crystal."
 				""
 				"Place a Crude Soul Crystal on the Crystal Pedestal and right click on it with the Soul Crystal you wish to empty."
 			]
-			dependencies: ["035DAFB3D5C8B586"]
 			id: "285C55653B7D9986"
-			tasks: [{
-				id: "089F05DAEE01E73A"
-				type: "item"
-				item: "spirit:crystal_pedestal"
-			}]
 			rewards: [{
 				id: "7512446C6B9EBC0F"
-				type: "item"
 				item: "spirit:crystal_pedestal"
+				type: "item"
 			}]
+			tasks: [{
+				id: "089F05DAEE01E73A"
+				item: "spirit:crystal_pedestal"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -6.0d
 		}
 		{
-			icon: "spirit:soul_cage"
-			x: -13.0d
-			y: -3.0d
+			dependencies: ["3C1EFBE7930233C2"]
 			description: [
 				"Soul Cages are created by engulfing a Broken Spawner."
 				""
@@ -1620,41 +1618,43 @@
 				""
 				"FTB Quests is not recognizing when a Soul Cage is crafted or in your inventory. For now, the quest is simply for information."
 			]
-			dependencies: ["3C1EFBE7930233C2"]
+			icon: "spirit:soul_cage"
 			id: "5E04058D1C691A2C"
-			tasks: [{
-				id: "65239032DD1BBA3E"
-				type: "checkmark"
-				title: "Soul Cage"
-			}]
 			rewards: [{
 				id: "356F8B7CF1CBBE66"
-				type: "item"
 				item: "spirit:broken_spawner"
+				type: "item"
 			}]
+			tasks: [{
+				id: "65239032DD1BBA3E"
+				title: "Soul Cage"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: -3.0d
 		}
 		{
-			x: -14.5d
-			y: -6.0d
+			dependencies: ["285C55653B7D9986"]
 			description: [
 				"The Soul Pedestal provides a method to summon mobs and uses the process of the transmutation of souls. Click on the above Soul Pedestal to see the recipe, and press \"U\" on your keyboard over the pedestal to see the available transmutation recipes."
 				""
 				"If you have suggestions for new mobs, please join CM's World Discord to make your suggestion. The link is in your CCA guidebook or on the main menu screen of CCA."
 			]
-			dependencies: ["285C55653B7D9986"]
 			id: "4EAE27A14244FED0"
+			rewards: [{
+				count: 2
+				id: "562B658F0A513BDA"
+				item: "spirit:soul_crystal"
+				type: "item"
+			}]
 			tasks: [{
 				id: "59D122CB9051BBDA"
-				type: "item"
 				item: "spirit:soul_pedestal"
-			}]
-			rewards: [{
-				id: "562B658F0A513BDA"
 				type: "item"
-				item: "spirit:soul_crystal"
-				count: 2
 			}]
+			x: -14.5d
+			y: -6.0d
 		}
 	]
-	quest_links: [ ]
+	title: "Armor, Tools and Weapons"
 }

@@ -1,86 +1,75 @@
 {
-	id: "000000000000003C"
-	group: ""
-	order_index: 5
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
 	filename: "hunter"
-	title: "Hunter"
+	group: ""
 	icon: {
-		id: "minecraft:crossbow"
 		Count: 1b
+		id: "minecraft:crossbow"
 		tag: {
 			Damage: 0
 		}
 	}
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
+	id: "000000000000003C"
+	order_index: 5
+	quest_links: [ ]
 	quests: [
 		{
-			x: 1.5d
-			y: -3.0d
 			id: "000000000000003D"
+			rewards: [{
+				count: 4
+				id: "0000000000000045"
+				item: "minecraft:chicken_spawn_egg"
+				type: "item"
+			}]
 			tasks: [{
-				id: "000000000000003E"
-				type: "kill"
-				title: "Novice Skeleton Hunter"
-				icon: "minecraft:skeleton_skull"
 				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "000000000000003E"
+				title: "Novice Skeleton Hunter"
+				type: "kill"
 				value: 10L
 			}]
-			rewards: [{
-				id: "0000000000000045"
-				type: "item"
-				item: "minecraft:chicken_spawn_egg"
-				count: 4
-			}]
+			x: 1.5d
+			y: -3.0d
 		}
 		{
-			icon: "minecraft:skeleton_skull"
-			x: 3.0d
-			y: -3.0d
 			dependencies: ["000000000000003D"]
+			icon: "minecraft:skeleton_skull"
 			id: "000000000000003F"
-			tasks: [{
-				id: "0000000000000040"
-				type: "kill"
-				title: "Apprentice Skeleton Hunter"
-				icon: "minecraft:skeleton_skull"
-				entity: "minecraft:skeleton"
-				value: 100L
-			}]
 			rewards: [{
+				count: 18
 				id: "0000000000000567"
-				type: "item"
 				item: {
-					id: "minecraft:tipped_arrow"
 					Count: 1b
+					id: "minecraft:tipped_arrow"
 					tag: {
 						Potion: "minecraft:strong_poison"
 					}
 				}
-				count: 18
+				type: "item"
 			}]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "0000000000000040"
+				title: "Apprentice Skeleton Hunter"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.0d
+			y: -3.0d
 		}
 		{
-			x: 4.5d
-			y: -3.0d
 			dependencies: ["000000000000003F"]
 			id: "0000000000000041"
-			tasks: [{
-				id: "0000000000000042"
-				type: "kill"
-				title: "Journeyman Skeleton Hunter"
-				icon: "minecraft:skeleton_skull"
-				entity: "minecraft:skeleton"
-				value: 1000L
-			}]
 			rewards: [{
 				id: "0000000000000047"
-				type: "item"
 				item: {
-					id: "mythicmetals:metallurgium_boots"
 					Count: 1b
+					id: "mythicmetals:metallurgium_boots"
 					tag: {
-						RepairCost: 1
+						Damage: 0
 						Enchantments: [
 							{
 								id: "minecraft:protection"
@@ -107,82 +96,82 @@
 								lvl: 3s
 							}
 						]
-						Damage: 0
+						RepairCost: 1
 						display: {
 							Name: "{\"text\":\"Dorthy's Slippers\"}"
 						}
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "0000000000000042"
+				title: "Journeyman Skeleton Hunter"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 4.5d
+			y: -3.0d
 		}
 		{
+			id: "000000000000004B"
+			rewards: [{
+				count: 4
+				id: "0000000000000053"
+				item: "minecraft:pig_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "000000000000004C"
+				type: "kill"
+				value: 10L
+			}]
 			title: "Novice Zombie Hunter"
 			x: 1.5d
 			y: -1.5d
-			id: "000000000000004B"
-			tasks: [{
-				id: "000000000000004C"
-				type: "kill"
-				icon: "minecraft:zombie_head"
-				entity: "minecraft:zombie"
-				value: 10L
-			}]
-			rewards: [{
-				id: "0000000000000053"
-				type: "item"
-				item: "minecraft:pig_spawn_egg"
-				count: 4
-			}]
 		}
 		{
-			title: "Apprentice Zombie Hunter"
-			x: 3.0d
-			y: -1.5d
 			dependencies: ["000000000000004B"]
 			id: "000000000000004D"
-			tasks: [{
-				id: "000000000000004E"
-				type: "kill"
-				icon: "minecraft:zombie_head"
-				entity: "minecraft:zombie"
-				value: 100L
-			}]
 			rewards: [{
 				id: "0000000000000054"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
-							lvl: 3s
 							id: "minecraft:thorns"
+							lvl: 3s
 						}]
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "000000000000004E"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Apprentice Zombie Hunter"
+			x: 3.0d
+			y: -1.5d
 		}
 		{
-			x: 4.5d
-			y: -1.5d
 			dependencies: ["000000000000004D"]
 			id: "000000000000004F"
-			tasks: [{
-				id: "0000000000000050"
-				type: "kill"
-				title: "Journeyman Zombie Hunter"
-				icon: "minecraft:zombie_head"
-				entity: "minecraft:zombie"
-				value: 1000L
-			}]
 			rewards: [{
 				id: "0000000000000055"
-				type: "item"
 				item: {
-					id: "mythicmetals:metallurgium_leggings"
 					Count: 1b
+					id: "mythicmetals:metallurgium_leggings"
 					tag: {
-						RepairCost: 3
+						Damage: 0
 						Enchantments: [
 							{
 								id: "minecraft:protection"
@@ -205,83 +194,83 @@
 								lvl: 3s
 							}
 						]
-						Damage: 0
+						RepairCost: 3
 						display: {
 							Name: "{\"text\":\"Slick's Tights\"}"
 						}
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "0000000000000050"
+				title: "Journeyman Zombie Hunter"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 4.5d
+			y: -1.5d
 		}
 		{
-			x: 1.5d
-			y: 0.0d
 			id: "0000000000000057"
+			rewards: [{
+				count: 4
+				id: "0000000000000212"
+				item: "minecraft:cow_spawn_egg"
+				type: "item"
+			}]
 			tasks: [{
-				id: "0000000000000058"
-				type: "kill"
-				title: "Novice Spider Hunter"
-				icon: "minecraft:spider_eye"
 				entity: "minecraft:spider"
+				icon: "minecraft:spider_eye"
+				id: "0000000000000058"
+				title: "Novice Spider Hunter"
+				type: "kill"
 				value: 10L
 			}]
-			rewards: [{
-				id: "0000000000000212"
-				type: "item"
-				item: "minecraft:cow_spawn_egg"
-				count: 4
-			}]
+			x: 1.5d
+			y: 0.0d
 		}
 		{
-			x: 3.0d
-			y: 0.0d
 			dependencies: ["0000000000000057"]
 			id: "0000000000000059"
-			tasks: [{
-				id: "000000000000005A"
-				type: "kill"
-				title: "Apprentice Spider Hunter"
-				icon: "minecraft:spider_eye"
-				entity: "minecraft:spider"
-				value: 100L
-			}]
 			rewards: [{
 				id: "000000000000064F"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
-							lvl: 1s
 							id: "minecraft:silk_touch"
+							lvl: 1s
 						}]
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: "minecraft:spider_eye"
+				id: "000000000000005A"
+				title: "Apprentice Spider Hunter"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.0d
+			y: 0.0d
 		}
 		{
-			x: 4.5d
-			y: 0.0d
 			dependencies: ["0000000000000059"]
 			id: "000000000000005B"
-			tasks: [{
-				id: "000000000000005C"
-				type: "kill"
-				title: "Journeyman Spider Hunter"
-				icon: "minecraft:spider_eye"
-				entity: "minecraft:spider"
-				value: 1000L
-			}]
 			rewards: [
 				{
 					id: "0000000000000060"
-					type: "item"
 					item: {
-						id: "mythicmetals:metallurgium_helmet"
 						Count: 1b
+						id: "mythicmetals:metallurgium_helmet"
 						tag: {
-							RepairCost: 0
+							Damage: 0
 							Enchantments: [
 								{
 									id: "minecraft:protection"
@@ -304,89 +293,89 @@
 									lvl: 1s
 								}
 							]
-							Damage: 0
+							RepairCost: 0
 							display: {
 								Name: "{\"text\":\"Airhead\"}"
 							}
 						}
 					}
+					type: "item"
 				}
 				{
-					id: "4551108723746F66"
-					type: "item"
-					item: "minecraft:zombie_villager_spawn_egg"
 					count: 2
+					id: "4551108723746F66"
+					item: "minecraft:zombie_villager_spawn_egg"
+					type: "item"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: "minecraft:spider_eye"
+				id: "000000000000005C"
+				title: "Journeyman Spider Hunter"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 4.5d
+			y: 0.0d
 		}
 		{
-			x: 1.5d
-			y: 1.5d
 			id: "0000000000000061"
+			rewards: [{
+				count: 4
+				id: "0000000000000213"
+				item: "minecraft:sheep_spawn_egg"
+				type: "item"
+			}]
 			tasks: [{
-				id: "0000000000000062"
-				type: "kill"
-				title: "Novice Creeper Hunter"
-				icon: "minecraft:creeper_head"
 				entity: "minecraft:creeper"
+				icon: "minecraft:creeper_head"
+				id: "0000000000000062"
+				title: "Novice Creeper Hunter"
+				type: "kill"
 				value: 10L
 			}]
-			rewards: [{
-				id: "0000000000000213"
-				type: "item"
-				item: "minecraft:sheep_spawn_egg"
-				count: 4
-			}]
+			x: 1.5d
+			y: 1.5d
 		}
 		{
-			x: 3.0d
-			y: 1.5d
 			dependencies: ["0000000000000061"]
 			id: "0000000000000063"
-			tasks: [{
-				id: "0000000000000064"
-				type: "kill"
-				title: "Apprentice Creeper Hunter"
-				icon: "minecraft:creeper_head"
-				entity: "minecraft:creeper"
-				value: 100L
-			}]
 			rewards: [{
 				id: "000000000000023C"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
-							lvl: 4s
 							id: "minecraft:blast_protection"
+							lvl: 4s
 						}]
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				entity: "minecraft:creeper"
+				icon: "minecraft:creeper_head"
+				id: "0000000000000064"
+				title: "Apprentice Creeper Hunter"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.0d
+			y: 1.5d
 		}
 		{
-			x: 4.5d
-			y: 1.5d
 			dependencies: ["0000000000000063"]
 			id: "0000000000000065"
-			tasks: [{
-				id: "0000000000000066"
-				type: "kill"
-				title: "Journeyman Creeper Hunter"
-				icon: "minecraft:creeper_head"
-				entity: "minecraft:creeper"
-				value: 1000L
-			}]
 			rewards: [{
 				id: "000000000000023D"
-				type: "item"
 				item: {
-					id: "mythicmetals:metallurgium_chestplate"
 					Count: 1b
+					id: "mythicmetals:metallurgium_chestplate"
 					tag: {
-						RepairCost: 1
+						Damage: 0
 						Enchantments: [
 							{
 								id: "minecraft:protection"
@@ -405,74 +394,74 @@
 								lvl: 3s
 							}
 						]
-						Damage: 0
+						RepairCost: 1
 						display: {
 							Name: "{\"text\":\"Brickhouse\"}"
 						}
 					}
 				}
-			}]
-		}
-		{
-			x: -1.5d
-			y: -3.0d
-			id: "000000000000006B"
-			tasks: [{
-				id: "000000000000006C"
-				type: "kill"
-				title: "Novice Wither Skeleton Hunter"
-				icon: "minecraft:wither_skeleton_skull"
-				entity: "minecraft:wither_skeleton"
-				value: 10L
-			}]
-			rewards: [{
-				id: "000000000000056D"
 				type: "item"
-				item: "minecraft:wither_skeleton_skull"
-				count: 3
 			}]
-		}
-		{
-			x: -3.0d
-			y: -3.0d
-			dependencies: ["000000000000006B"]
-			id: "000000000000006D"
 			tasks: [{
-				id: "000000000000006E"
+				entity: "minecraft:creeper"
+				icon: "minecraft:creeper_head"
+				id: "0000000000000066"
+				title: "Journeyman Creeper Hunter"
 				type: "kill"
-				title: "Apprentice Wither Skeleton Hunter"
-				icon: "minecraft:wither_skeleton_skull"
-				entity: "minecraft:wither_skeleton"
-				value: 100L
-			}]
-			rewards: [{
-				id: "0000000000000220"
-				type: "item"
-				item: "minecraft:ghast_spawn_egg"
-			}]
-		}
-		{
-			x: -4.5d
-			y: -3.0d
-			dependencies: ["000000000000006D"]
-			id: "000000000000006F"
-			tasks: [{
-				id: "0000000000000070"
-				type: "kill"
-				title: "Journeyman Wither Skeleton Hunter"
-				icon: "minecraft:wither_skeleton_skull"
-				entity: "minecraft:wither_skeleton"
 				value: 1000L
 			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "000000000000006B"
+			rewards: [{
+				count: 3
+				id: "000000000000056D"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "000000000000006C"
+				title: "Novice Wither Skeleton Hunter"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["000000000000006B"]
+			id: "000000000000006D"
+			rewards: [{
+				id: "0000000000000220"
+				item: "minecraft:ghast_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "000000000000006E"
+				title: "Apprentice Wither Skeleton Hunter"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["000000000000006D"]
+			id: "000000000000006F"
 			rewards: [
 				{
 					id: "3E1F53DB2E11A882"
-					type: "item"
 					item: {
-						id: "emerald_tools:netherite_paxel"
 						Count: 1b
+						id: "emerald_tools:netherite_paxel"
 						tag: {
-							RepairCost: 0
+							Damage: 0
 							Enchantments: [
 								{
 									id: "minecraft:fortune"
@@ -491,21 +480,21 @@
 									lvl: 1s
 								}
 							]
-							Damage: 0
+							RepairCost: 0
 							display: {
 								Name: "{\"text\":\"Fortune Calls\"}"
 							}
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "2C6D8385499D1FD2"
-					type: "item"
 					item: {
-						id: "emerald_tools:netherite_hammer"
 						Count: 1b
+						id: "emerald_tools:netherite_hammer"
 						tag: {
-							RepairCost: 0
+							Damage: 0
 							Enchantments: [
 								{
 									id: "minecraft:fortune"
@@ -524,133 +513,133 @@
 									lvl: 1s
 								}
 							]
-							Damage: 0
+							RepairCost: 0
 							display: {
 								Name: "{\"text\":\"Bam Bam\"}"
 							}
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "0000000000000070"
+				title: "Journeyman Wither Skeleton Hunter"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -4.5d
+			y: -3.0d
 		}
 		{
 			icon: "minecraft:ghast_tear"
-			x: -1.5d
-			y: 0.0d
 			id: "0000000000000075"
-			tasks: [{
-				id: "0000000000000076"
-				type: "kill"
-				title: "Novice Ghast Hunter"
-				icon: "minecraft:ghast_tear"
-				entity: "minecraft:ghast"
-				value: 10L
-			}]
 			rewards: [{
 				id: "000000000000056C"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
-							lvl: 2s
 							id: "minecraft:looting"
+							lvl: 2s
 						}]
 					}
 				}
+				type: "item"
 			}]
-		}
-		{
-			title: "Novice Slime Hunter"
-			x: 1.5d
-			y: 3.0d
-			id: "0000000000000077"
 			tasks: [{
-				id: "0000000000000078"
+				entity: "minecraft:ghast"
+				icon: "minecraft:ghast_tear"
+				id: "0000000000000076"
+				title: "Novice Ghast Hunter"
 				type: "kill"
-				entity: "minecraft:slime"
 				value: 10L
 			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "0000000000000077"
 			rewards: [
 				{
 					id: "0000000000000214"
-					type: "item"
 					item: "minecraft:endermite_spawn_egg"
+					type: "item"
 				}
 				{
 					id: "76C7C4B7BE62AF50"
-					type: "item"
 					item: "minecraft:villager_spawn_egg"
+					type: "item"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "0000000000000078"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Novice Slime Hunter"
+			x: 1.5d
+			y: 3.0d
 		}
 		{
+			id: "0000000000000098"
+			rewards: [{
+				id: "0000000000000217"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:blaze"
+				icon: "minecraft:blaze_rod"
+				id: "0000000000000099"
+				type: "kill"
+				value: 10L
+			}]
 			title: "Novice Blaze Hunter"
 			x: -1.5d
 			y: -1.5d
-			id: "0000000000000098"
-			tasks: [{
-				id: "0000000000000099"
-				type: "kill"
-				icon: "minecraft:blaze_rod"
-				entity: "minecraft:blaze"
-				value: 10L
-			}]
-			rewards: [{
-				id: "0000000000000217"
-				type: "item"
-				item: "toms_storage:ts.adv_wireless_terminal"
-			}]
 		}
 		{
-			title: "Apprentice Blaze Hunter"
-			x: -3.0d
-			y: -1.5d
 			dependencies: ["0000000000000098"]
 			id: "000000000000009A"
-			tasks: [{
-				id: "000000000000009B"
-				type: "kill"
-				icon: "minecraft:blaze_rod"
-				entity: "minecraft:blaze"
-				value: 100L
-			}]
 			rewards: [{
 				id: "0000000000000221"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
-							lvl: 3s
 							id: "minecraft:fortune"
+							lvl: 3s
 						}]
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				entity: "minecraft:blaze"
+				icon: "minecraft:blaze_rod"
+				id: "000000000000009B"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Apprentice Blaze Hunter"
+			x: -3.0d
+			y: -1.5d
 		}
 		{
-			title: "Journeyman Blaze Hunter"
-			x: -4.5d
-			y: -1.5d
 			dependencies: ["000000000000009A"]
 			id: "000000000000009C"
-			tasks: [{
-				id: "000000000000009D"
-				type: "kill"
-				icon: "minecraft:blaze_rod"
-				entity: "minecraft:blaze"
-				value: 1000L
-			}]
 			rewards: [
 				{
 					id: "000000000000023B"
-					type: "item"
 					item: {
-						id: "mcdw:bow_call_of_the_void"
 						Count: 1b
+						id: "mcdw:bow_call_of_the_void"
 						tag: {
 							Damage: 0
 							Enchantments: [
@@ -694,134 +683,134 @@
 							RepairCost: 7
 						}
 					}
+					type: "item"
 				}
 				{
-					id: "1C7C6987621120C9"
-					type: "item"
-					item: "emerald_tools:diamond_arrow"
 					count: 64
+					id: "1C7C6987621120C9"
+					item: "emerald_tools:diamond_arrow"
+					type: "item"
 				}
 			]
-		}
-		{
-			x: -1.5d
-			y: 1.5d
-			id: "00000000000003DE"
 			tasks: [{
-				id: "00000000000003DF"
+				entity: "minecraft:blaze"
+				icon: "minecraft:blaze_rod"
+				id: "000000000000009D"
 				type: "kill"
-				title: "Novice Enderman Hunter"
-				icon: "minecraft:ender_pearl"
-				entity: "minecraft:enderman"
-				value: 10L
-			}]
-			rewards: [{
-				id: "000000000000046B"
-				type: "item"
-				item: "minecraft:bee_spawn_egg"
-				count: 2
-			}]
-		}
-		{
-			x: -3.0d
-			y: 0.0d
-			dependencies: ["0000000000000075"]
-			id: "00000000000003E0"
-			tasks: [{
-				id: "00000000000003E1"
-				type: "kill"
-				title: "Apprentice Ghast Hunter"
-				icon: "minecraft:ghast_tear"
-				entity: "minecraft:ghast"
-				value: 100L
-			}]
-			rewards: [{
-				id: "000000000000046C"
-				type: "item"
-				item: "minecraft:budding_amethyst"
-			}]
-		}
-		{
-			x: -4.5d
-			y: 0.0d
-			dependencies: ["00000000000003E0"]
-			id: "00000000000003E2"
-			tasks: [{
-				id: "00000000000003E3"
-				type: "kill"
-				title: "Journeyman Ghast Hunter"
-				icon: "minecraft:ghast_tear"
-				entity: "minecraft:ghast"
 				value: 1000L
 			}]
-			rewards: [{
-				id: "000000000000046D"
-				type: "item"
-				item: "createaddition:creative_energy"
-			}]
+			title: "Journeyman Blaze Hunter"
+			x: -4.5d
+			y: -1.5d
 		}
 		{
-			x: -3.0d
-			y: 1.5d
-			dependencies: ["00000000000003DE"]
-			id: "00000000000003E6"
+			id: "00000000000003DE"
+			rewards: [{
+				count: 2
+				id: "000000000000046B"
+				item: "minecraft:bee_spawn_egg"
+				type: "item"
+			}]
 			tasks: [{
-				id: "00000000000003E7"
-				type: "kill"
-				title: "Apprentice Enderman Hunter"
-				icon: "minecraft:ender_pearl"
 				entity: "minecraft:enderman"
+				icon: "minecraft:ender_pearl"
+				id: "00000000000003DF"
+				title: "Novice Enderman Hunter"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0000000000000075"]
+			id: "00000000000003E0"
+			rewards: [{
+				id: "000000000000046C"
+				item: "minecraft:budding_amethyst"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ghast"
+				icon: "minecraft:ghast_tear"
+				id: "00000000000003E1"
+				title: "Apprentice Ghast Hunter"
+				type: "kill"
 				value: 100L
 			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000003E0"]
+			id: "00000000000003E2"
+			rewards: [{
+				id: "000000000000046D"
+				item: "createaddition:creative_energy"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ghast"
+				icon: "minecraft:ghast_tear"
+				id: "00000000000003E3"
+				title: "Journeyman Ghast Hunter"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000003DE"]
+			id: "00000000000003E6"
 			rewards: [
 				{
 					id: "000000000000046A"
-					type: "item"
 					item: "minecraft:pillager_spawn_egg"
+					type: "item"
 				}
 				{
 					id: "58408922C0255E58"
-					type: "item"
 					item: "minecraft:spawner"
+					type: "item"
 				}
 				{
 					id: "3340E116E46803F7"
-					type: "item"
 					item: {
-						id: "spawnermod:spawner_key"
 						Count: 1b
+						id: "spawnermod:spawner_key"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: "minecraft:ender_pearl"
+				id: "00000000000003E7"
+				title: "Apprentice Enderman Hunter"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.0d
+			y: 1.5d
 		}
 		{
-			x: -4.5d
-			y: 1.5d
 			dependencies: [
 				"00000000000003DE"
 				"00000000000003E6"
 			]
 			id: "00000000000003E8"
-			tasks: [{
-				id: "00000000000003E9"
-				type: "kill"
-				title: "Journeyman Enderman Hunter"
-				icon: "minecraft:ender_pearl"
-				entity: "minecraft:enderman"
-				value: 1000L
-			}]
 			rewards: [
 				{
 					id: "0000000000000469"
-					type: "item"
 					item: {
-						id: "emerald_tools:netherite_excavator"
 						Count: 1b
+						id: "emerald_tools:netherite_excavator"
 						tag: {
-							RepairCost: 0
+							Damage: 0
 							Enchantments: [
 								{
 									id: "minecraft:silk_touch"
@@ -840,21 +829,21 @@
 									lvl: 1s
 								}
 							]
-							Damage: 0
+							RepairCost: 0
 							display: {
 								Name: "{\"text\":\"Lawn Gatherer\"}"
 							}
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "158CC32E5ACA99D4"
-					type: "item"
 					item: {
-						id: "emerald_tools:netherite_hammer"
 						Count: 1b
+						id: "emerald_tools:netherite_hammer"
 						tag: {
-							RepairCost: 0
+							Damage: 0
 							Enchantments: [
 								{
 									id: "minecraft:silk_touch"
@@ -873,115 +862,116 @@
 									lvl: 1s
 								}
 							]
-							Damage: 0
+							RepairCost: 0
 							display: {
 								Name: "{\"text\":\"Gentle Hammer\"}"
 							}
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: "minecraft:ender_pearl"
+				id: "00000000000003E9"
+				title: "Journeyman Enderman Hunter"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -4.5d
+			y: 1.5d
 		}
 		{
-			x: 1.5d
-			y: -6.0d
 			dependencies: ["415A1864EE2C9FFD"]
 			id: "000000000000045E"
-			tasks: [{
-				id: "000000000000045F"
-				type: "kill"
-				title: "Wither Slayer"
-				icon: "minecraft:nether_star"
-				entity: "minecraft:wither"
-				value: 250L
-			}]
 			rewards: [{
 				id: "0E97BC791F10418F"
-				type: "item"
 				item: "create:creative_blaze_cake"
+				type: "item"
 			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:nether_star"
+				id: "000000000000045F"
+				title: "Wither Slayer"
+				type: "kill"
+				value: 250L
+			}]
+			x: 1.5d
+			y: -6.0d
 		}
 		{
-			x: -1.5d
-			y: -4.5d
 			id: "0000000000000460"
-			tasks: [{
-				id: "0000000000000461"
-				type: "kill"
-				title: "Dragon Slayer"
-				icon: "minecraft:dragon_head"
-				entity: "minecraft:ender_dragon"
-				value: 10L
-			}]
 			rewards: [
 				{
 					id: "5B6AF4DB05A31F61"
-					type: "item"
 					item: "create:creative_motor"
+					type: "item"
 				}
 				{
 					id: "47706A107768DA02"
-					type: "item"
 					item: "create:creative_fluid_tank"
+					type: "item"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "0000000000000461"
+				title: "Dragon Slayer"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.5d
+			y: -4.5d
 		}
 		{
+			id: "507E6FC07C05B784"
+			rewards: [{
+				count: 4
+				id: "187420DAE8130097"
+				item: "minecraft:turtle_egg"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:witch"
+				id: "6ADF9B2AB8C46735"
+				type: "kill"
+				value: 10L
+			}]
 			title: "Novice Witch Hunter"
 			x: -1.5d
 			y: 3.0d
-			id: "507E6FC07C05B784"
-			tasks: [{
-				id: "6ADF9B2AB8C46735"
-				type: "kill"
-				entity: "minecraft:witch"
-				value: 10L
-			}]
-			rewards: [{
-				id: "187420DAE8130097"
-				type: "item"
-				item: "minecraft:turtle_egg"
-				count: 4
-			}]
 		}
 		{
+			dependencies: ["507E6FC07C05B784"]
+			id: "0F212D61E278C98E"
+			rewards: [{
+				id: "188DDC875A7B4D81"
+				item: "minecraft:evoker_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:witch"
+				id: "3392639C8D9811A8"
+				type: "kill"
+				value: 100L
+			}]
 			title: "Apprentice Witch Hunter"
 			x: -3.0d
 			y: 3.0d
-			dependencies: ["507E6FC07C05B784"]
-			id: "0F212D61E278C98E"
-			tasks: [{
-				id: "3392639C8D9811A8"
-				type: "kill"
-				entity: "minecraft:witch"
-				value: 100L
-			}]
-			rewards: [{
-				id: "188DDC875A7B4D81"
-				type: "item"
-				item: "minecraft:evoker_spawn_egg"
-			}]
 		}
 		{
-			title: "Journeyman Witch Hunter"
-			x: -4.5d
-			y: 3.0d
 			dependencies: ["0F212D61E278C98E"]
 			id: "540E05434C2B259C"
-			tasks: [{
-				id: "7AD431D635AEAD80"
-				type: "kill"
-				entity: "minecraft:witch"
-				value: 1000L
-			}]
 			rewards: [{
 				id: "3470EA5C011CE0BC"
-				type: "item"
 				item: {
-					id: "emerald_tools:netherite_excavator"
 					Count: 1b
+					id: "emerald_tools:netherite_excavator"
 					tag: {
-						RepairCost: 0
+						Damage: 0
 						Enchantments: [
 							{
 								id: "minecraft:fortune"
@@ -1000,61 +990,61 @@
 								lvl: 1s
 							}
 						]
-						Damage: 0
+						RepairCost: 0
 						display: {
 							Name: "{\"text\":\"Pooper Scooper\"}"
 						}
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				entity: "minecraft:witch"
+				id: "7AD431D635AEAD80"
+				type: "kill"
+				value: 1000L
+			}]
+			title: "Journeyman Witch Hunter"
+			x: -4.5d
+			y: 3.0d
 		}
 		{
-			title: "Apprentice Slime Hunter"
-			x: 3.0d
-			y: 3.0d
 			dependencies: ["0000000000000077"]
 			id: "615DAC7B98F88EA8"
-			tasks: [{
-				id: "4CB88C317016B4B8"
-				type: "kill"
-				entity: "minecraft:slime"
-				value: 100L
-			}]
 			rewards: [{
 				id: "165BB6AF7A26E133"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
-							lvl: 1s
 							id: "minecraft:mending"
+							lvl: 1s
 						}]
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "4CB88C317016B4B8"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Apprentice Slime Hunter"
+			x: 3.0d
+			y: 3.0d
 		}
 		{
-			title: "Journeyman Slime Hunter"
-			x: 4.5d
-			y: 3.0d
 			dependencies: ["615DAC7B98F88EA8"]
 			id: "6EE3B63BB9F6E75E"
-			tasks: [{
-				id: "0C5E4CE102933E8B"
-				type: "kill"
-				entity: "minecraft:slime"
-				value: 1000L
-			}]
 			rewards: [{
 				id: "1D729C9416CD33CA"
-				type: "item"
 				item: {
-					id: "emerald_tools:netherite_paxel"
 					Count: 1b
+					id: "emerald_tools:netherite_paxel"
 					tag: {
-						RepairCost: 0
+						Damage: 0
 						Enchantments: [
 							{
 								id: "minecraft:silk_touch"
@@ -1073,36 +1063,35 @@
 								lvl: 1s
 							}
 						]
-						Damage: 0
+						RepairCost: 0
 						display: {
 							Name: "{\"text\":\"Silky Smooth\"}"
 						}
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "0C5E4CE102933E8B"
+				type: "kill"
+				value: 1000L
+			}]
+			title: "Journeyman Slime Hunter"
+			x: 4.5d
+			y: 3.0d
 		}
 		{
-			title: "Rookie Guardian of Gaia Hunter"
 			icon: "botania:gaia_head"
-			x: 0.0d
-			y: -4.5d
 			id: "4230C9D2F8568B7E"
-			tasks: [{
-				id: "1C2A8A6E6359DFE5"
-				type: "kill"
-				icon: "botania:gaia_head"
-				entity: "botania:doppleganger"
-				value: 1L
-			}]
 			rewards: [
 				{
 					id: "42029E11E8B56597"
-					type: "item"
 					item: {
-						id: "emerald_tools:netherite_bow"
 						Count: 1b
+						id: "emerald_tools:netherite_bow"
 						tag: {
-							RepairCost: 15
+							Damage: 0
 							Enchantments: [
 								{
 									id: "minecraft:power"
@@ -1137,128 +1126,128 @@
 									lvl: 3s
 								}
 							]
-							Damage: 0
+							RepairCost: 15
 							display: {
 								Name: "{\"text\":\"Deep Freeze\"}"
 							}
 						}
 					}
+					type: "item"
 				}
 				{
-					id: "2C4164FB8FBAAA08"
-					type: "item"
-					item: "mythicmetals:runite_arrow"
 					count: 64
+					id: "2C4164FB8FBAAA08"
+					item: "mythicmetals:runite_arrow"
+					type: "item"
 				}
 			]
+			tasks: [{
+				entity: "botania:doppleganger"
+				icon: "botania:gaia_head"
+				id: "1C2A8A6E6359DFE5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Rookie Guardian of Gaia Hunter"
+			x: 0.0d
+			y: -4.5d
 		}
 		{
-			title: "Novice Guardian of Gaia Hunter"
-			icon: "botania:gaia_head"
-			x: 0.0d
-			y: -6.0d
 			dependencies: ["4230C9D2F8568B7E"]
+			icon: "botania:gaia_head"
 			id: "7A8C524645660BF0"
-			tasks: [{
-				id: "3175B6579D6EF3BF"
-				type: "kill"
-				icon: "botania:gaia_head"
-				entity: "botania:doppleganger"
-				value: 10L
-			}]
 			rewards: [
 				{
 					id: "5BF981A4E75489A5"
-					type: "item"
 					item: "botania:creative_pool"
+					type: "item"
 				}
 				{
 					id: "2042AE5EB177C7C1"
-					type: "item"
 					item: {
-						id: "wands:creative_wand"
 						Count: 1b
+						id: "wands:creative_wand"
 						tag: {
-							diag_spread: 0b
-							rfill: 1b
-							grid_n: 8
-							cfill: 0b
-							inverted: 0b
-							plane: 0
-							grid_noff: 11
-							tunnel_w: 4
-							tunnel_oy: 0
-							grid_nsp: 1
-							axis: 0
-							blast_radius: 8
-							inc_sel_block: 0b
-							orientation: 0
-							grid_msp: 0
-							row_col_limit: 0
-							tunnel_ox: 0
 							Damage: 0
-							grid_m: 6
-							action: 0
-							state_mode: 0
-							multiplier: 1
-							stair_slab: 0b
-							rotation: 0
 							Tools: [
 								{
+									Slot: 0
 									Tool: {
+										Count: 1b
 										id: "emerald_tools:netherite_paxel"
 										tag: {
 											Damage: 0
 										}
-										Count: 1b
 									}
-									Slot: 0
 								}
 								{
+									Slot: 1
 									Tool: {
+										Count: 1b
 										id: "minecraft:netherite_shovel"
 										tag: {
 											Damage: 0
 										}
-										Count: 1b
 									}
-									Slot: 1
 								}
 							]
-							mode: 9
-							tunnel_d: 12
-							grid_moff: 5
-							target_air: 0b
-							match_state: 0b
-							circle_even: 0b
-							tunnel_h: 2
+							action: 0
 							area_limit: 0
+							axis: 0
+							blast_radius: 8
+							cfill: 0b
+							circle_even: 0b
+							diag_spread: 0b
+							grid_m: 6
+							grid_moff: 5
+							grid_msp: 0
+							grid_n: 8
+							grid_noff: 11
+							grid_nsp: 1
+							inc_sel_block: 0b
+							inverted: 0b
+							match_state: 0b
+							mode: 9
+							multiplier: 1
+							orientation: 0
+							plane: 0
+							rfill: 1b
+							rotation: 0
+							row_col_limit: 0
+							stair_slab: 0b
+							state_mode: 0
+							target_air: 0b
+							tunnel_d: 12
+							tunnel_h: 2
+							tunnel_ox: 0
+							tunnel_oy: 0
+							tunnel_w: 4
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				entity: "botania:doppleganger"
+				icon: "botania:gaia_head"
+				id: "3175B6579D6EF3BF"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Novice Guardian of Gaia Hunter"
+			x: 0.0d
+			y: -6.0d
 		}
 		{
-			x: 1.5d
-			y: -4.5d
 			id: "415A1864EE2C9FFD"
-			tasks: [{
-				id: "1CCB63C0383C8082"
-				type: "kill"
-				title: "Wither Slayer"
-				icon: "minecraft:nether_star"
-				entity: "minecraft:wither"
-				value: 3L
-			}]
 			rewards: [
 				{
 					id: "516348C4603DA5B2"
-					type: "item"
 					item: {
-						id: "mythicmetals:metallurgium_sword"
 						Count: 1b
+						id: "mythicmetals:metallurgium_sword"
 						tag: {
-							RepairCost: 0
+							Damage: 0
 							Enchantments: [
 								{
 									id: "minecraft:looting"
@@ -1293,21 +1282,21 @@
 									lvl: 3s
 								}
 							]
-							Damage: 0
+							RepairCost: 0
 							display: {
 								Name: "{\"text\":\"Wither's End\"}"
 							}
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "1A3F2E72EF6EDDB6"
-					type: "item"
 					item: {
-						id: "spirit:soul_steel_bow"
 						Count: 1b
+						id: "spirit:soul_steel_bow"
 						tag: {
-							RepairCost: 3
+							Damage: 0
 							Enchantments: [
 								{
 									id: "minecraft:power"
@@ -1354,15 +1343,26 @@
 									lvl: 3s
 								}
 							]
-							Damage: 0
+							RepairCost: 3
 							display: {
 								Name: "{\"text\":\"Soul Stealer\"}"
 							}
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:nether_star"
+				id: "1CCB63C0383C8082"
+				title: "Wither Slayer"
+				type: "kill"
+				value: 3L
+			}]
+			x: 1.5d
+			y: -4.5d
 		}
 	]
-	quest_links: [ ]
+	title: "Hunter"
 }
